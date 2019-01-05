@@ -1,13 +1,12 @@
-$content-width: 800px;
-$main: #00ff33;
-$font-style: 'Helvetica Neue', sans-serif;
-$font-color: #000;
+$content-width: 1140px;
+$accent-color: #00ff33;
+
+$font: 'Helvetica Neue', sans-serif;
+$primary-text-color: #000;
+$secondary-text-color: #000;
+
 $link-color: #00ff33;
-$link-hover-color: $main;
-$heading-font: 'Helvetica Neue', sans-serif;
-$heading-font-color: #000;
-$light: #e6e6e6;
-$header:  #ccc;
+$link-color-hover: #00ff33;
 
 *,
 *::before,
