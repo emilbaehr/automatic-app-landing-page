@@ -7,6 +7,7 @@ body {
 
 .container {
 	display: grid;
+	margin: auto;
 	max-width: $content-width;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -21,9 +22,39 @@ body {
 }
 
 header {
-	display: grid;
 	grid-area: h;
 	background-color:rgb(0, 255, 13);
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas: "logo nav";
+}
+
+.logo {
+	grid-area: logo;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 60px;
+	background-color: rgb(56, 56, 56);
+}
+
+nav {
+	grid-area: nav;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 60px;
+	background-color: #000;
+}
+
+nav > ul {
+	display: flex;
+	list-style-type: none;
+}
+
+nav > ul li:nth-last-child(1n-1) {
+	padding-left: 30px;
 }
 
 .features {
