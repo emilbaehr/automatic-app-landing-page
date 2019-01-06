@@ -1,12 +1,12 @@
+// Layout and grids
 $content-width: 1170px;
+
+// Colors
 $accent-color: #00ff33;
 
+// Fonts and sizes
 $font: 'Helvetica Neue', sans-serif;
 $primary-text-color: #000;
-$secondary-text-color: #000;
-
-$link-color: #00ff33;
-$link-color-hover: #00ff33;
 
 *,
 *::before,
@@ -16,7 +16,31 @@ $link-color-hover: #00ff33;
 	box-sizing: border-box;
 }
 
-* {
-	-webkit-font-smoothing: antialiased;
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+}
+
+h1 {
+	font-size: 6rem;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+h3 {
+	font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+body {
+	-webkit-font-smoothing: antialiased; // Better font rendering
 	-moz-osx-font-smoothing: grayscale;
 }
