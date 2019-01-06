@@ -35,10 +35,11 @@ body {
 	padding-right: 15px;
 	grid-column-gap: 50px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 590px 1000px 200px;
+	grid-template-rows: 115px 590px 1000px 200px;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
+		"p p p p p p p p p p p p"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -47,7 +48,7 @@ header {
 	grid-area: h;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 590px;
+	grid-template-rows: 115px;
 }
 
 .logo {
@@ -96,8 +97,7 @@ nav > ul li a {
 }
 
 .iphonePreview {
-	grid-column: 1 / span 6;
-	grid-row: 2 / span 1;
+	grid-area: p;
 	background-color: #000000;
 }
 
