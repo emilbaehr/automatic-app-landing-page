@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-start"
+  spec.name          = "mobile-app-landing-page"
   spec.version       = "0.1.0"
   spec.authors       = ["Emil Baehr"]
   spec.email         = ["emil.baehr@gmail.com"]
