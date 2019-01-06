@@ -39,7 +39,7 @@ body {
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
-		"p p p p p p p p p p p p"
+		"p p p p p p i i i i i i"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -98,6 +98,36 @@ nav > ul li a {
 
 .iphonePreview {
 	grid-area: p;
+}
+
+.appInfo {
+	grid-area: i;
+	display: flex;
+}
+
+.appIconLarge {
+	width: 120px;
+	height: 120px;
+	-webkit-clip-path: url(#shape120);
+	clip-path: url(#shape120);
+}
+
+.appNamePriceContainer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.appName {
+	display: flex;
+	margin-top: 0px;
+	color: #fff;
+}
+
+.appPrice {
+	display: flex;
+	color: #fff;
+	font-weight: normal;
 }
 
 .features {
