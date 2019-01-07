@@ -6,7 +6,7 @@ body {
 
 .imageWrapper {
 	width: 100%;
-	height: 500px;
+	height: 768px;
 	background: 
 		linear-gradient(
 		rgba(#363b3d, 0.3), 
@@ -16,8 +16,8 @@ body {
 		url("/assets/headerimage.png");
 
 	background-repeat: no-repeat;
-	background-size: auto 100%;
-	background-position: top;
+	background-size: auto 200%;
+	background-position: bottom;
 	border-radius: 0px 0px 40px 40px;
 }
 
@@ -35,7 +35,7 @@ body {
 	padding-right: 15px;
 	grid-column-gap: 50px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 590px 1000px 200px;
+	grid-template-rows: 115px 883px 1000px 200px;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -103,6 +103,9 @@ nav > ul li a {
 .appInfo {
 	grid-area: i;
 	display: flex;
+	flex-wrap: wrap;
+	padding-top: 158px;
+	align-content: flex-start;
 }
 
 .appIconLarge {
@@ -113,19 +116,33 @@ nav > ul li a {
 }
 
 .appNamePriceContainer {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
+	padding-left: 30px;
+	flex: 0 1 auto;
+	align-items: flex-start;
 }
 
 .appName {
-	display: flex;
-	margin-top: 0px;
+	margin: 0px;
+	margin-top: -5px;
 	color: #fff;
 }
 
 .appPrice {
-	display: flex;
+	color: #fff;
+	margin: 0px;
+	margin-top: 8px;
+	font-weight: normal;
+}
+
+.appDescriptionContainer {
+	align-items: flex-start;
+	margin-top: 45px;
+	flex: 0 1 auto;
+	line-height: 1.5;
+}
+
+.appDescription {
+	margin: 0px;
 	color: #fff;
 	font-weight: normal;
 }
