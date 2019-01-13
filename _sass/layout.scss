@@ -9,8 +9,8 @@ body {
 	height: 768px;
 	background: 
 		linear-gradient(
-		rgba(#363b3d, 0.3), 
-		rgba(#363b3d, 0.3)
+		rgba(#363b3d, 0.6), 
+		rgba(#363b3d, 0.6)
    		),
 		/* bottom, image */
 		url("/assets/headerimage.png");
@@ -35,7 +35,7 @@ body {
 	padding-right: 15px;
 	grid-column-gap: 50px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 960px 1000px 200px;
+	grid-template-rows: 115px 960px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -112,7 +112,7 @@ nav > ul li a {
 	margin: 0px;
 	padding: 0px;
 	display: flex;
-	filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.1)) drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1));
+	filter: drop-shadow(0px 5px 10px rgba(#000, 0.1)) drop-shadow(0px 1px 1px rgba(#000, 0.2));
 }
 
 .appIconLarge {
@@ -162,10 +162,6 @@ nav > ul li a {
 	margin-left: 24px;
 }
 
-.appStore > img {
-box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 1), 0px 0px 5px 10px rgba(0, 0, 0, 1);
-}
-
 .playStore {
 }
 
@@ -186,15 +182,62 @@ box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 1), 0px 0px 5px 10px rgba(0, 0, 0, 1);
 
 .features {
 	grid-area: c;
-	background-color:rgb(255, 208, 0);
+	display: flex;
+	flex: 0 1 auto;
+	align-content: flex-start;
+	justify-content: space-between;
+	flex-grow: 1;
+	flex-wrap: wrap;
+}
+
+.feature {
+	display: flex;
+	padding-top: 93px;
+	width: calc(100%/3 - 30px);
+}
+
+.featureIcon {
+	font-size: 40px;
+}
+
+.iconBack {
+	color: rgba(#000000, 0.1);
+}
+
+.iconTop {
+	color: #1d63ea;
+}
+
+.featureText {
+	margin-left: 18px;
+}
+
+.featureText > p {
+	margin-top: 8px;
+	line-height: 1.5;
+}
+
+.featureText * {
+	margin: 0px;
+	padding: 0px;
 }
 
 footer {
 	grid-area: f;
 	display: flex;
+	flex-wrap: wrap;
+	flex: 0 1 auto;
 	justify-content: center;
+	align-content: center;
 }
 
 .footerText {
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	margin: 0px;
+}
+
+.footerIcons {
+	display: flex;
 }
