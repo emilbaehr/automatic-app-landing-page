@@ -196,10 +196,6 @@ nav > ul li a {
 	width: calc(100%/3 - 30px);
 }
 
-.featureIcon {
-	font-size: 40px;
-}
-
 .iconBack {
 	color: rgba(#000000, 0.1);
 }
@@ -207,6 +203,15 @@ nav > ul li a {
 .iconTop {
 	color: #1d63ea;
 }
+
+.socialIconBack {
+	color: rgba(#000000, 0.1);
+}
+
+.socialIconTop {
+	color:rgba(#000, 0.6);
+}
+
 
 .featureText {
 	margin-left: 18px;
@@ -226,18 +231,20 @@ footer {
 	grid-area: f;
 	display: flex;
 	flex-wrap: wrap;
-	flex: 0 1 auto;
 	justify-content: center;
 	align-content: center;
 }
 
 .footerText {
+	display: block;
 	width: 100%;
+	text-align: center;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin: 0px;
 }
 
 .footerIcons {
+	padding-bottom: 100px;
 	display: flex;
 }
