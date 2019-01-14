@@ -1,3 +1,45 @@
+# Mobile App Landing Page Configuration
+
+# App Info
+app_name            : Landing
+app_description     : Wherever some that and kiwi that well 
+                      dolphin alas this the mindfully jeepers 
+                      one aside canny one preparatory up less therefore 
+                      hello oh amid goodness checked.
+app_price           : 4.99
+ios_app_id          :
+android_app_id      :
+
+# Social Links
+facebook_username   : 
+twitter_username    : ebaehr
+github_username     : emilbaehr
+email_address       : emil.baehr@gmail.com
+
+# Features
+features                      :
+  - title                     : First Feature
+    description               : A good description
+    fontawesome_icon_name     : adjust
+  - title                     : Another feature
+    description               : Another good description
+    fontawesome_icon_name     : mobile
+
+# Theme Settings
+accent_color                  : #000000
+image_overlay_color           : #000000
+
+
+# Analytics 
+google_analytics              : # Enter Google Analytics tracking code (e.g. UA-2110908-2)
+
+
+
+
+
+# # # # # # # # # # # # # # # #
+# Jekyll-specific Config Below
+
 # Where things are
 source              : .
 destination         : ./_site
@@ -9,15 +51,6 @@ includes_dir        : _includes
 collections:
   posts:
     output          : true
-
-# Features
-features                      :
-  - title                     : 'First Feature'
-    description               : 'A good description'
-    fontawesome_icon_name     : adjust
-  - title                     : 'Another feature'
-    description               : 'Another good description'
-    fontawesome_icon_name     : mobile
 
 # Handling Reading
 safe                : false
