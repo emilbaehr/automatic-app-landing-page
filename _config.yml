@@ -7,13 +7,13 @@ app_description     : Wherever some that and kiwi that well
                       one aside canny one preparatory up less therefore 
                       hello oh amid goodness checked.
 app_price           : 4.99
-ios_app_id          :
+ios_app_id          : 912209541
 android_app_id      :
 
 # Icon and screenshot
 app_icon            :
-app_video           :
-app_screenshot      :
+app_video           : assets/video.mp4
+app_screenshot      : 
 
 # Social Links
 facebook_username   : 

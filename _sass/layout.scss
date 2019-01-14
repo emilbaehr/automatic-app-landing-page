@@ -180,6 +180,21 @@ nav > ul li a {
 	margin-top: 27px;
 }
 
+.videoContainer {
+	width: 388px;
+	height: 839px;
+	-webkit-clip-path: url(#screenMask);
+	clip-path: url(#screenMask);
+	margin-left: 28px;
+	margin-top: 3px;
+	padding: 0px;
+}
+
+.videoContainer > video {
+	width: 388px;
+	height: 839px;
+}
+
 .features {
 	grid-area: c;
 	display: flex;

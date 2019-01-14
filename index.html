@@ -11,12 +11,7 @@ title: Your App – Subtitle
 		<div class="headerBackground">
 			<div class="container">
 				{% include header.html %}
-
 				<div class="iphonePreview">
-					{% if  %}
-
-
-					{% else %}
 					<svg width="0" height="0">
 						<defs>
 							<clipPath id="screenMask">
@@ -24,9 +19,16 @@ title: Your App – Subtitle
 							</clipPath>
 						</defs>
 					</svg>
-					<img class="iphoneScreen" src="/assets/Screenshot.png">
+					{% if site.app_video %}
+						<div class="videoContainer">
+							<video controls="controls">
+								<source src="{{ site.app_video }}" type="video/mp4">
+							</video>
+						</div>
+					{% else %}
+						<img class="iphoneScreen" src="/assets/Screenshot.png">
+					{% endif %}
 				</div>
-	
 				<div class="appInfo">
 					<div class="appIconShadow">
 						<svg width="0" height="0">
@@ -38,7 +40,6 @@ title: Your App – Subtitle
 						</svg>
 						<img class="appIconLarge" src="/assets/appicon-1024px.png">
 					</div>
-
 					<div class="appNamePriceContainer">
 						<h1 class="appName">
 							{{ site.app_name }}
@@ -57,9 +58,7 @@ title: Your App – Subtitle
 						<a href=""><img class="appStore" src="/assets/appstore.png"></a>
 					</div>
 				</div>
-
 				{% include features.html %}
-
 				{% include footer.html %}
 			</div>
 		</div>
