@@ -10,6 +10,11 @@ app_price           : 4.99
 ios_app_id          :
 android_app_id      :
 
+# Icon and screenshot
+app_icon            :
+app_video           :
+app_screenshot      :
+
 # Social Links
 facebook_username   : 
 twitter_username    : ebaehr
@@ -18,12 +23,15 @@ email_address       : emil.baehr@gmail.com
 
 # Features
 features                      :
-  - title                     : First Feature
-    description               : A good description
-    fontawesome_icon_name     : adjust
-  - title                     : Another feature
-    description               : Another good description
+  - title                     : Feature 1
+    description               : Present the features of your app with the dynamic Jekyll theme
+    fontawesome_icon_name     : magic
+  - title                     : Feature 2
+    description               : Show your app in the context of an iPhone
     fontawesome_icon_name     : mobile
+  - title                     : Feature 3
+    description               : Adjust colors, backgrounds and typography
+    fontawesome_icon_name     : adjust
 
 # Theme Settings
 accent_color                  : #000000

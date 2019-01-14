@@ -185,7 +185,7 @@ nav > ul li a {
 	display: flex;
 	flex: 0 1 auto;
 	align-content: flex-start;
-	justify-content: space-between;
+	justify-content: center;
 	flex-grow: 1;
 	flex-wrap: wrap;
 }
@@ -193,7 +193,17 @@ nav > ul li a {
 .feature {
 	display: flex;
 	padding-top: 93px;
-	width: calc(100%/3 - 30px);
+	padding-left: 15px;
+	padding-right: 15px;
+	width: calc(100%/3);
+}
+
+.feature:nth-child(3n) {
+	padding-right: 0px;
+}
+
+.feature:nth-child(0n+1) {
+	padding-left: 0px;
 }
 
 .iconBack {
