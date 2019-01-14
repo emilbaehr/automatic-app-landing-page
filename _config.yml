@@ -10,6 +10,15 @@ collections:
   posts:
     output          : true
 
+# Features
+features                      :
+  - title                     : 'First Feature'
+    description               : 'A good description'
+    fontawesome_icon_name     : adjust
+  - title                     : 'Another feature'
+    description               : 'Another good description'
+    fontawesome_icon_name     : mobile
+
 # Handling Reading
 safe                : false
 include             : [".htaccess", "_pages"]
