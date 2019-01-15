@@ -10,10 +10,11 @@ app_price           : 4.99
 ios_app_id          : 912209541
 android_app_id      :
 
-# Icon and screenshot
-app_icon            :
-app_video           : assets/video.mp4
-app_screenshot      : 
+# Icon, screenshot and header image
+app_icon            : /assets/appicon-1024px.png
+app_video           : /assets/video.mp4
+app_screenshot      : /assets/screenshot.png
+header_image        : /assets/headerimage.png
 
 # Social Links
 facebook_username   : 
@@ -34,8 +35,19 @@ features                      :
     fontawesome_icon_name     : adjust
 
 # Theme Settings
-accent_color                  : "#1d63ea"
-image_overlay_color           : "#363b3d"
+accent_color                             : "#1d63ea"
+
+header_color                             : "#000000"
+header_transparency                      : 0.1
+
+image_overlay_color                      : "#363b3d"
+image_overlay_transparency               : 0.6
+
+feature_icons_foreground_color           : "#1d63ea"
+feature_icons_background_color           : "#e6e6e6"
+
+social_icons_foreground_color            : "#666666"
+social_icons_background_color            : "#e6e6e6"
 
 
 # Analytics 

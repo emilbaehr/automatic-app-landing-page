@@ -6,11 +6,12 @@ $font: 'Helvetica Neue', sans-serif;
 $primary-text-color: #000;
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
+	font-family: $font;
 }
 
 body {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 h1 {
@@ -33,6 +34,13 @@ h4 {
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+	color: $accent-color;
 }
 
 // Shadows

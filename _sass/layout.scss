@@ -1,18 +1,12 @@
-body {
-	box-sizing: border-box;
-	font-family: $font;
-}
-
-.imageWrapper {
-	width: 100%;
+.imageWrapper {					// Sets the background image in the header area
 	height: 768px;
 	background: 
 		linear-gradient(
-		rgba($image-overlay-color, 0.6), 
-		rgba($image-overlay-color, 0.6)
+		rgba($image-overlay-color, $image-overlay-transparency), 
+		rgba($image-overlay-color, $image-overlay-transparency)
 		   ),
 		
-		url("/assets/headerimage.png");
+		url($header-image);
 
 	background-repeat: no-repeat;
 	background-size: auto 200%;
@@ -21,12 +15,11 @@ body {
 }
 
 .headerBackground {
-	width: 100%;
 	height: 115px;
-	background-color: rgba(#000, 0.1);
+	background-color: rgba($header-color, $header-transparency);
 }
 
-.container {
+.container {					// Set up the container for the site content
 	display: grid;
 	margin: auto;
 	max-width: $content-width;
@@ -79,7 +72,6 @@ nav {
 nav > ul {
 	display: flex;
 	list-style-type: none;
-	padding: 0px;
 }
 
 nav > ul li {
@@ -113,23 +105,25 @@ nav > ul li a {
 	height: 120px;
 	-webkit-clip-path: url(#shape120);
 	clip-path: url(#shape120);
+	margin-right: 30px;
 }
 
 .appNamePriceContainer {
-	padding-left: 30px;
+	height: 120px;
 	flex: 0 1 auto;
-	align-items: flex-start;
+	align-items: flex-center;
+	align-content: center;
 }
 
 .appName {
-	margin-top: -5px;
 	color: #fff;
+	margin-top: -4px;
 }
 
 .appPrice {
 	color: #fff;
-	margin-top: 8px;
 	font-weight: normal;
+	padding-top: 8px;
 }
 
 .appDescriptionContainer {
@@ -151,7 +145,6 @@ nav > ul li a {
 
 .playStore {
 	margin-right: 25px;
-	margin-bottom: 25px;
 }
 
 .iphonePreview {
@@ -212,19 +205,19 @@ nav > ul li a {
 }
 
 .iconBack {
-	color: rgba(#000000, 0.1);
+	color: $feature-icons-background-color;
 }
 
 .iconTop {
-	color: $accent-color;
+	color: $feature-icons-foreground-color;
 }
 
 .socialIconBack {
-	color: rgba(#000000, 0.1);
+	color: $social-icons-background-color;
 }
 
 .socialIconTop {
-	color:rgba(#000, 0.6);
+	color: $social-icons-foreground-color;
 }
 
 
