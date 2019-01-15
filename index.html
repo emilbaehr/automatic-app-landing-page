@@ -21,12 +21,12 @@ title: Your App – Subtitle
 					</svg>
 					{% if site.app_video %}
 						<div class="videoContainer">
-							<video poster="/assets/Screenshot.png" autoplay="autoplay" controls="controls">
+							<video autoplay="autoplay" controls="controls">
 								<source src="{{ site.app_video }}" type="video/mp4">
 							</video>
 						</div>
 					{% else %}
-						<img class="iphoneScreen" src="site.app_screenshot">
+						<img class="iphoneScreen" src="{{ site.app_screenshot }}">
 					{% endif %}
 				</div>
 				<div class="appInfo">
@@ -38,7 +38,7 @@ title: Your App – Subtitle
 								</clipPath>
 							</defs>
 						</svg>
-						<img class="appIconLarge" src="/assets/appicon-1024px.png">
+						<img class="appIconLarge" src="{{ site.app_icon }}">
 					</div>
 					<div class="appNamePriceContainer">
 						<h1 class="appName">
@@ -60,6 +60,7 @@ title: Your App – Subtitle
 				</div>
 				{% include features.html %}
 				{% include footer.html %}
+				{% include appstoreimages.html %}
 			</div>
 		</div>
 	</div>

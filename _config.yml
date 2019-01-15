@@ -7,14 +7,14 @@ app_description     : Wherever some that and kiwi that well
                       one aside canny one preparatory up less therefore 
                       hello oh amid goodness checked.
 app_price           : 4.99
-ios_app_id          : 912209541
+ios_app_id          : 
 android_app_id      :
 
 # Icon, screenshot and header image
-app_icon            : /assets/appicon-1024px.png
-app_video           : /assets/video.mp4
-app_screenshot      : /assets/screenshot.png
-header_image        : /assets/headerimage.png
+app_icon            : ../assets/appicon-1024px.png  # Will automatically populate if you have set the iOS app id.
+app_video           : # ../assets/video.mp4         # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436.
+app_screenshot      : ../assets/screenshot.png      # Will automatically populate if you have set the iOS app id.
+header_image        : ../assets/headerimage.png     # Replace with custom background image or link to background image.
 
 # Social Links
 facebook_username   : 
