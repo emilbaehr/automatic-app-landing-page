@@ -3,7 +3,7 @@
 	<div class="footerIcons">
 
 		{% if site.facebook_username %}
-			<a href="https://">
+			<a href="https://facebook.com/{{ site.facebook_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
@@ -21,7 +21,7 @@
 		{% endif %}
 
 		{% if site.github_username %}
-			<a href="https://">
+			<a href="https://github.com/{{ site.github_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fab fa-github fa-stack-1x"></i>
@@ -30,7 +30,7 @@
 		{% endif %}
 
 		{% if site.email_address %}
-			<a href="https://">
+			<a href="mailto:{{ site.email_address }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fas fa-envelope fa-stack-1x"></i>

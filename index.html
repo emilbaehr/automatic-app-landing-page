@@ -21,7 +21,7 @@ title: Your App – Subtitle
 					</svg>
 					{% if site.app_video %}
 						<div class="videoContainer">
-							<video controls="controls">
+							<video poster="/assets/Screenshot.png" autoplay="autoplay" controls="controls">
 								<source src="{{ site.app_video }}" type="video/mp4">
 							</video>
 						</div>
@@ -44,14 +44,14 @@ title: Your App – Subtitle
 						<h1 class="appName">
 							{{ site.app_name }}
 						</h1>
-						<h3 class="appPrice">
+						<h2 class="appPrice">
 							${{ site.app_price }}
-						</h3>
+						</h2>
 					</div>
 					<div class="appDescriptionContainer">
-						<h4 class ="appDescription">
+						<p class ="appDescription">
 							{{ site.app_description }}
-						</h4>
+						</p>
 					</div>
 					<div class="downloadButtonsContainer">
 						<a href="https://"><img class="playStore" src="/assets/playstore.png"></a>

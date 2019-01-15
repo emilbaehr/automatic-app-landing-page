@@ -8,6 +8,7 @@ $primary-text-color: #000;
 html {
 	font-size: 62.5%;
 	font-family: $font;
+	line-height: 1;
 }
 
 body {
@@ -19,14 +20,10 @@ h1 {
 }
 
 h2 {
-	font-size: 4rem;
+	font-size: 2rem;
 }
 
 h3 {
-	font-size: 3rem;
-}
-
-h4 {
     font-size: 2rem;
 }
 
@@ -41,6 +38,7 @@ a:hover,
 a:visited,
 a:active {
 	color: $accent-color;
+	text-decoration: none;
 }
 
 // Shadows

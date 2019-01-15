@@ -36,6 +36,8 @@ features                      :
 
 # Theme Settings
 accent_color                             : "#1d63ea"
+primary_text_color                       : "#000000"
+secondary_text_color                     : "#666666"
 
 header_color                             : "#000000"
 header_transparency                      : 0.1

@@ -3,6 +3,8 @@
 ---
 
 $header-image: '{{ site.header_image }}';
+$primary-text-color: {{ site.primary_text_color }};
+$secondary-text-color: {{ site.secondary_text_color }};
 
 $accent-color: {{ site.accent_color }};
 
