@@ -34,8 +34,8 @@ features                      :
     fontawesome_icon_name     : adjust
 
 # Theme Settings
-accent_color                  : #000000
-image_overlay_color           : #000000
+accent_color                  : "#1d63ea"
+image_overlay_color           : "#363b3d"
 
 
 # Analytics 

@@ -1,20 +1,9 @@
 // Layout and grids
 $content-width: 1170px;
 
-// Colors
-$accent-color: #00ff33;
-
 // Fonts and sizes
 $font: 'Helvetica Neue', sans-serif;
 $primary-text-color: #000;
-
-*,
-*::before,
-*::after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
 
 html {
     font-size: 62.5%;
@@ -40,7 +29,24 @@ h4 {
     font-size: 2rem;
 }
 
+// Better font rendering
 body {
-	-webkit-font-smoothing: antialiased; // Better font rendering
+	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+// Shadows
+$drop-shadow: drop-shadow(0px 5px 10px rgba(#000, 0.1)) drop-shadow(0px 1px 1px rgba(#000, 0.2));
+
+
+// Various resets
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	margin: 0;
+	padding: 0;
 }

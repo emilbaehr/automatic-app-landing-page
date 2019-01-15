@@ -1,6 +1,5 @@
 body {
 	box-sizing: border-box;
-	margin: 0;
 	font-family: $font;
 }
 
@@ -9,10 +8,10 @@ body {
 	height: 768px;
 	background: 
 		linear-gradient(
-		rgba(#363b3d, 0.6), 
-		rgba(#363b3d, 0.6)
-   		),
-		/* bottom, image */
+		rgba($image-overlay-color, 0.6), 
+		rgba($image-overlay-color, 0.6)
+		   ),
+		
 		url("/assets/headerimage.png");
 
 	background-repeat: no-repeat;
@@ -24,7 +23,7 @@ body {
 .headerBackground {
 	width: 100%;
 	height: 115px;
-	background-color: rgba(#000000, 0.1);
+	background-color: rgba(#000, 0.1);
 }
 
 .container {
@@ -96,10 +95,6 @@ nav > ul li a {
 	color: #fff;
 }
 
-.iphonePreview {
-	grid-area: p;
-}
-
 .appInfo {
 	grid-area: i;
 	display: flex;
@@ -109,10 +104,8 @@ nav > ul li a {
 }
 
 .appIconShadow {
-	margin: 0px;
-	padding: 0px;
 	display: flex;
-	filter: drop-shadow(0px 5px 10px rgba(#000, 0.1)) drop-shadow(0px 1px 1px rgba(#000, 0.2));
+	filter: $drop-shadow;
 }
 
 .appIconLarge {
@@ -129,14 +122,12 @@ nav > ul li a {
 }
 
 .appName {
-	margin: 0px;
 	margin-top: -5px;
 	color: #fff;
 }
 
 .appPrice {
 	color: #fff;
-	margin: 0px;
 	margin-top: 8px;
 	font-weight: normal;
 }
@@ -149,23 +140,22 @@ nav > ul li a {
 }
 
 .appDescription {
-	margin: 0px;
 	color: #fff;
 	font-weight: normal;
 }
 
 .downloadButtonsContainer {
 	margin-top: 42px;
-}
-
-.appStore {
-	margin-left: 24px;
+	filter: $drop-shadow;
 }
 
 .playStore {
+	margin-right: 25px;
+	margin-bottom: 25px;
 }
 
 .iphonePreview {
+	grid-area: p;
 	background-image: url(/assets/Blue.png);
 	background-repeat: no-repeat;
 	margin-top: 68px;
@@ -226,7 +216,7 @@ nav > ul li a {
 }
 
 .iconTop {
-	color: #1d63ea;
+	color: $accent-color;
 }
 
 .socialIconBack {
@@ -247,11 +237,6 @@ nav > ul li a {
 	line-height: 1.5;
 }
 
-.featureText * {
-	margin: 0px;
-	padding: 0px;
-}
-
 footer {
 	grid-area: f;
 	display: flex;
@@ -266,7 +251,6 @@ footer {
 	text-align: center;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	margin: 0px;
 }
 
 .footerIcons {

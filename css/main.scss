@@ -2,6 +2,9 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+$accent-color: {{ site.accent_color }};
+$image-overlay-color: {{ site.image_overlay_color }};
+
 @import 
     "base",
     "layout"
