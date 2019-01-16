@@ -10,6 +10,11 @@ app_price           : 4.99
 ios_app_id          : 718043190
 android_app_id      :
 
+# Author Info
+your_name           : Emil Baehr
+your_link           : https://emilbaehr.com
+your_city           : Copenhagen
+
 # Icon, screenshot and header image
 app_icon            : ../assets/appicon-1024px.png  # Will automatically populate if you have set the iOS app id.
 app_video           : # ../assets/video.mp4         # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436.
