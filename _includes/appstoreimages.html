@@ -17,7 +17,12 @@ $(function() {
 
             $(".headerIcon").attr("src", appInfo.artworkUrl512);
             $(".appIconLarge").attr("src", appInfo.artworkUrl512);
-            $(".iphoneScreen").attr("src", appInfo.screenshotUrls[0]);
+            // $(".iphoneScreen").attr("src", appInfo.screenshotUrls[0]); Uncommented since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API
+            $(".appName, .headerName").html(appInfo.trackName);
+            $(".appPrice").html(appInfo.formattedPrice);
+            $(".appStoreLink").attr("href", appInfo.trackViewUrl);
+
+            console.info(appInfo);
 
         }
     });  
