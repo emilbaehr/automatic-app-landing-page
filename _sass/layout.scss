@@ -120,9 +120,10 @@ nav > ul li a:active {
 
 .appNamePriceContainer {
 	display: flex;
-	height: 120px;
 	flex: 0 1 auto;
-	align-items: center;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
 }
 
 .appName {
@@ -132,6 +133,7 @@ nav > ul li a:active {
 .appPrice {
 	color: #fff;
 	font-weight: normal;
+	margin-top: 13px;
 }
 
 .appDescriptionContainer {

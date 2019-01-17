@@ -1,64 +1,81 @@
 # Mobile App Landing Page Configuration
 
 # App Info
-app_name            : Landing
-app_description     : Wherever some that and kiwi that well 
-                      dolphin alas this the mindfully jeepers 
-                      one aside canny one preparatory up less therefore 
-                      hello oh amid goodness checked.
-app_price           : 4.99
-ios_app_id          : 718043190
-android_app_id      :
+ios_app_id                                : 718043190                                 # Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+
+app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+
+app_description                           : Wherever some that and kiwi that well 
+                                            dolphin alas this the mindfully jeepers 
+                                            one aside canny one preparatory up less therefore 
+                                            hello oh amid goodness checked.
 
 # Author Info
-your_name           : Emil Baehr
-your_link           : https://emilbaehr.com
-your_city           : Copenhagen
+your_name                                 : Emil Baehr                                # Your name. Will be shown in the footer.
+your_link                                 : https://emilbaehr.com                     # Link to a website of your choice when your name is clicked.
+your_city                                 : Copenhagen                                # Tell people where you're from.
 
 # Icon, screenshot and header image
-app_icon            : ../assets/appicon-1024px.png  # Will automatically populate if you have set the iOS app id.
-app_video           : # ../assets/video.mp4         # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436.
-app_screenshot      : ../assets/screenshot.png      # Will automatically populate if you have set the iOS app id.
-header_image        : ../assets/headerimage.png     # Replace with custom background image or link to background image.
+app_icon                                  : # ../assets/appicon-1024px.png            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_video                                 : # ../assets/video.mp4                     # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436.
+app_screenshot                            : ../assets/screenshot.png                  # Replace with alternateive image path. Does not automatically populate since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API.
+header_image                              : ../assets/headerimage.png                 # Replace with alternative image path.
 
-# Social Links
-facebook_username   : 
-twitter_username    : ebaehr
-github_username     : emilbaehr
-email_address       : emil.baehr@gmail.com
+# Social Links                                                                        # Enter usernames and email address. If set, they will be presented as links in the footer.
+facebook_username                         :                                           
+instagram_username                        :
+twitter_username                          : ebaehr
+github_username                           : emilbaehr
+youtube_username                          :
+email_address                             : emil.baehr@gmail.com
 
-# Features
-features                      :
-  - title                     : Feature 1
-    description               : Present the features of your app with the dynamic Jekyll theme
-    fontawesome_icon_name     : magic
-  - title                     : Feature 2
-    description               : Show your app in the context of an iPhone
-    fontawesome_icon_name     : mobile
-  - title                     : Feature 3
-    description               : Adjust colors, backgrounds and typography
-    fontawesome_icon_name     : adjust
+# Features                                                                            # Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Feature 1
+    description                           : Present the features of your app with the dynamic Jekyll theme
+    fontawesome_icon_name                 : magic
+    
+  - title                                 : Feature 2
+    description                           : Show your app in the context of an iPhone
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Feature 3
+    description                           : Adjust colors, backgrounds and typography
+    fontawesome_icon_name                 : adjust
+
+  - title                                 : # New Feature Title
+    description                           : # New Feature Description
+    fontawesome_icon_name                 : # Enter Font Awesome icon name. Find icons on fontawesome.com/icons.
 
 # Theme Settings
-accent_color                             : "#1d63ea"
-primary_text_color                       : "#000000"
-secondary_text_color                     : "#666666"
+accent_color                              : "#1d63ea"                   
+primary_text_color                        : "#000000"
+secondary_text_color                      : "#666666"
 
-header_color                             : "#000000"
-header_transparency                      : 0.1
+header_color                              : "#000000"
+header_transparency                       : 0.1
 
-image_overlay_color                      : "#363b3d"
-image_overlay_transparency               : 0.6
+image_overlay_color                       : "#363b3d"
+image_overlay_transparency                : 0.6
 
-feature_icons_foreground_color           : "#1d63ea"
-feature_icons_background_color           : "#e6e6e6"
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
 
-social_icons_foreground_color            : "#666666"
-social_icons_background_color            : "#e6e6e6"
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
 
 
 # Analytics 
-google_analytics              : # Enter Google Analytics tracking code (e.g. UA-2110908-2)
+google_analytics                          :                                            # Enter Google Analytics tracking code (e.g. UA-2110908-2).
+
+
+
+
 
 
 
