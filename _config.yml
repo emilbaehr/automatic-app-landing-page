@@ -8,7 +8,7 @@ playstore_link                            :                                     
 
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-
+smart_app_banner                          : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 app_description                           : Wherever some that and kiwi that well 
                                             dolphin alas this the mindfully jeepers 
                                             one aside canny one preparatory up less therefore 
@@ -50,7 +50,7 @@ features                                  :
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name. Find icons on fontawesome.com/icons.
+    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 # Theme Settings
 accent_color                              : "#1d63ea"                   

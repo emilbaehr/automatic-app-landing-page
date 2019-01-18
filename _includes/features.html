@@ -2,6 +2,7 @@
 
     {% for feature in site.features %}
 
+    {% if feature.title %}
     <div class="feature">
         <div>
             <span class="fa-stack fa-1x">
@@ -18,6 +19,7 @@
             </p>
         </div>
     </div>
+    {% endif %}
 
     {% endfor %}
 

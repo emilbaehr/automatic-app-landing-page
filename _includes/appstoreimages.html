@@ -19,25 +19,27 @@ $(function() {
             // $(".iphoneScreen").attr("src", appInfo.screenshotUrls[0]); Uncommented since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API.
 
             // Set large app icon using the iOS app ID if it is not set manually in _config.yml
-            var $appIconLarge = $('.appIconLarge');
+            var $appIconLarge = $(".appIconLarge");
             if (!$appIconLarge.attr('src')) {
                 $($appIconLarge).attr("src", appInfo.artworkUrl512);
             }
 
             // Set header app icon using the iOS app ID if it is not set manually in _config.yml
-            var $appIconHeader = $('.headerIcon');
+            var $appIconHeader = $(".headerIcon");
             if (!$appIconHeader.attr('src')) {
                 $($appIconHeader).attr("src", appInfo.artworkUrl512);
             }
 
             // Set app name using the iOS app ID if it is not set manually in _config.yml
-            var $appName = $('.appName');
+            var $appName = $(".appName");
+            var $headerName = $(".headerName");
             if ($.trim($($appName).text()).length == 0) {
                 $($appName).html(appInfo.trackName);
+                $($headerName).html(appInfo.trackName);
             }
 
             // Set price using the iOS app ID if it is not set manually in _config.yml
-            var $appPrice = $('.appPrice');
+            var $appPrice = $(".appPrice");
             if ($.trim($($appPrice).text()).length == 0) {
                 $($appPrice).html(appInfo.formattedPrice);
             }
