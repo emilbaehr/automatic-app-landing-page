@@ -22,8 +22,8 @@ your_city                                 : Copenhagen                          
 # Icon, screenshot and header image
 app_icon                                  : # ../assets/appicon-1024px.png            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_video                                 : # ../assets/video.mp4                     # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436.
-app_screenshot                            : ../assets/screenshot.png                  # Replace with alternateive image path. Does not automatically populate since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API.
-header_image                              : ../assets/headerimage.png                 # Replace with alternative image path.
+app_screenshot                            : /assets/screenshot.png                  # Replace with alternateive image path. Does not automatically populate since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API.
+header_image                              : /assets/headerimage.png                 # Replace with alternative image path.
 device_color                              : black                                     # Set to blue, black, yellow, coral or white 
 
 # Social Links                                                                        # Enter usernames and email address. If set, they will be presented as links in the footer.
@@ -86,23 +86,11 @@ social_icons_background_color             : "#e6e6e6"
 # Analytics 
 google_analytics                          :                                            # Enter Google Analytics tracking code (e.g. UA-2110908-2).
 
-
-
-
-
-
-
-
-
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
 
 permalink: /:title/
 
