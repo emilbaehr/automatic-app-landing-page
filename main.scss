@@ -3,7 +3,7 @@
 ---
 
 $header-image: "{{ site.header_image }}";
-$device-color: "../../assets/{{ site.device_color }}.png";
+$device-color: "../assets/{{ site.device_color }}.png";
 $primary-text-color: {{ site.primary_text_color }};
 $secondary-text-color: {{ site.secondary_text_color }};
 
