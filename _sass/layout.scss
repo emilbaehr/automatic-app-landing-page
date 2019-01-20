@@ -9,8 +9,8 @@
 		url($header-image);
 
 	background-repeat: no-repeat;
-	background-size: auto 200%;
-	background-position: bottom;
+	background-size: 100% auto;
+	background-position: top;
 	border-radius: 0px 0px 40px 40px;
 }
 
@@ -107,6 +107,7 @@ nav > ul li a:active {
 }
 
 .appIconShadow {
+	display: flex;
 	filter: $drop-shadow;
 }
 
@@ -148,6 +149,8 @@ nav > ul li a:active {
 }
 
 .downloadButtonsContainer {
+	display: flex;
+	
 	margin-top: 42px;
 	filter: $drop-shadow;
 }
@@ -158,7 +161,7 @@ nav > ul li a:active {
 
 .iphonePreview {
 	grid-area: p;
-	background-image: url(/assets/Blue.png);
+	background-image: url($device-color);
 	background-repeat: no-repeat;
 	margin-top: 68px;
 }
@@ -192,7 +195,7 @@ nav > ul li a:active {
 	display: flex;
 	flex: 0 1 auto;
 	align-content: flex-start;
-	justify-content: center;
+	justify-content: flex-start;
 	flex-grow: 1;
 	flex-wrap: wrap;
 }

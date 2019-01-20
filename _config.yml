@@ -1,7 +1,7 @@
 # Mobile App Landing Page Configuration
 
 # App Info
-ios_app_id                                : 718043190                                 # Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 618783545                                 # Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -20,10 +20,11 @@ your_link                                 : https://emilbaehr.com               
 your_city                                 : Copenhagen                                # Tell people where you're from.
 
 # Icon, screenshot and header image
-app_icon                                  : # ../assets/appicon-1024px.png            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : # ../assets/appicon-1024px.png            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_video                                 : # ../assets/video.mp4                     # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436.
 app_screenshot                            : ../assets/screenshot.png                  # Replace with alternateive image path. Does not automatically populate since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API.
 header_image                              : ../assets/headerimage.png                 # Replace with alternative image path.
+device_color                              : black                                     # Set to blue, black, yellow, coral or white 
 
 # Social Links                                                                        # Enter usernames and email address. If set, they will be presented as links in the footer.
 facebook_username                         :                                           
@@ -47,6 +48,10 @@ features                                  :
   - title                                 : Feature 3
     description                           : Adjust colors, backgrounds and typography
     fontawesome_icon_name                 : adjust
+
+  - title                                 : Five device colors
+    description                           : Choose between five different device colors to match your app's interface
+    fontawesome_icon_name                 : mobile
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
