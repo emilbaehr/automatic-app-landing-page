@@ -52,6 +52,14 @@ features                                  :
   - title                                 : Five device colors
     description                           : Choose between five different device colors to match your app's interface
     fontawesome_icon_name                 : mobile
+  
+  - title                                 : Five device colors
+    description                           : Choose between five different device colors to match your app's interface
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Five device colors
+    description                           : Choose between five different device colors to match your app's interface
+    fontawesome_icon_name                 : mobile
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
@@ -66,7 +74,7 @@ header_color                              : "#000000"
 header_transparency                       : 0.1
 
 image_overlay_color                       : "#363b3d"
-image_overlay_transparency                : 0.6
+image_overlay_transparency                : 0.8
 
 feature_icons_foreground_color            : "#1d63ea"
 feature_icons_background_color            : "#e6e6e6"

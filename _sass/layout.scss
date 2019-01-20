@@ -156,12 +156,22 @@ nav > ul li a:active {
 }
 
 .playStore {
+	height: 75px;
 	margin-right: 25px;
+}
+
+.appStore {
+	height: 75px;
+}
+
+.appStoreLink {
+	margin: 0px;
 }
 
 .iphonePreview {
 	grid-area: p;
 	background-image: url($device-color);
+	background-size: 445px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
 }
@@ -212,7 +222,7 @@ nav > ul li a:active {
 	padding-right: 0px;
 }
 
-.feature:nth-child(0n+1) {
+.feature:nth-child(3n+1) {
 	padding-left: 0px;
 }
 

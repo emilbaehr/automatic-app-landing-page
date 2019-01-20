@@ -44,7 +44,11 @@ $(function() {
                 $($appPrice).html(appInfo.formattedPrice);
             }
 
-            $(".appStoreLink").attr("href", appInfo.trackViewUrl);
+            // Set price using the iOS app ID if it is not set manually in _config.yml
+            var $appStoreLink = $(".appStoreLink");
+            if ($.trim($($appStoreLink).text()).length == 0) {
+                $($appStoreLink).attr("href", appInfo.trackViewUrl);
+            }
 
             console.info(appInfo);
 
