@@ -15,7 +15,9 @@
 	</div>
 	<nav>
 		<ul>
-			<li><a href="/">Download Press Kit</a></li>
+			{% if site.presskit_download_link %}
+			<li><a href="{{ site.presskit_download_link }}">Download Press Kit</a></li>
+			{% endif %}
 		</ul>
 	</nav>
 </header>
