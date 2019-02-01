@@ -5,7 +5,7 @@
 
 ## Author
 
-**[Emil Baehr](https://emilbaehr.com/)**
+[Emil Baehr](https://emilbaehr.com/)
 
 ## License
 

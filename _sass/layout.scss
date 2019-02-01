@@ -9,7 +9,7 @@
 		url($header-image);
 
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: cover;
 	background-position: top;
 	border-radius: 0px 0px 40px 40px;
 }
@@ -35,6 +35,21 @@
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
+
+@media only screen and (max-width: 992px) {
+
+
+	.container {
+		grid-template-rows: 115px 300px auto auto;
+
+		grid-template-areas: 
+			"h h h h h h h h h h h h"
+			"i i i i i i i i i i i i"
+			"p p p p p p p p p p p p"
+			"c c c c c c c c c c c c"
+			"f f f f f f f f f f f f";
+	}
+} 
 
 header {
 	grid-area: h;
@@ -106,6 +121,15 @@ nav > ul li a:active {
 	align-content: flex-start;
 }
 
+@media only screen and (max-width: 992px) {
+
+	.appInfo {
+		padding-top: 0px;
+		justify-content: center;
+	}
+
+} 
+
 .appIconShadow {
 	display: flex;
 	filter: $drop-shadow;
@@ -148,20 +172,49 @@ nav > ul li a:active {
 	color: #fff;
 }
 
-.downloadButtonsContainer {
-	display: flex;
+@media only screen and (max-width: 992px) {
+
+	.appDescription {
+		text-align: center;
+	}
 	
+} 
+
+.downloadButtonsContainer {
+	display: inline-flex;
+	flex-direction: column;
 	margin-top: 42px;
 	filter: $drop-shadow;
 }
 
+@media only screen and (max-width: 992px) {
+
+	.downloadButtonsContainer {
+		align-items: center;
+	}
+	
+} 
+
 .playStore {
 	height: 75px;
 	margin-right: 25px;
+	margin-bottom: 27px;
 }
+
+@media only screen and (max-width: 992px) {
+
+	.playStore {
+		margin-right: 0px;
+	}
+	
+} 
 
 .appStore {
 	height: 75px;
+}
+
+.playStoreLink {
+	margin: 0px;
 }
 
 .appStoreLink {
@@ -175,6 +228,23 @@ nav > ul li a:active {
 	background-repeat: no-repeat;
 	margin-top: 68px;
 }
+
+@media only screen and (max-width: 992px) {
+
+	.iphonePreview {
+		margin-top: 168px;
+		background-position: center;
+	}
+
+	.iphoneScreen {
+
+	}
+
+	.videoContainer {
+
+	}
+	
+} 
 
 .iphoneScreen {
 	width: 388px;
