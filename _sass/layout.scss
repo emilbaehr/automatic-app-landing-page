@@ -40,8 +40,7 @@
 
 
 	.container {
-		grid-template-rows: 115px 300px auto auto;
-
+		grid-template-rows: 115px auto 939px auto auto;
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
@@ -124,7 +123,7 @@ nav > ul li a:active {
 @media only screen and (max-width: 992px) {
 
 	.appInfo {
-		padding-top: 0px;
+		padding-top: 50px;
 		justify-content: center;
 	}
 
@@ -232,16 +231,18 @@ nav > ul li a:active {
 @media only screen and (max-width: 992px) {
 
 	.iphonePreview {
-		margin-top: 168px;
-		background-position: center;
+		display: flex;
+		justify-content: center;
+		background-position: center 0;
+		margin-top: 47px;
 	}
 
 	.iphoneScreen {
-
+		
 	}
 
 	.videoContainer {
-
+		margin-left: -100px;
 	}
 	
 } 
@@ -326,6 +327,33 @@ nav > ul li a:active {
 	margin-top: 8px;
 	line-height: 1.5;
 }
+
+@media only screen and (max-width: 992px) {
+
+	.features {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.feature {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+
+	.feature:nth-child(3n) {
+		padding-right: 15px;
+	}
+	
+	.feature:nth-child(3n+1) {
+		padding-left: 15px;
+	}
+	
+	
+} 
 
 footer {
 	grid-area: f;
