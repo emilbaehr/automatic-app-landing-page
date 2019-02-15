@@ -22,7 +22,8 @@ your_city                                 : Copenhagen                          
 
 # Icon, screenshot and header image
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_video                                 : # assets/yourvideo.mov                    # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436.
+app_video_mov                             : # assets/yourvideo.mov                    # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436. Use format .mov for Safari support.
+app_video_ogg                             : # assets/yourvideo.ogg                    # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436. Use format .ogg for Chrome support.
 app_screenshot                            : assets/yourscreenshot.png                 # Replace with alternateive image path. Does not automatically populate since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API.
 header_image                              : assets/headerimage.png                    # Replace with alternative image path.
 device_color                              : black                                     # Set to blue, black, yellow, coral or white 
@@ -97,7 +98,7 @@ google_analytics                          :                                     
 
 
 
-# Jekyll Configuration
+# Jekyll Configuration. No need to touch this.
 
 # The release of Mobile App Landing Page that you're using
 version: v1.0

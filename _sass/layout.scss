@@ -228,25 +228,6 @@ nav > ul li a:active {
 	margin-top: 68px;
 }
 
-@media only screen and (max-width: 992px) {
-
-	.iphonePreview {
-		display: flex;
-		justify-content: center;
-		background-position: center 0;
-		margin-top: 47px;
-	}
-
-	.iphoneScreen {
-		
-	}
-
-	.videoContainer {
-		margin-left: -100px;
-	}
-	
-} 
-
 .iphoneScreen {
 	width: 388px;
 	-webkit-clip-path: url(#screenMask);
@@ -269,6 +250,30 @@ nav > ul li a:active {
 	width: 388px;
 	height: 839px;
 }
+
+@media only screen and (max-width: 992px) {
+
+	.iphonePreview {
+		display: flex;
+		background-size: 260px auto;
+		background-position: center 0;
+		margin-top: 47px;
+		justify-items: center;
+	}
+
+	.iphoneScreen {
+		width: 226px;
+		height: 488px;
+		-webkit-clip-path: url(#screenMask);
+		clip-path: url(#screenMask);
+		margin-top: 0px;
+	}
+
+	.videoContainer {
+
+	}
+	
+} 
 
 .features {
 	grid-area: c;
