@@ -15,9 +15,6 @@ $(function() {
             console.info("Image strings loaded from Apple API.");
             var appInfo = json.results[0];
 
-            // $(".headerIcon").attr("src", appInfo.artworkUrl512);
-            // $(".iphoneScreen").attr("src", appInfo.screenshotUrls[0]); Uncommented since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API.
-
             // Set large app icon using the iOS app ID if it is not set manually in _config.yml
             var $appIconLarge = $(".appIconLarge");
             if (!$appIconLarge.attr('src')) {
