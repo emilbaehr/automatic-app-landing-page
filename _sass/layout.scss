@@ -20,6 +20,7 @@
 }
 
 .container {					// Set up the container for the site content
+	box-sizing: border-box;
 	display: grid;
 	margin: auto;
 	max-width: $content-width;
@@ -40,7 +41,7 @@
 
 
 	.container {
-		grid-template-rows: 115px auto 939px auto auto;
+		grid-template-rows: 115px auto auto auto auto;
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
@@ -181,7 +182,7 @@ nav > ul li a:active {
 
 .downloadButtonsContainer {
 	display: inline-flex;
-	flex-direction: column;
+	flex-direction: row;
 	margin-top: 42px;
 	filter: $drop-shadow;
 }
@@ -190,6 +191,7 @@ nav > ul li a:active {
 
 	.downloadButtonsContainer {
 		align-items: center;
+		flex-direction: column;
 	}
 	
 } 
@@ -233,7 +235,7 @@ nav > ul li a:active {
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: 29px;
-	margin-top: -127px;
+	margin-top: 27px;
 }
 
 .videoContainer {
@@ -258,7 +260,8 @@ nav > ul li a:active {
 		background-size: 260px auto;
 		background-position: center 0;
 		margin-top: 47px;
-		justify-items: center;
+		justify-content: center;
+		padding-bottom: 75px;
 	}
 
 	.iphoneScreen {
@@ -266,7 +269,8 @@ nav > ul li a:active {
 		height: 488px;
 		-webkit-clip-path: url(#screenMask);
 		clip-path: url(#screenMask);
-		margin-top: 0px;
+		margin: 0px;
+		margin-top: 16px;
 	}
 
 	.videoContainer {
