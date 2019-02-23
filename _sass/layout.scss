@@ -12,6 +12,7 @@
 	background-size: cover;
 	background-position: top;
 	border-radius: 0px 0px 40px 40px;
+
 }
 
 .headerBackground {
@@ -20,7 +21,6 @@
 }
 
 .container {					// Set up the container for the site content
-	box-sizing: border-box;
 	display: grid;
 	margin: auto;
 	max-width: $content-width;
@@ -39,8 +39,9 @@
 
 @media only screen and (max-width: 992px) {
 
-
 	.container {
+		grid-column-gap: 0px;
+		grid-template-columns: 1;
 		grid-template-rows: 115px auto auto auto auto;
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
@@ -49,7 +50,7 @@
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
 	}
-} 
+}
 
 header {
 	grid-area: h;
@@ -57,7 +58,6 @@ header {
 }
 
 .logo {
-	width: 50%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -80,7 +80,6 @@ header {
 }
 
 nav {
-	width: 50%;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -181,8 +180,7 @@ nav > ul li a:active {
 } 
 
 .downloadButtonsContainer {
-	display: inline-flex;
-	flex-direction: row;
+	display: inline-block;
 	margin-top: 42px;
 	filter: $drop-shadow;
 }
@@ -198,7 +196,6 @@ nav > ul li a:active {
 
 .playStore {
 	height: 75px;
-	margin-right: 25px;
 	margin-bottom: 27px;
 }
 
@@ -212,14 +209,6 @@ nav > ul li a:active {
 
 .appStore {
 	height: 75px;
-}
-
-.playStoreLink {
-	margin: 0px;
-}
-
-.appStoreLink {
-	margin: 0px;
 }
 
 .iphonePreview {
@@ -245,7 +234,6 @@ nav > ul li a:active {
 	clip-path: url(#screenMask);
 	margin-left: 28px;
 	margin-top: 3px;
-	padding: 0px;
 }
 
 .videoContainer > video {
@@ -274,7 +262,8 @@ nav > ul li a:active {
 	}
 
 	.videoContainer {
-
+		width: 226px;
+		height: 488px;
 	}
 	
 } 
@@ -359,7 +348,6 @@ nav > ul li a:active {
 	.feature:nth-child(3n+1) {
 		padding-left: 15px;
 	}
-	
 	
 } 
 
