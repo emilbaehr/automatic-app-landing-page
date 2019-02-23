@@ -1,5 +1,5 @@
 .imageWrapper {					// Sets the background image in the header area
-	height: 768px;
+	height: 714px;
 	background: 
 		linear-gradient(
 		rgba($image-overlay-color, $image-overlay-transparency), 
@@ -26,9 +26,8 @@
 	max-width: $content-width;
 	padding-left: 15px;
 	padding-right: 15px;
-	grid-column-gap: 50px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 960px auto auto;
+	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -116,7 +115,7 @@ nav > ul li a:active {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 158px;
+	padding-top: 113px;
 	align-content: flex-start;
 }
 
@@ -188,21 +187,38 @@ nav > ul li a:active {
 @media only screen and (max-width: 992px) {
 
 	.downloadButtonsContainer {
-		align-items: center;
-		flex-direction: column;
+		text-align: center;
+	}
+	
+} 
+
+@media only screen and (max-width: 1070px) {
+
+	.playStore {
+		margin-bottom: 27px;
 	}
 	
 } 
 
 .playStore {
 	height: 75px;
-	margin-bottom: 27px;
+	margin-right: 24px;
 }
 
 @media only screen and (max-width: 992px) {
 
 	.playStore {
+		margin-right: 24px;
+		margin-bottom: 0px;
+	}
+	
+} 
+
+@media only screen and (max-width: 528px) {
+
+	.playStore {
 		margin-right: 0px;
+		margin-bottom: 24px;
 	}
 	
 } 
@@ -214,22 +230,22 @@ nav > ul li a:active {
 .iphonePreview {
 	grid-area: p;
 	background-image: url($device-color);
-	background-size: 445px auto;
+	background-size: 400px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
 }
 
 .iphoneScreen {
-	width: 388px;
+	width: 349px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: 29px;
-	margin-top: 27px;
+	margin-left: 26px;
+	margin-top: 22px;
 }
 
 .videoContainer {
-	width: 388px;
-	height: 839px;
+	width: 349px;
+	height: 755px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: 28px;
@@ -237,8 +253,8 @@ nav > ul li a:active {
 }
 
 .videoContainer > video {
-	width: 388px;
-	height: 839px;
+	width: 349px;
+	height: 755px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -362,6 +378,7 @@ footer {
 .footerText {
 	color: $secondary-text-color;
 	display: block;
+	line-height: 1.5;
 	width: 100%;
 	text-align: center;
 	padding-top: 100px;
