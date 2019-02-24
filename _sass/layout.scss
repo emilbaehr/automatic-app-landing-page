@@ -251,7 +251,7 @@ nav > ul li a:active {
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: 26px;
-	margin-top: 22px;
+	margin-top: 23px;
 }
 
 .videoContainer {
@@ -259,8 +259,8 @@ nav > ul li a:active {
 	height: 755px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: 28px;
-	margin-top: 3px;
+	margin-left: 26px;
+	margin-top: 23px;
 }
 
 .videoContainer > video {
@@ -283,13 +283,13 @@ nav > ul li a:active {
 	.videoContainer {
 		width: 322px;
 		height: 698px;
-		margin-left: 28px;
-		margin-top: 3px;
+		margin-left: 24px;
+		margin-top: 22px;
 	}
 	
 	.videoContainer > video {
 		width: 322px;
-		height: 398px;
+		height: 698px;
 	}
 	
 } 
@@ -311,10 +311,17 @@ nav > ul li a:active {
 		-webkit-clip-path: url(#screenMask);
 		clip-path: url(#screenMask);
 		margin: 0px;
-		margin-top: 16px;
+		margin-top: 17px;
 	}
 
 	.videoContainer {
+		width: 226px;
+		height: 488px;
+		margin-left: 0px;
+		margin-top: 17px;
+	}
+
+	.videoContainer > video {
 		width: 226px;
 		height: 488px;
 	}
@@ -445,4 +452,8 @@ footer {
 .footerIcons {
 	padding-bottom: 100px;
 	display: flex;
+}
+
+.hide {
+	visibility: hidden;
 }

@@ -22,11 +22,12 @@ your_city                                 : Copenhagen                          
 
 # Icon, screenshot and header image
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_video_mov                             : # assets/yourvideo.mov                    # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436. Use format .mov for Safari support.
-app_video_ogg                             : # assets/yourvideo.ogg                    # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436. Use format .ogg for Chrome support.
-app_screenshot                            : assets/yourscreenshot.png                 # Replace with alternateive image path. Does not automatically populate since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API.
 header_image                              : assets/headerimage.png                    # Replace with alternative image path or image URL.
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white 
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+# Video
+enable_video_preview                      : true                                      # Set to true to enable video preview instead of a static screenshot.
+                                                                                      # Add .ogg and .mov video files to assets/videos/
 
 # Social Links                                                                        # Enter usernames and email address. If set, they will be presented as links in the footer.
 facebook_username                         :                                           
