@@ -31,9 +31,16 @@
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
-		"p p p p p p i i i i i i"
+		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
+}
+
+@media only screen and (max-width: 1070px) {
+
+	.container {					// Set up the container for the site content
+		grid-template-rows: 115px 811px auto auto;
+	}
 }
 
 @media only screen and (max-width: 992px) {
@@ -78,7 +85,11 @@ header {
 	margin-right: 15px;
 }
 
+
+
+// Navigation Links
 nav {
+	width: 100%;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -110,6 +121,10 @@ nav > ul li a:active {
 	text-decoration: none;
 	color: rgba(#fff, 1);
 }
+
+
+
+// App Title, Price, Description and Links
 
 .appInfo {
 	grid-area: i;
@@ -192,14 +207,6 @@ nav > ul li a:active {
 	
 } 
 
-@media only screen and (max-width: 1070px) {
-
-	.playStore {
-		margin-bottom: 27px;
-	}
-	
-} 
-
 .playStore {
 	height: 75px;
 	margin-right: 24px;
@@ -226,6 +233,10 @@ nav > ul li a:active {
 .appStore {
 	height: 75px;
 }
+
+
+
+// iPhone Device Preview
 
 .iphonePreview {
 	grid-area: p;
@@ -257,6 +268,32 @@ nav > ul li a:active {
 	height: 755px;
 }
 
+@media only screen and (max-width: 1070px) {
+
+	.iphonePreview {
+		background-size: 370px auto;
+	}
+
+	.iphoneScreen {
+		width: 322px;
+		margin-left: 24px;
+		margin-top: 22px;
+	}
+
+	.videoContainer {
+		width: 322px;
+		height: 698px;
+		margin-left: 28px;
+		margin-top: 3px;
+	}
+	
+	.videoContainer > video {
+		width: 322px;
+		height: 398px;
+	}
+	
+} 
+
 @media only screen and (max-width: 992px) {
 
 	.iphonePreview {
@@ -284,6 +321,9 @@ nav > ul li a:active {
 	
 } 
 
+
+// Feature List
+
 .features {
 	grid-area: c;
 	display: flex;
@@ -292,14 +332,19 @@ nav > ul li a:active {
 	justify-content: flex-start;
 	flex-grow: 1;
 	flex-wrap: wrap;
+	margin-top: 93px;
 }
 
 .feature {
 	display: flex;
-	padding-top: 93px;
+	padding-top: 63px;
 	padding-left: 15px;
 	padding-right: 15px;
 	width: calc(100%/3);
+}
+
+.feature:nth-child(-n+3) {
+    padding-top: 0px;   
 }
 
 .feature:nth-child(3n) {
@@ -326,7 +371,6 @@ nav > ul li a:active {
 	color: $social-icons-foreground-color;
 }
 
-
 .featureText {
 	margin-left: 18px;
 }
@@ -347,6 +391,7 @@ nav > ul li a:active {
 		flex-grow: 1;
 		flex-direction: row;
 		flex-wrap: wrap;
+		margin-top: 11px;
 	}
 
 	.feature {
@@ -355,6 +400,14 @@ nav > ul li a:active {
 		padding-left: 15px;
 		padding-right: 15px;
 		width: 100%;
+	}
+
+	.feature:nth-child(-n+3) {
+		padding-top: 41px;   
+	}
+
+	.feature:nth-child(1) {
+		padding-top: 0px;   
 	}
 
 	.feature:nth-child(3n) {
@@ -366,6 +419,10 @@ nav > ul li a:active {
 	}
 	
 } 
+
+
+
+// Footer
 
 footer {
 	grid-area: f;

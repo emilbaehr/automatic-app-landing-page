@@ -25,8 +25,8 @@ app_icon                                  : # assets/appicon.png                
 app_video_mov                             : # assets/yourvideo.mov                    # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436. Use format .mov for Safari support.
 app_video_ogg                             : # assets/yourvideo.ogg                    # Uncomment and replace with path to app preview video. Optimal resolutions: 1242x2688 or 1125x2436. Use format .ogg for Chrome support.
 app_screenshot                            : assets/yourscreenshot.png                 # Replace with alternateive image path. Does not automatically populate since Apple does not provide iPhone X/XS/XR screenshots in their iTunes lookup API.
-header_image                              : assets/headerimage.png                    # Replace with alternative image path.
-device_color                              : black                                     # Set to blue, black, yellow, coral or white 
+header_image                              : assets/headerimage.png                    # Replace with alternative image path or image URL.
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white 
 
 # Social Links                                                                        # Enter usernames and email address. If set, they will be presented as links in the footer.
 facebook_username                         :                                           
@@ -40,10 +40,10 @@ email_address                             : emil.baehr@gmail.com
 features                                  :
 
   - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages for easy set-up. Fork. Edit _config.yml. Push. Voilá!
+    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Push to gh-pages branch. Voilá!
     fontawesome_icon_name                 : magic
     
-  - title                                 : iPhone Device Previews
+  - title                                 : iPhone Device Preview
     description                           : Show your app in the context of an iPhone device. Five different colors included.
     fontawesome_icon_name                 : mobile
 
@@ -55,16 +55,16 @@ features                                  :
     description                           : Choose between five different iPhone colors to match your app's visual identity.
     fontawesome_icon_name                 : palette
   
-  - title                                 : Feature list
+  - title                                 : Feature List
     description                           : Add features (like this one) to your site simply by editing the _config.yml file.
     fontawesome_icon_name                 : star
 
   - title                                 : Automatic App Icon
-    description                           : Enter your iOS app ID in the _config.yml file to automatically fetch app icon.
+    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
     fontawesome_icon_name                 : sync
 
   - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
+    description                           : Display a smart app banner right on iOS devices.
     fontawesome_icon_name                 : arrow-alt-circle-down
 
   - title                                 : Social Links

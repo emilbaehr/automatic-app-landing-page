@@ -16,6 +16,7 @@
                             </clipPath>
                         </svg>
 
+                        <!--
                         {% if site.app_video %}
                             <div class="videoContainer">
                                 <video autoplay="autoplay" controls="controls">
@@ -23,9 +24,18 @@
                                     <source src="{{ site.app_video }}" type="video/mp4">
                                 </video>
                             </div>
+                        
                         {% else %}
                             <img class="iphoneScreen" src="{{ site.app_screenshot }}">
                         {% endif %}
+                        -->
+
+                        {% for image in site.static_files %}
+                            {% if image.path contains 'assets/screenshot' %}
+                            <img class="iphoneScreen" src="{{ image.path }}" alt="">
+                            {% endif %}
+                        {% endfor %}
+
                     </div>
                     <div class="appInfo">
                         <div class="appIconShadow">
@@ -52,7 +62,9 @@
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
-                            <a class="playStoreLink" href=""><img class="playStore" src="assets/playstore.png"></a>
+                            {% if site.playstore_link %}
+                                <a class="playStoreLink" href=""><img class="playStore" src="assets/playstore.png"></a>
+                            {% endif %}
                             <a class="appStoreLink" href=""><img class="appStore" src="assets/appstore.png"></a>
                         </div>
                     </div>
