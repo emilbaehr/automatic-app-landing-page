@@ -4,14 +4,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<base target="_blank">
 
-	<title>{% if site.title %}{{ site.title }}{% else %}{{ site.app_name }}{% endif %}</title>
-	<meta name="description" content="{{ site.description }}">
+	<title>{{ site.app_name }}</title>
+	<meta name="description" content="{{ site.app_description }}">
 
 	<!-- Favicon -->
-	{% if site.app.favicon %}
+	{% if site.favicon %}
 		<link rel="shortcut icon" href="{{ site.app_icon }}">
 	{% endif %}
-	<link rel="apple-touch-icon-precomposed" href="apple-icon-precomposed.png">
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}

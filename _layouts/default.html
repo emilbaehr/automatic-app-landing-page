@@ -16,25 +16,21 @@
                             </clipPath>
                         </svg>
 
-                        <!--
-                        {% if site.app_video %}
+                        {% if site.app_video_mov or site.app_video_ogg %}
                             <div class="videoContainer">
                                 <video autoplay="autoplay" controls="controls">
-                                    <source src="{{ site.app_video }}" type="video/mp4">
-                                    <source src="{{ site.app_video }}" type="video/mp4">
+                                    <source src="{{ site.app_video_mov }}" type="video/mp4">
+                                    <source src="{{ site.app_video_ogg }}" type="video/mp4">
                                 </video>
                             </div>
-                        
-                        {% else %}
-                            <img class="iphoneScreen" src="{{ site.app_screenshot }}">
-                        {% endif %}
-                        -->
 
-                        {% for image in site.static_files %}
-                            {% if image.path contains 'assets/screenshot' %}
-                            <img class="iphoneScreen" src="{{ image.path }}" alt="">
-                            {% endif %}
-                        {% endfor %}
+                        {% else %}
+                            {% for image in site.static_files %}
+                                {% if image.path contains 'assets/screenshot' %}
+                                <img class="iphoneScreen" src="{{ image.path }}" alt="">
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
 
                     </div>
                     <div class="appInfo">
