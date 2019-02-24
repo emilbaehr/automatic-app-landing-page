@@ -64,7 +64,7 @@ header {
 }
 
 .logo > p {
-	color: #fff;
+	color: $header-title-color;
 	display: flex;
 	font-weight: bold;
 	padding-bottom: 1px;
@@ -150,11 +150,11 @@ nav > ul li a:active {
 }
 
 .appName {
-	color: #fff;
+	color: $app-title-color;
 }
 
 .appPrice {
-	color: #fff;
+	color: $app-price-color;
 	font-weight: normal;
 	margin-top: 13px;
 }
@@ -167,7 +167,7 @@ nav > ul li a:active {
 }
 
 .appDescription {
-	color: #fff;
+	color: $app-description-color;
 }
 
 @media only screen and (max-width: 992px) {
@@ -332,11 +332,11 @@ nav > ul li a:active {
 }
 
 .featureText > h3 {
-	color: $primary-text-color;
+	color: $feature-title-color;
 }
 
 .featureText > p {
-	color: $secondary-text-color;
+	color: $feature-text-color;
 	margin-top: 8px;
 	line-height: 1.5;
 }
@@ -376,7 +376,7 @@ footer {
 }
 
 .footerText {
-	color: $secondary-text-color;
+	color: $footer-text-color;
 	display: block;
 	line-height: 1.5;
 	width: 100%;

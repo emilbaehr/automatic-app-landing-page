@@ -76,9 +76,19 @@ features                                  :
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 # Theme Settings
-accent_color                              : "#1d63ea"                   
-primary_text_color                        : "#000000"
-secondary_text_color                      : "#666666"
+body_color                                : "#ffffff"
+
+accent_color                              : "#1d63ea"
+
+header_title_color                        : "#ffffff"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+footer_text_color                         : "#666666"
 
 header_color                              : "#000000"
 header_transparency                       : 0.1

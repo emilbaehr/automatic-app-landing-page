@@ -2,12 +2,22 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+$body-color: "{{ site.body_color }}";
+
 $header-image: "{{ site.header_image }}";
 $device-color: "assets/{{ site.device_color }}.png";
-$primary-text-color: {{ site.primary_text_color }};
-$secondary-text-color: {{ site.secondary_text_color }};
+
 
 $accent-color: {{ site.accent_color }};
+
+$header-title-color: {{ site.header_title_color }};
+$app-title-color: {{ site.app_title_color }};
+$app-price-color: {{ site.app_price_color }};
+$app-description-color: {{ site.app_description_color }};
+
+$feature-title-color: {{ site.feature_title_color }};
+$feature-text-color: {{ site.feature_text_color }};
+$footer-text-color: {{ site.footer_text_color }};
 
 $header_color: {{ site.header_color }};
 $header_transparency: {{ site.header_transparency }};
