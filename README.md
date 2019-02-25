@@ -1,12 +1,12 @@
 # Mobile App Minisite
 **Create and deploy a clean site for your iOS app in a couple of minutes.**
 
-Designed for GitHub Pages for super easy set up. Just fork this repo, edit _config.yml, upload screenshot/video and push the changes to the `gh-pages` branch. Voilá! Your site will become immediately viewable on your personal Github Pages account, e.g. `https://username.github.io/your-repos-name/`
+Designed for GitHub Pages for super easy set up. Just fork this repo, edit _config.yml, upload screenshot/video and push the changes to the `gh-pages` branch. Voilá! Your site will become immediately viewable on your personal Github Pages account, e.g. `https://username.github.io/your-repos-name/`.
 
 ## Quick Start
 
 ### Step 1: Fork this repo.
-After forking the repo, your site will often be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repos-name/`
+After forking the repo, your site will often be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repos-name/`.
 
 ### Step 2: Edit `_config.yml` to customize for your app
 Once you have forked the repo, you can customize almost anything via the `_config.yml` file. To get started, enter your iOS app ID in the `ios_app_id` field.
