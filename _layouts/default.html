@@ -16,16 +16,16 @@
                             </clipPath>
                         </svg>
 
-                        <div class="videoContainer hide">
-                            <video autoplay="autoplay" controls="controls">
-                                <source src="" type="video/ogg">
-                                <source src="" type="video/mp4">
+                        <div class="videoContainer hidden">
+                            <video class="screenvideo" autoplay="autoplay" controls="controls">
+                                <!--<source src="assets/videos/yourvideo.ogg" type="video/ogg">
+                                <source src="assets/videos/yourvideo.mov" type="video/mp4">-->
                             </video>
                         </div>  
                         
-                        <img class="iphoneScreen hide" src="{{ image.path }}" alt="">
+                        <img class="iphoneScreen hidden" src="{{ image.path }}" alt="">
 
-                        {% include videoembed.html %}
+                        {% include screencontent.html %}
 
                     </div>
                     <div class="appInfo">
