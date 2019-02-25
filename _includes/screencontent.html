@@ -1,7 +1,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 {% for file in site.static_files %}
-    {% if file.path contains 'assets/videos' %}
+    {% if file.path contains 'assets/screenshot/' %}
+        <script>
+            $(function() {
+                $(".iphoneScreen").attr('src', '{{ file.path }}');
+                $(".iphoneScreen").removeClass("hidden");
+                console.log("{{ file.path }}");
+            });
+        </script>
+    {% elsif file.path contains 'assets/videos/' %}
+        <script>
+            $(function() {
+                $(".iphoneScreen").addClass("hidden");
+                console.log("remove screenshot");
+            });
+        </script>
         {% if file.extname == ".mov" %}
             <script>
                 $(function() {
@@ -19,30 +33,5 @@
                 });
             </script>
         {% endif %}
-    {% else %}
-        {% if file.path contains 'assets/screenshot' %}
-            <script>
-            (".iphoneScreen").removeClass("hidden");
-            </script>
-        {% endif %}
     {% endif %}
 {% endfor %}
-
-
-
-
-
-<!--
-<div class="videoContainer">
-    <video autoplay="autoplay" controls="controls">
-        {% if video.extname == ".ogg" %}
-        <source src="{{ video.path }}" type="video/ogg">
-        {% endif %}
-
-        {% if video.extname == ".mov" %}
-        <source src="{{ video.path }}" type="video/mp4">
-        {% endif %}
-    </video>
-</div>   
-
--->

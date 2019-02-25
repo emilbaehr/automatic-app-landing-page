@@ -25,10 +25,6 @@ app_icon                                  : # assets/appicon.png                
 header_image                              : assets/headerimage.png                    # Replace with alternative image path or image URL.
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-# Video
-enable_video_preview                      : true                                      # Set to true to enable video preview instead of a static screenshot.
-                                                                                      # Add .ogg and .mov video files to assets/videos/
-
 # Social Links                                                                        # Enter usernames and email address. If set, they will be presented as links in the footer.
 facebook_username                         :                                           
 instagram_username                        : ebaehr
