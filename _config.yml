@@ -46,7 +46,7 @@ features                                  :
 
   - title                                 : Video Support
     description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play
+    fontawesome_icon_name                 : play-circle
 
   - title                                 : Automatic Icon and Metadata
     description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
