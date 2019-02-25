@@ -16,7 +16,7 @@
                 console.log("remove screenshot");
             });
         </script>
-        {% if file.extname == ".mov" %}
+        {% if file.extname == ".mov" or file.extname == ".mp4" %}
             <script>
                 $(function() {
                     $(".videoContainer").removeClass("hidden");
@@ -32,6 +32,14 @@
                     console.log("{{ file.path }}");
                 });
             </script>
+        {% elsif file.extname == ".webm" %}
+        <script>
+            $(function() {
+                $(".videoContainer").removeClass("hidden");
+                $(".screenvideo").append('<source src="{{ file.path }}" type="video/webm">');
+                console.log("{{ file.path }}");
+            });
+        </script>
         {% endif %}
     {% endif %}
 {% endfor %}
