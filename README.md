@@ -32,10 +32,7 @@ Things you can customise in `_config.yml`:
 ### Step 3: Add screenshot or video
 
 #### Adding a screenshot
-Upload a `.png` or `.jpg` of your app to the folder `assets/screenshot/`. The name does not matter. The screenshot must have one of the following resolutions:
-- 828x1792
-- 1125x2436
-- 1242x2688.
+Upload a `.png` or `.jpg` of your app to the folder `assets/screenshot/`. The name does not matter.
 
 #### Adding video
 Upload your video to the folder `assets/videos/`. To have support for most browsers, you need to upload two files – one for Safari and one for Chrome/Firefox.
@@ -48,10 +45,11 @@ Video formats supported by Safari:
 - `.mp4`
 - `.mov`
 
-The videos must have one of the following resolutions:
+#### Resolutions
+The videos and screenshots must have one of the following resolutions:
 - 828x1792
 - 1125x2436
-- 1242x2688.
+- 1242x2688
 
 
 ## Feedback
@@ -65,7 +63,6 @@ I'd love to see the sites you create using this little tool.
 
 ## Author
 [Emil Baehr](https://emilbaehr.com/)
-[Emil Baehr on Twitter](https://twitter.com/ebaehr)
 
 ## License
 [MIT License](LICENSE)
