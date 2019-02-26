@@ -1,5 +1,5 @@
-# Mobile App Minisite
-**Create and deploy a clean site for your iOS app in a couple of minutes.**
+# Landomat
+**Create and deploy a landing page for your iOS app in a few of minutes.**
 
 Designed for GitHub Pages for super easy set up. Just fork this repo, edit _config.yml, upload screenshot/video and push the changes to the `gh-pages` branch. Voilá! Your site will become immediately viewable on your personal Github Pages account, e.g. `https://username.github.io/your-repos-name/`.
 
