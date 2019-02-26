@@ -120,11 +120,6 @@ sass:
 
 # Exclude these files from your production _site
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
-  - mobile-app-landing-page.gemspec
-
-github: [metadata]

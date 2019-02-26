@@ -7,7 +7,6 @@ $body-color: "{{ site.body_color }}";
 $header-image: "{{ site.header_image }}";
 $device-color: "assets/{{ site.device_color }}.png";
 
-
 $accent-color: {{ site.accent_color }};
 
 $header-title-color: {{ site.header_title_color }};
