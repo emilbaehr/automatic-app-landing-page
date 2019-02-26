@@ -4,7 +4,7 @@
     {% if file.path contains 'assets/screenshot/' %}
         <script>
             $(function() {
-                $(".iphoneScreen").attr('src', '{{ site.github.repository_name }}/{{ file.path }}');
+                $(".iphoneScreen").attr('src', '{{ site.github.baseurl }}{{ file.path }}');
                 $(".iphoneScreen").removeClass("hidden");
                 console.log("{{ file.path }}");
             });
