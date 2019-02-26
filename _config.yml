@@ -122,4 +122,3 @@ sass:
 exclude:
   - LICENSE
   - README.md
-  - CNAME
