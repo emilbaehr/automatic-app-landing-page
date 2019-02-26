@@ -10,12 +10,14 @@
             });
         </script>
     {% elsif file.path contains 'assets/videos/' %}
-        <script>
-            $(function() {
-                $(".iphoneScreen").addClass("hidden");
-                console.log("remove screenshot");
-            });
-        </script>
+        {% unless file.path contains 'assets/videos/Place-video-files-here.txt' %}
+            <script>
+                $(function() {
+                    $(".iphoneScreen").addClass("hidden");
+                    console.log("remove screenshot");
+                });
+            </script>
+        {% endunless %}
         {% if file.extname == ".mov" or file.extname == ".mp4" %}
             <script>
                 $(function() {

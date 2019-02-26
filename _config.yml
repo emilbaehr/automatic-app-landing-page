@@ -77,7 +77,7 @@ features                                  :
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 # Theme Settings
-body_color                                : "#ffffff"
+body_color                                : "#000"
 
 accent_color                              : "#1d63ea"
 
