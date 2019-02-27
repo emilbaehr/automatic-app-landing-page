@@ -131,7 +131,7 @@ nav > ul li a:active {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 113px;
+	padding-top: 140px;
 	align-content: flex-start;
 }
 
@@ -197,6 +197,9 @@ nav > ul li a:active {
 } 
 
 .appDescriptionContainer {
+	font-size: 2.5rem;
+	font-weight: normal;
+	width: 100%;
 	align-items: flex-start;
 	margin-top: 45px;
 	flex: 0 1 auto;

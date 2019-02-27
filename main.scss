@@ -2,14 +2,14 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-$body-color: {{ site.body_color }};
+$body-color: {{ site.body_background_color }};
 
-$header-image: "{{ site.header_image }}";
+$header-image: "{{ site.cover_image }}";
 $device-color: "assets/{{ site.device_color }}.png";
 
-$accent-color: {{ site.accent_color }};
+$accent-color: {{ site.link_color }};
 
-$header-title-color: {{ site.header_title_color }};
+$header-title-color: {{ site.topbar_title_color }};
 $app-title-color: {{ site.app_title_color }};
 $app-price-color: {{ site.app_price_color }};
 $app-description-color: {{ site.app_description_color }};
@@ -18,11 +18,11 @@ $feature-title-color: {{ site.feature_title_color }};
 $feature-text-color: {{ site.feature_text_color }};
 $footer-text-color: {{ site.footer_text_color }};
 
-$header_color: {{ site.header_color }};
-$header_transparency: {{ site.header_transparency }};
+$header_color: {{ site.topbar_color }};
+$header_transparency: {{ site.topbar_transparency }};
 
-$image-overlay-color: {{ site.image_overlay_color }};
-$image-overlay-transparency: {{ site.image_overlay_transparency }};
+$image-overlay-color: {{ site.cover_overlay_color }};
+$image-overlay-transparency: {{ site.cover_overlay_transparency }};
 
 $feature-icons-foreground-color: {{ site.feature_icons_foreground_color }};
 $feature-icons-background-color: {{ site.feature_icons_background_color }};

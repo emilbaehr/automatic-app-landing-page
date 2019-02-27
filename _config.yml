@@ -4,24 +4,21 @@ ios_app_id                                : 618783545                           
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-											Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Wherever some that and kiwi that well 
-                                            dolphin alas this the mindfully jeepers 
-                                            one aside canny one preparatory up less therefore 
-                                            hello oh amid goodness checked.
+app_description                           : Write a short tagline for your app.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                # Your name. Will be shown in the footer.
-your_link                                 : https://emilbaehr.com                     # Link to a website of your choice when your name is clicked.
-your_city                                 : Copenhagen                                # Tell people where you're from.
+your_name                                 : Emil Baehr                                
+your_link                                 : https://emilbaehr.com                     
+your_city                                 : Copenhagen                                
 email_address                             : emil.baehr@gmail.com
 facebook_username                         :                                           
 instagram_username                        : ebaehr
@@ -31,7 +28,7 @@ youtube_username                          :
 
 
 
-# Feature List                                                             		        # Edit, add or remove features to be presented.
+# Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
   - title                                 : GitHub Pages Jekyll Theme
@@ -77,14 +74,19 @@ features                                  :
 
 
 # Theme Settings
-header_image                              : assets/headerimage.png                    # Replace with alternative image path or image URL.
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_color                                : "ffffff"
+body_background_color                     : "ffffff"
 
-accent_color                              : "#1d63ea"
-
-header_title_color                        : "#ffffff"
+link_color                                : "#1d63ea"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -92,19 +94,14 @@ app_description_color                     : "#ffffff"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
-footer_text_color                         : "#666666"
-
-header_color                              : "#000000"
-header_transparency                       : 0.1
-
-image_overlay_color                       : "#363b3d"
-image_overlay_transparency                : 0.8
 
 feature_icons_foreground_color            : "#1d63ea"
 feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
 
 
 
