@@ -1,5 +1,5 @@
 # App Info
-ios_app_id                                :                                           # Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
