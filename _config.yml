@@ -1,39 +1,37 @@
-# Mobile App Landing Page Configuration
-
 # App Info
 ios_app_id                                : 618783545                                 # Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+											Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_name                                  : Planet Life Long Name Here                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 app_description                           : Wherever some that and kiwi that well 
                                             dolphin alas this the mindfully jeepers 
                                             one aside canny one preparatory up less therefore 
                                             hello oh amid goodness checked.
 
-# Author Info
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
 your_name                                 : Emil Baehr                                # Your name. Will be shown in the footer.
 your_link                                 : https://emilbaehr.com                     # Link to a website of your choice when your name is clicked.
 your_city                                 : Copenhagen                                # Tell people where you're from.
-
-# Icon, screenshot and header image
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-header_image                              : assets/headerimage.png                    # Replace with alternative image path or image URL.
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
-
-# Social Links                                                                        # Enter usernames and email address. If set, they will be presented as links in the footer.
+email_address                             : emil.baehr@gmail.com
 facebook_username                         :                                           
 instagram_username                        : ebaehr
 twitter_username                          : ebaehr
 github_username                           : emilbaehr
 youtube_username                          :
-email_address                             : emil.baehr@gmail.com
 
-# Features                                                                            # Edit, add or remove features to be presented.
+
+
+# Feature List                                                             		        # Edit, add or remove features to be presented.
 features                                  :
 
   - title                                 : GitHub Pages Jekyll Theme
@@ -76,7 +74,12 @@ features                                  :
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
+
+
 # Theme Settings
+header_image                              : assets/headerimage.png                    # Replace with alternative image path or image URL.
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
 body_color                                : "ffffff"
 
 accent_color                              : "#1d63ea"
@@ -104,8 +107,7 @@ social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
 
-# Analytics 
-google_analytics                          :                                            # Enter Google Analytics tracking code (e.g. UA-2110908-2).
+
 
 
 
@@ -119,9 +121,6 @@ google_analytics                          :                                     
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
 ####################################################
-
-# The release of Mobile App Landing Page that you're using
-version: v1.0
 
 # Set the Sass partials directory, as we're using @imports
 sass:
