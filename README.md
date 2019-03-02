@@ -3,7 +3,8 @@
 
 Designed for GitHub Pages for super easy set up. Just fork this repo, edit `_config.yml`, upload screenshot/video and push the changes to the `gh-pages` branch. Voilá! Your site will become immediately viewable on your personal Github Pages account, e.g. `https://username.github.io/your-repo-name/`.
 
-![Alt-text](https://www.dropbox.com/s/s0a2my508ztnywl/slor.png?dl=1)
+![](https://www.dropbox.com/s/s0a2my508ztnywl/slor.png?dl=1)
+![](https://www.dropbox.com/s/v6k48115owe0mfv/jayson.png?dl=1)
 
 ## Quick Start
 
@@ -11,7 +12,7 @@ Designed for GitHub Pages for super easy set up. Just fork this repo, edit `_con
 After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
 
 ### Step 2: Enter iOS App ID in `_config.yml`
-To get started, enter your iOS app ID in the `ios_app_id` field and commit your changes. Your site will automatically rebuild with your app's icon, name, price and link to App Store.
+To textget started, enter your iOS app ID in the `ios_app_id` field and commit your changes. Your site will automatically rebuild with your app's icon, name, price and link to App Store.
 
 You can go on with customising almost anything in the `_config.yml` file. 
 
