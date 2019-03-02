@@ -5,13 +5,15 @@ Designed for GitHub Pages for super easy set up. Fork this repo, edit `_config.y
 
 <img src="https://emilbaehr.com/files/jayson.png" width="440">   <img src="https://emilbaehr.com/files/slor.png" width="440">
 
+
 ## Quick Start
 
 ### Step 1: Fork this repo.
 After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
 
+
 ### Step 2: Enter iOS App ID in `_config.yml`
-To textget started, enter your iOS app ID in the `ios_app_id` field and commit your changes. Your site will automatically rebuild with your app's icon, name, price and link to App Store.
+Enter your iOS app ID in the `ios_app_id` field and commit your changes. Your site will automatically rebuild with your app icon, name, price and link to App Store.
 
 You can go on with customising almost anything in the `_config.yml` file. 
 
@@ -32,6 +34,7 @@ Things you can customise in `_config.yml`:
 - Link to Website
 - Social Links and Contact Info
 - Feature List (Title, text, icon)
+
 
 ### Step 3: Add screenshot or video
 
@@ -61,12 +64,15 @@ If you have feedback regarding bugs or improvements, open an issue, @ me on Twit
 
 I'd love to see the sites you create using this little tool.
 
+
 ## Credits
 - [Jekyll](https://github.com/jekyll/jekyll)
 - [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
 
+
 ## Author
 [Emil Baehr](https://emilbaehr.com/)
+
 
 ## License
 [MIT License](LICENSE)
