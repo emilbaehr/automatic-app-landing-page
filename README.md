@@ -4,7 +4,7 @@
 Designed for GitHub Pages for super easy set up. Just fork this repo, edit `_config.yml`, upload screenshot/video and push the changes to the `gh-pages` branch. Voilá! Your site will become immediately viewable on your personal Github Pages account, e.g. `https://username.github.io/your-repo-name/`.
 
 [jayson.png](https://postimg.cc/bGKsHq1b)
-![jayson.png](https://postimg.cc/bGKsHq1b)
+![](https://postimg.cc/bGKsHq1b)
 
 [](https://www.dropbox.com/s/s0a2my508ztnywl/slor.png?dl=1)
 [](https://www.dropbox.com/s/v6k48115owe0mfv/jayson.png?dl=1)
