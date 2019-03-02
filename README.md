@@ -1,4 +1,4 @@
-# Landomat
+# Automatic App Landing Page
 **Create and deploy an iOS app landing page on GitHub Pages in only five minutes.**
 
 Designed for GitHub Pages for super easy set up. Fork this repo, edit `_config.yml`, upload screenshot/video and commit your changes. Voilá! Your site will become immediately viewable on your repository's Github Pages url, e.g. `https://your-username.github.io/your-repo-name/`.
