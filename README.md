@@ -1,15 +1,19 @@
 # Landomat
 **Create and deploy a landing page for your iOS app in a few of minutes.**
 
-Designed for GitHub Pages for super easy set up. Just fork this repo, edit _config.yml, upload screenshot/video and push the changes to the `gh-pages` branch. Voilá! Your site will become immediately viewable on your personal Github Pages account, e.g. `https://username.github.io/your-repo-name/`.
+Designed for GitHub Pages for super easy set up. Just fork this repo, edit `_config.yml`, upload screenshot/video and push the changes to the `gh-pages` branch. Voilá! Your site will become immediately viewable on your personal Github Pages account, e.g. `https://username.github.io/your-repo-name/`.
+
+![](https://www.dropbox.com/s/s0a2my508ztnywl/slor.png?dl=1)
 
 ## Quick Start
 
 ### Step 1: Fork this repo.
-After forking the repo, your site will often be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
+After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
 
-### Step 2: Edit `_config.yml` to customize for your app
-Once you have forked the repo, you can customize almost anything via the `_config.yml` file. To get started, enter your iOS app ID in the `ios_app_id` field.
+### Step 2: Enter iOS App ID in `_config.yml`
+To get started, enter your iOS app ID in the `ios_app_id` field and commit your changes. Your site will automatically rebuild with your app's icon, name, price and link to App Store.
+
+You can go on with customising almost anything in the `_config.yml` file. 
 
 Things you can customise in `_config.yml`:
 - App Name
@@ -19,12 +23,12 @@ Things you can customise in `_config.yml`:
 - App Store Link
 - Play Store Link
 - Press Kit Download Link
-- Header Image
-- Header Color
+- Cover Image
+- Cover Overlay Color
 - Background Color
 - Text Colors
 - iPhone Device Color
-- Your Name
+- Your Name / Company Name
 - Link to Website
 - Social Links and Contact Info
 - Feature List (Title, text, icon)
@@ -32,7 +36,7 @@ Things you can customise in `_config.yml`:
 ### Step 3: Add screenshot or video
 
 #### Adding a screenshot
-Upload a `.png` or `.jpg` of your app to the folder `assets/screenshot/`. The name does not matter.
+Upload a `.png` or `.jpg` of your app to the folder `assets/screenshot/`. The name does not matter. Be sure to delete the placeholder `yourscreenshot.png`.
 
 #### Adding video
 Upload your video to the folder `assets/videos/`. To have support for most browsers, you need to upload two files – one for Safari and one for Chrome/Firefox.
