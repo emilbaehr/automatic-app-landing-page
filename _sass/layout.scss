@@ -115,13 +115,13 @@ nav > ul li:first-child {
 nav > ul li a:link,
 nav > ul li a:visited {
 	text-decoration: none;
-	color: rgba(#fff, 0.6);
+	color: rgba($header-title-color, 0.6);
 }
 
 nav > ul li a:hover,
 nav > ul li a:active {
 	text-decoration: none;
-	color: rgba(#fff, 1);
+	color: rgba($header-title-color, 1);
 }
 
 
@@ -471,12 +471,12 @@ footer {
 	line-height: 1.5;
 	width: 100%;
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 .footerIcons {
-	padding-bottom: 100px;
+	padding-bottom: 70px;
 	display: flex;
 }
 
