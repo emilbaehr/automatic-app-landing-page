@@ -3,8 +3,8 @@
 
 Designed for GitHub Pages for super easy set up. Fork this repo, edit `_config.yml`, upload screenshot/video and commit your changes. Voilá! Your site will become immediately viewable on your repository's Github Pages url, e.g. `https://your-username.github.io/your-repo-name/`.
 
-![](https://www.dropbox.com/s/s0a2my508ztnywl/slor.png)
-![](https://www.dropbox.com/s/v6k48115owe0mfv/jayson.png)
+![]()
+![]()
 
 ## Quick Start
 
