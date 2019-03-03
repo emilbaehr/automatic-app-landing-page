@@ -9,15 +9,15 @@ presskit_download_link                    :                                     
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : Track your video game backlog, archive & wish list.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
 your_name                                 : Joe Kimberlin-Wyer                                
-your_link                                 : https://gametrack.app                     
+your_link                                 :                      
 your_city                                 : London                                
 email_address                             : joe.kw@me.com
 facebook_username                         :                                           
@@ -31,41 +31,37 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Add Any Game Ever
+    description                           : Search for any game you want using the Giant Bomb Wiki database and access all of the related information.
+    fontawesome_icon_name                 : gamepad
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Track Progress
+    description                           : Keep track of all your games and your progress through them.
+    fontawesome_icon_name                 : spinner
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Theme Support
+    description                           : Switch between dark and light modes and multiple colour themes.
+    fontawesome_icon_name                 : adjust
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+  - title                                 : Quick Actions
+    description                           : Use the Swipe Menu or 3D Touch on the images to access quick actions such as rating or changing status.
     fontawesome_icon_name                 : sync
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
+  - title                                 : Custom Images
+    description                           : Customise your lists using banner and poster images from your own photo library.
+    fontawesome_icon_name                 : images
   
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
+  - title                                 : Automatic Game of the Year Lists
+    description                           : Rate your completed games and access an automated list of your top rated games for each year.
     fontawesome_icon_name                 : star
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Notifications
+    description                           : Get notifications when your most anticipated games are released.
+    fontawesome_icon_name                 : bell
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Charts & Statistics
+    description                           : View charts and stats of your ratings, game completions, games per genre, per platform.
+    fontawesome_icon_name                 : chart-line
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
@@ -74,7 +70,7 @@ features                                  :
 
 
 # Theme Settings
-topbar_color                              : "#000000"
+topbar_color                              : "#1B1F28"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
@@ -84,7 +80,7 @@ cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "#1B1F28"
 
 link_color                                : "#1d63ea"
 
@@ -92,7 +88,7 @@ app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
-feature_title_color                       : "#000000"
+feature_title_color                       : "#ffffff"
 feature_text_color                        : "#666666"
 
 feature_icons_foreground_color            : "#1d63ea"
