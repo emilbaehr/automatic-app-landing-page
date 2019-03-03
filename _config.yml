@@ -92,7 +92,7 @@ feature_title_color                       : "#00D5E5"
 feature_text_color                        : "#ffffff"
 
 feature_icons_foreground_color            : "#00D5E5"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_background_color            : "#666666"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
