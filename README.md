@@ -4,9 +4,13 @@
 Designed for GitHub Pages for super easy set up. 
 
 🔧 Fork this repo
+
 🗝 Enter iOS App ID in `_config.yml`
+
 📲 Upload video preview or screenshot
+
 🎨 Customise site in `_config.yml` (no HTML/CSS)
+
 ✅ Site becomes live at GitHub Pages repository URL, e.g. `https://your-username.github.io/your-repo-name/`.
 
 <img src="https://emilbaehr.com/files/jayson1.png" width="440"> <img src="https://emilbaehr.com/files/slor1.png" width="440">
