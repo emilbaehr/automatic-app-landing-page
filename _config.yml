@@ -70,7 +70,7 @@ features                                  :
 
 
 # Theme Settings
-topbar_color                              : "#000000"
+topbar_color                              : "#1B1F28"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
@@ -80,7 +80,7 @@ cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "1B1F28"
 
 link_color                                : "#1d63ea"
 
@@ -88,7 +88,7 @@ app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
-feature_title_color                       : "#000000"
+feature_title_color                       : "#ffffff"
 feature_text_color                        : "#666666"
 
 feature_icons_foreground_color            : "#1d63ea"
