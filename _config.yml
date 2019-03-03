@@ -1,5 +1,5 @@
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 1136800740                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -16,14 +16,14 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Joe Kimberlin-Wyer                                
+your_link                                 : https://gametrack.app                     
+your_city                                 : London                                
+email_address                             : joe.kw@me.com
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : joe
+twitter_username                          : joekw
+github_username                           : joekw
 youtube_username                          :
 
 
