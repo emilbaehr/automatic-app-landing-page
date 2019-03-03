@@ -32,7 +32,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Add Any Game Ever
-    description                           : Search for any game you want using the Giant Bomb Wiki database and access all of the related information.
+    description                           : Search for any game you like using the Giant Bomb Wiki database and access all of it's related information, such as Genre, Developer, etc.
     fontawesome_icon_name                 : gamepad
     
   - title                                 : Track Progress
