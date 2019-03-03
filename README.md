@@ -1,7 +1,13 @@
 # Automatic App Landing Page
 **Create and deploy an iOS app landing page on GitHub Pages in only five minutes.**
 
-Designed for GitHub Pages for super easy set up. Fork this repo, edit `_config.yml`, upload screenshot/video and commit your changes. Voilá! Your site will become immediately viewable on your repository's GitHub Pages URL, e.g. `https://your-username.github.io/your-repo-name/`.
+Designed for GitHub Pages for super easy set up. 
+
+🔧 Fork this repo
+🗝 Enter iOS App ID in `_config.yml`
+📲 Upload video preview or screenshot
+🎨 Customise site in `_config.yml` (no HTML/CSS)
+✅ Site becomes live at GitHub Pages repository URL, e.g. `https://your-username.github.io/your-repo-name/`.
 
 <img src="https://emilbaehr.com/files/jayson1.png" width="440"> <img src="https://emilbaehr.com/files/slor1.png" width="440">
 
