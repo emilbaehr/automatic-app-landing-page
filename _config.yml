@@ -33,15 +33,15 @@ features                                  :
 
   - title                                 : Add Any Game Ever
     description                           : Search for any game you want using the Giant Bomb Wiki database and access all of the related information.
-    fontawesome_icon_name                 : magic
+    fontawesome_icon_name                 : gamepad
     
   - title                                 : Track Progress
     description                           : Keep track of all your games and your progress through them.
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : spinner
 
   - title                                 : Theme Support
     description                           : Switch between dark and light modes and multiple colour themes.
-    fontawesome_icon_name                 : play-circle
+    fontawesome_icon_name                 : adjust
 
   - title                                 : Quick Actions
     description                           : Use the Swipe Menu or 3D Touch on the images to access quick actions such as rating or changing status.
@@ -49,7 +49,7 @@ features                                  :
 
   - title                                 : Custom Images
     description                           : Customise your lists using banner and poster images from your own photo library.
-    fontawesome_icon_name                 : adjust
+    fontawesome_icon_name                 : images
   
   - title                                 : Automatic Game of the Year Lists
     description                           : Rate your completed games and access an automated list of your top rated games for each year.
@@ -57,11 +57,11 @@ features                                  :
 
   - title                                 : Notifications
     description                           : Get notifications when your most anticipated games are released.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+    fontawesome_icon_name                 : bell
 
   - title                                 : Charts & Statistics
     description                           : View charts and stats of your ratings, game completions, games per genre, per platform.
-    fontawesome_icon_name                 : link
+    fontawesome_icon_name                 : chart-line
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
