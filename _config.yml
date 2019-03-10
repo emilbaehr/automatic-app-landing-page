@@ -51,6 +51,10 @@ features                                  :
     description                           : Great for nighttime, or anytime.
     fontawesome_icon_name                 : adjust
     
+  - title                                 : Free software
+    description                           : Free, as in speech.
+    fontawesome_icon_name                 : info-circle
+    
 plugins:
   - jekyll-seo-tag
   
