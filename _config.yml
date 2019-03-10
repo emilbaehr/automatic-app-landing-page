@@ -51,6 +51,15 @@ features                                  :
     description                           : Great for nighttime, or anytime.
     fontawesome_icon_name                 : adjust
     
+plugins:
+  - jekyll-seo-tag
+  
+title:
+  - Libreca for Calibre
+  
+description:
+  - Access your Calibre content server on an iOS app
+    
 
 # Theme Settings
 topbar_color                              : "#ffffff"
