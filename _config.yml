@@ -52,7 +52,7 @@ features                                  :
     fontawesome_icon_name                 : adjust
     
   - title                                 : Free software
-    description                           : Free, as in speech.
+    description                           : Free (libre), as in speech.
     fontawesome_icon_name                 : info-circle
     
 plugins:
