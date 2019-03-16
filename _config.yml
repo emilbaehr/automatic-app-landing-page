@@ -57,6 +57,8 @@ features                                  :
     
 plugins:
   - jekyll-seo-tag
+
+google_analytics: UA-136355738-1
   
 title:
   - Libreca for Calibre
