@@ -23,7 +23,7 @@ $(function() {
             if ($.trim($($pageTitle).text()).length == 0) {
                 $($pageTitle).html(appInfo.trackName);
             }
-            
+
             // Set large app icon using the iOS app ID if it is not set manually in _config.yml
             var $appIconLarge = $(".appIconLarge");
             if (!$appIconLarge.attr('src')) {
@@ -51,8 +51,8 @@ $(function() {
             }
 
             // Set App Store link using the iOS app ID if it is not set manually in _config.yml
-            var $appStoreLink = $(".appStoreLink").attr('href');
-            if ($.trim($appStoreLink).length == 0) {
+            var $appStoreLink = $(".appStoreLink");
+            if ($.trim($appStoreLink.attr('href')).length == 0) {
                 $($appStoreLink).attr("href", appInfo.trackViewUrl);
             }
 
