@@ -18,6 +18,12 @@ $(function() {
             // Set favicon
             $('link[rel="shortcut icon"]').attr("href", appInfo.artworkUrl512);
 
+            // Set page title using the iOS app ID if it is not set manually in _config.yml
+            var $pageTitle = $(".pageTitle");
+            if ($.trim($($pageTitle).text()).length == 0) {
+                $($pageTitle).html(appInfo.trackName);
+            }
+
             // Set large app icon using the iOS app ID if it is not set manually in _config.yml
             var $appIconLarge = $(".appIconLarge");
             if (!$appIconLarge.attr('src')) {
@@ -44,9 +50,9 @@ $(function() {
                 $($appPrice).html(appInfo.formattedPrice);
             }
 
-            // Set price using the iOS app ID if it is not set manually in _config.yml
+            // Set App Store link using the iOS app ID if it is not set manually in _config.yml
             var $appStoreLink = $(".appStoreLink");
-            if ($.trim($($appStoreLink).text()).length == 0) {
+            if ($.trim($appStoreLink.attr('href')).length == 0) {
                 $($appStoreLink).attr("href", appInfo.trackViewUrl);
             }
 
