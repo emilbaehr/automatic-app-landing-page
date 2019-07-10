@@ -90,7 +90,7 @@ footer_text_color                         : "#666666"
 
 
 ####################################################
-### Jekyll Configuration. No need to touch this. ###
+### Jekyll Configuration. No need to touch this.. ###
 ####################################################
 
 # Set the Sass partials directory, as we're using @imports
