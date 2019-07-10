@@ -39,11 +39,11 @@ features                                  :
     fontawesome_icon_name                 : magic
     
   - title                                 : No data collection
-    description                           : This game is not intentionally collecting your information or using it in any non moral way. Link to [privacy policy link](https://www.google.com).
+    description                           : This game is not intentionally collecting your information or using it in any non moral way.
     fontawesome_icon_name                 : mobile
 
   - title                                 : Easy gameplay
-    description                           : Children can learn to play this game in 5s and enjoy it for hours. Its awesome, try it.
+    description                           : Children can learn to play this game in 5s and enjoy it for hours. Its awesome, you should try it.
     fontawesome_icon_name                 : play-circle
 
 
