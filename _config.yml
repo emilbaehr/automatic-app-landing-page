@@ -1,4 +1,4 @@
-s#page title
+#page title
 page_title                                : Box Jump 3D                                         # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
