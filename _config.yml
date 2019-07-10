@@ -38,12 +38,12 @@ features                                  :
     description                           : Playful game designed with passion. Choose between tens of animal characters.
     fontawesome_icon_name                 : magic
     
-  - title                                 : Pravicy Policy
+  - title                                 : No data collection
     description                           : This game is not intentionally collecting your information or using it in any non moral way. Link to [privacy policy link](https://www.google.com).
-    fontawesome_icon_name                 : mobile. 
+    fontawesome_icon_name                 : mobile
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+  - title                                 : Easy gameplay
+    description                           : Children can learn to play this game in 5s and enjoy it for hours. Its awesome, try it.
     fontawesome_icon_name                 : play-circle
 
 
