@@ -1,4 +1,4 @@
-#page title
+s#page title
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
@@ -43,7 +43,7 @@ features                                  :
     fontawesome_icon_name                 : mobile
 
   - title                                 : Easy gameplay
-    description                           : Children can learn to play this game in 5s and enjoy it for hours. Its awesome, you should try it.
+    description                           : Children can learn to play this game easily and enjoy it for hours. Its awesome, you should try it.
     fontawesome_icon_name                 : star
 
 
