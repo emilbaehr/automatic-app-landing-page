@@ -12,7 +12,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appImage.png                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Box Jump 3D                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Pick the correct color to jump on the next box.
+app_description                           : Pick correct color to jump on the next box.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
