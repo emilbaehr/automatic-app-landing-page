@@ -32,7 +32,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Add Any Game Ever
-    description                           : Search for any game you like using the Giant Bomb Wiki database and access all of it's related information, such as Genre, Developer, etc.
+    description                           : Search for any game you like using the IGDB and access all of it's related information, such as Genre, Developer, Screenshots, etc.
     fontawesome_icon_name                 : gamepad
     
   - title                                 : Track Progress
@@ -40,7 +40,7 @@ features                                  :
     fontawesome_icon_name                 : spinner
 
   - title                                 : Theme Support
-    description                           : Switch between dark and light modes and multiple colour themes.
+    description                           : Switch between dark, light and true black modes and multiple colour themes.
     fontawesome_icon_name                 : adjust
 
   - title                                 : Quick Actions
