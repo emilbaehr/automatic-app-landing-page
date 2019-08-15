@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+        <div class="headerBackground">
+            <div class="container">
+            {% include header.html %}
+                <article class="page markdownStyling">
+                    {{ content }}
+                </article>
+            </div>
+        </div>
+</body>
+
+</html>
