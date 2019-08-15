@@ -40,6 +40,8 @@
 
 	</div>
 	<div class="footerLinks">
-		<a href="">Privacy Policy</a>
+		{% for page in site.pages %}
+			<a href="{{ page.url }}" target="_self">{{ page.title }}</a>
+		{% endfor %}
 	</div>
 </footer>
