@@ -4,13 +4,14 @@
 {% include head.html %}
 
 <body>
-        <div class="headerBackground">
+        <div class="headerBackground subPageHeaderBackground">
             <div class="container">
             {% include header.html %}
                 <article class="page markdownStyling">
                     {{ content }}
                 </article>
             </div>
+            {% include appstoreimages.html %}
         </div>
 </body>
 

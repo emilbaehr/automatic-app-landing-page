@@ -9,16 +9,16 @@
 					</clipPath>
 				</defs>
 			</svg>
-			<img class="headerIcon" src="{{ site.app_icon }}">
+			<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon }}"></a>
 		</div>
 		<p class="headerName">{{ site.app_name }}</p>
 	</div>
+	</a>
 	<nav>
 		<ul>
 			{% if site.presskit_download_link %}
 			<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
 			{% endif %}
-			<li><a href="../pages/changelog" target="">Changelog</a></li>
 		</ul>
 	</nav>
 </header>
