@@ -135,3 +135,6 @@ exclude:
 collections:
   pages:
     output: true
+
+# Markdown rendering
+markdown: kramdown

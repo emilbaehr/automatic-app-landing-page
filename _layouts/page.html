@@ -1,14 +1,19 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
 <!DOCTYPE html>
 <html lang="en-us">
 
 {% include head.html %}
+<link rel="stylesheet" href="../githubmarkdown.css">
 
 <body>
         <div class="headerBackground subPageHeaderBackground">
             <div class="container">
             {% include header.html %}
-                <article class="page markdownStyling">
-                    {{ content }}
+                <article class="page">
+                    {{ content | markdownify }}
                 </article>
             </div>
             {% include appstoreimages.html %}
