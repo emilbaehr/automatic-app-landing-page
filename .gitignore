@@ -1,7 +1,4 @@
 .bundle
 .sass-cache
 _site
-Gemfile
 Gemfile.lock
-automatic-app-landing-page.gemspec
-*.gemspec
