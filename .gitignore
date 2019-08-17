@@ -3,5 +3,5 @@
 _site
 Gemfile
 Gemfile.lock
-mobile-app-landing-page.gemspec
+automatic-app-landing-page.gemspec
 *.gemspec
