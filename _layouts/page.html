@@ -6,18 +6,17 @@
 <html lang="en-us">
 
 {% include head.html %}
-<link rel="stylesheet" href="../githubmarkdown.css">
 
 <body>
-        <div class="headerBackground subPageHeaderBackground">
-            <div class="container">
-            {% include header.html %}
-                <article class="page">
-                    {{ content | markdownify }}
-                </article>
-            </div>
-            {% include appstoreimages.html %}
+    <div class="headerBackground subPageHeaderBackground">
+        <div class="container">
+        {% include header.html %}
+            <article class="page markdown-body">
+                {{ content }}
+            </article>
         </div>
+        {% include appstoreimages.html %}
+    </div>
 </body>
 
 </html>

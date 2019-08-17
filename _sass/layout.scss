@@ -41,8 +41,20 @@
 }
 
 .page {
+	margin-top: 30px;
+	margin-bottom: 70px;
 	grid-column: 3/11;
 }
+
+@media only screen and (max-width: 768px) {
+
+	.page {
+		margin-top: 30px;
+		margin-bottom: 70px;
+		grid-column: 1/-1;
+	}
+	
+} 
 
 @media only screen and (max-width: 1070px) {
 
@@ -132,6 +144,8 @@ nav > ul li a:active {
 	color: rgba($header-title-color, 1);
 }
 
+
+
 // Sub Page Header Styling
 .subPageHeaderBackground .logo > p {
 	color: #000;
@@ -146,6 +160,8 @@ nav > ul li a:active {
 .subPageHeaderBackground nav > ul li a:active {
 	color: rgba(#000, 1);
 }
+
+
 
 // App Title, Price, Description and Links
 
