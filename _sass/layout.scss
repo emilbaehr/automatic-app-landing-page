@@ -83,19 +83,31 @@ header {
 	display: flex;
 }
 
+.scroll {
+	white-space: nowrap; /* [1] */
+	overflow-x: auto; /* [2] */
+	-webkit-overflow-scrolling: touch; /* [3] */
+	-ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */
+}
+
+.scroll::-webkit-scrollbar {
+	display: none;
+}
+
 .logo {
 	display: flex;
 	width: 100%;
 	justify-content: flex-start;
 	align-items: center;
 	height: 115px;
+	margin-right: 30px;
 }
 
 .logo > p {
 	color: $header-title-color;
 	display: flex;
 	font-weight: bold;
-	padding-bottom: 1px;
+	padding-bottom: 0px;
 }
 
 .headerIcon {
@@ -124,7 +136,7 @@ nav > ul {
 }
 
 nav > ul li {
-	padding-left: 50px;
+	padding-left: 30px;
 	text-align: right;
 }
 

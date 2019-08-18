@@ -1,4 +1,4 @@
-<header>
+<header class="scroll">
 	<div class="logo">
 		<div class="appIconShadow">
 			<svg width="0" height="0">
@@ -22,6 +22,7 @@
 			{% if site.presskit_download_link %}
 			<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
 			{% endif %}
+			<li><a href="{{ page.url | relative_url }}">What's New</a></li>
 		</ul>
 	</nav>
 </header>
