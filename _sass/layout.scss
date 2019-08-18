@@ -83,20 +83,8 @@ header {
 	display: flex;
 }
 
-.scroll {
-	white-space: nowrap;
-	overflow-x: auto;
-	-webkit-overflow-scrolling: touch;
-	-ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-.scroll::-webkit-scrollbar {
-	display: none;
-}
-
 .logo {
 	display: flex;
-	width: 100%;
 	justify-content: flex-start;
 	align-items: center;
 	height: 115px;
@@ -105,10 +93,23 @@ header {
 
 .logo > p {
 	color: $header-title-color;
+	white-space: nowrap;
 	display: flex;
 	font-weight: bold;
 	padding-bottom: 0px;
 }
+
+@media only screen and (max-width: 768px) {
+
+	.logo {
+		margin-right: 0px;
+	}
+
+	.logo > p {
+		display: none;
+	}
+	
+} 
 
 .headerIcon {
 	width: 50px;
@@ -121,23 +122,44 @@ header {
 
 
 // Navigation Links
-nav {
-	width: 100%;
+.scroll {
 	display: flex;
-	justify-content: flex-end;
+	width: 100%;
 	align-items: center;
+	justify-content: flex-end;
+
+	margin-left: 15px;
 	height: 115px;
+
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
+
+@media only screen and (max-width: 768px) {
+
+	.scroll {
+		justify-content: flex-start;
+	}	
+	
+} 
+
+.scroll::-webkit-scrollbar {
+	display: none;
+}
+
 
 nav > ul {
 	color: #fff;
 	display: flex;
 	list-style-type: none;
+
 }
 
 nav > ul li {
 	padding-left: 30px;
-	text-align: right;
 }
 
 nav > ul li:first-child {
