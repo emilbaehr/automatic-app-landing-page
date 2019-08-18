@@ -20,6 +20,14 @@
 	background-color: rgba($header-color, $header-transparency);
 }
 
+@media only screen and (max-width: 768px) {
+
+	.headerBackground {
+		height: 80px;
+	}
+
+}
+
 .subPageHeaderBackground {
 	background-color: #fff;
 }
@@ -40,6 +48,28 @@
 		"f f f f f f f f f f f f";
 }
 
+@media only screen and (max-width: 1070px) {
+
+	.container {					// Set up the container for the site content
+		grid-template-rows: 80px 811px auto auto;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+
+	.container {
+		grid-column-gap: 0px;
+		grid-template-columns: 1;
+		grid-template-rows: 80px auto auto auto auto;
+		grid-template-areas: 
+			"h h h h h h h h h h h h"
+			"i i i i i i i i i i i i"
+			"p p p p p p p p p p p p"
+			"c c c c c c c c c c c c"
+			"f f f f f f f f f f f f";
+	}
+}
+
 .page {
 	margin-top: 30px;
 	margin-bottom: 70px;
@@ -55,28 +85,6 @@
 	}
 	
 } 
-
-@media only screen and (max-width: 1070px) {
-
-	.container {					// Set up the container for the site content
-		grid-template-rows: 115px 811px auto auto;
-	}
-}
-
-@media only screen and (max-width: 992px) {
-
-	.container {
-		grid-column-gap: 0px;
-		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
-		grid-template-areas: 
-			"h h h h h h h h h h h h"
-			"i i i i i i i i i i i i"
-			"p p p p p p p p p p p p"
-			"c c c c c c c c c c c c"
-			"f f f f f f f f f f f f";
-	}
-}
 
 header {
 	grid-area: h;
@@ -96,12 +104,13 @@ header {
 	white-space: nowrap;
 	display: flex;
 	font-weight: bold;
-	padding-bottom: 0px;
+	margin-left: 15px;
 }
 
 @media only screen and (max-width: 768px) {
 
 	.logo {
+		height: 80px;
 		margin-right: 0px;
 	}
 
@@ -116,9 +125,20 @@ header {
 	height: 50px;
 	-webkit-clip-path: url(#shape);
 	clip-path: url(#shape);
-	margin-right: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+
+	.divider {
+		position: relative;
+		min-width: 1px;
+		max-width: 1px;
+		background-color:rgba(#ffffff, 0.1);
+		display: inline-block;
+		margin-left: 15px;
+	}	
+	
+} 
 
 
 // Navigation Links
@@ -127,7 +147,7 @@ header {
 	width: 100%;
 	align-items: center;
 	justify-content: flex-end;
-
+	
 	margin-left: 15px;
 	height: 115px;
 
@@ -141,6 +161,7 @@ header {
 @media only screen and (max-width: 768px) {
 
 	.scroll {
+		height: 80px;
 		justify-content: flex-start;
 	}	
 	
@@ -160,6 +181,14 @@ nav > ul {
 
 nav > ul li {
 	padding-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	nav > ul li {
+		padding-left: 20px;
+	}
+
 }
 
 nav > ul li:first-child {
