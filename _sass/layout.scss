@@ -84,10 +84,10 @@ header {
 }
 
 .scroll {
-	white-space: nowrap; /* [1] */
-	overflow-x: auto; /* [2] */
-	-webkit-overflow-scrolling: touch; /* [3] */
-	-ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */
+	white-space: nowrap;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .scroll::-webkit-scrollbar {
