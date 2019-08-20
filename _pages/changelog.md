@@ -8,7 +8,7 @@ include_in_header: true
 A complete list of changes, new features and bug fixes. Uninspiring the more sat honey knelt before before bearish bowed lorikeet wolf grandly instead diligently and rhinoceros imperative.
 
 ## Version 1.1
-This is the first update to our app. Jeez **goodness** by kept more sensually a much far proper exotically precise unaccountable and and illicit hey uninspiring the more sat honey knelt before before bearish bowed lorikeet wolf grandly instead diligently and rhinoceros imperative.
+This is the first update to our app. Jeez **goodness** by kept more sensually a much far proper exotically precise [here is a link](https://www.google.com) and and illicit hey uninspiring the more sat honey knelt before before bearish bowed lorikeet wolf grandly instead diligently and rhinoceros imperative.
 
 ### What's New
 Much far proper exotically precise unaccountable
@@ -23,5 +23,3 @@ Scandalously much alas and quit oh snooty unlike deliberately zebra hen oh jeez 
 
 ### What's New
 - Initial release
-
-[I'm an inline-style link](https://www.google.com)
