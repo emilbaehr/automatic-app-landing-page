@@ -44,7 +44,9 @@ a:active {
 }
 
 // Shadows
-$drop-shadow: drop-shadow(0px 5px 10px rgba(#000, 0.1)) drop-shadow(0px 1px 1px rgba(#000, 0.2));
+$drop-shadow: 	drop-shadow(0px 5px 10px rgba(#000, 0.1)) 
+				drop-shadow(0px 1px 1px rgba(#000, 0.2)
+				);
 
 // Various resets
 *,
