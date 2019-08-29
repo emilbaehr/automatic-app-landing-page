@@ -53,7 +53,7 @@
 
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 768px) {
 
 	.container {					// Set up the container for the site content
 		grid-template-rows: 80px 811px auto auto;
@@ -65,7 +65,7 @@
 	.container {
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
-		grid-template-rows: 80px auto auto auto auto;
+		grid-template-rows: 115px auto auto auto auto;
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
@@ -94,6 +94,9 @@
 header {
 	grid-area: h;
 	display: flex;
+	overflow-y: hidden;
+	overflow-x: visible;
+	margin-right: -15px;
 }
 
 .logo {
@@ -153,8 +156,8 @@ header {
 	align-items: center;
 	justify-content: flex-end;
 
-	margin-left: 15px;
 	height: 115px;
+	//margin-left: 15px;
 
 	white-space: nowrap;
 	overflow-x: auto;
@@ -167,6 +170,9 @@ header {
 
 	.scroll {
 		height: 80px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		margin-top: -60px;
 		justify-content: flex-start;
 	}	
 	
@@ -198,6 +204,11 @@ nav > ul li {
 
 nav > ul li:first-child {
 	padding-left: 0px;
+	padding-left: 15px;
+}
+
+nav > ul li:last-child {
+	padding-right: 15px;
 }
 
 nav > ul li a:link,
