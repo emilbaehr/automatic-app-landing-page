@@ -20,6 +20,18 @@
 	background-color: rgba($header-color, $header-transparency);
 }
 
+@media only screen and (max-width: 768px) {
+
+	.headerBackground {
+		height: 80px;
+	}
+
+}
+
+.subPageHeaderBackground {
+	background-color: #fff;
+}
+
 .container {					// Set up the container for the site content
 	display: grid;
 	margin: auto;
@@ -36,10 +48,15 @@
 		"f f f f f f f f f f f f";
 }
 
-@media only screen and (max-width: 1070px) {
+.subPageContainer {
+	grid-template-rows: 115px auto auto auto;
+	background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
 
 	.container {					// Set up the container for the site content
-		grid-template-rows: 115px 811px auto auto;
+		grid-template-rows: 80px 811px auto auto;
 	}
 }
 
@@ -58,58 +75,138 @@
 	}
 }
 
+.page {
+	margin-top: 30px;
+	margin-bottom: 70px;
+	grid-column: 3/11;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.page {
+		margin-top: 30px;
+		margin-bottom: 70px;
+		grid-column: 1/-1;
+	}
+	
+} 
+
 header {
 	grid-area: h;
 	display: flex;
+	margin-right: -15px;
 }
 
 .logo {
 	display: flex;
-	width: 100%;
 	justify-content: flex-start;
 	align-items: center;
 	height: 115px;
+	margin-right: 30px;
 }
 
 .logo > p {
 	color: $header-title-color;
+	white-space: nowrap;
 	display: flex;
 	font-weight: bold;
-	padding-bottom: 1px;
+	margin-left: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+
+	.logo {
+		height: 80px;
+		margin-right: 0px;
+	}
+
+	.logo > p {
+		display: none;
+	}
+	
+} 
 
 .headerIcon {
 	width: 50px;
 	height: 50px;
 	-webkit-clip-path: url(#shape);
 	clip-path: url(#shape);
-	margin-right: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+
+	.divider {
+		position: relative;
+		min-width: 1px;
+		max-width: 1px;
+		background-color:rgba(127, 127, 127, 0.2);
+		display: inline-block;
+		margin-left: 15px;
+	}	
+	
+} 
 
 
 // Navigation Links
-nav {
-	width: 100%;
+.scroll {
 	display: flex;
-	justify-content: flex-end;
+	width: 100%;
 	align-items: center;
+	justify-content: flex-end;
+
 	height: 115px;
+	//margin-left: 15px;
+
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
+
+@media only screen and (max-width: 768px) {
+
+	.scroll {
+		height: 80px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		margin-top: -60px;
+		justify-content: flex-start;
+	}	
+	
+} 
+
+.scroll::-webkit-scrollbar {
+	display: none;
+}
+
 
 nav > ul {
 	color: #fff;
 	display: flex;
 	list-style-type: none;
+
 }
 
 nav > ul li {
-	padding-left: 50px;
-	text-align: right;
+	padding-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	nav > ul li {
+		padding-left: 20px;
+	}
+
 }
 
 nav > ul li:first-child {
 	padding-left: 0px;
+	padding-left: 15px;
+}
+
+nav > ul li:last-child {
+	padding-right: 15px;
 }
 
 nav > ul li a:link,
@@ -122,6 +219,23 @@ nav > ul li a:hover,
 nav > ul li a:active {
 	text-decoration: none;
 	color: rgba($header-title-color, 1);
+}
+
+
+
+// Sub Page Header Styling
+.subPageHeaderBackground .logo > p {
+	color: #000;
+}
+
+.subPageHeaderBackground nav > ul li a:link,
+.subPageHeaderBackground nav > ul li a:visited {
+	color: rgba(#000, 0.6);
+}
+
+.subPageHeaderBackground nav > ul li a:hover,
+.subPageHeaderBackground nav > ul li a:active {
+	color: rgba(#000, 1);
 }
 
 
@@ -451,6 +565,41 @@ nav > ul li a:active {
 		padding-left: 15px;
 	}
 	
+}
+
+@media only screen and (max-width: 375px) {
+
+	.features {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 11px;
+	}
+
+	.feature {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+
+	.feature:nth-child(-n+3) {
+		padding-top: 41px;   
+	}
+
+	.feature:nth-child(1) {
+		padding-top: 0px;   
+	}
+
+	.feature:nth-child(3n) {
+		padding-right: 0px;
+	}
+	
+	.feature:nth-child(3n+1) {
+		padding-left: 0px;
+	}
+	
 } 
 
 
@@ -462,7 +611,6 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-content: center;
 }
 
 .footerText {
@@ -478,6 +626,41 @@ footer {
 .footerIcons {
 	padding-bottom: 70px;
 	display: flex;
+	flex: 0 0 100%;
+	justify-content: center;
+}
+
+.footerLinks {
+	display: flex;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.footerLinks a {
+	margin-right: 30px;
+}
+
+.footerLinks a:last-child {
+	margin-right: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.footerLinks {
+		flex-direction: column;
+	}
+
+	.footerLinks a {
+		justify-content: stretch;
+		margin-right: 0px;
+		margin-top: 20px;
+	}
+
+	.footerLinks a:first-child {
+		margin-top: 0px;
+	}	
+
 }
 
 @media only screen and (max-width: 992px) {
