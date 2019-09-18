@@ -6,7 +6,7 @@ ios_app_id                                : 1143341899                          
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : #https://emilbaehr.com                     # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -19,14 +19,14 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Guille Garcia                                
-your_link                                 : https://emilbaehr.com                     
+your_name                                 : #Guille                                
+your_link                                 : #https://emilbaehr.com                     
 your_city                                 : 🗼 Tokyo                                
-email_address                             : emil.baehr@gmail.com
+email_address                             : #emil.baehr@gmail.com
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : #ebaehr
+twitter_username                          : #ebaehr
+github_username                           : #emilbaehr
 youtube_username                          :
 
 
@@ -34,7 +34,7 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
+  # - title                                 : GitHub Pages Jekyll Theme
     description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
     fontawesome_icon_name                 : magic
     
