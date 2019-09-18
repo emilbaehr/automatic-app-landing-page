@@ -1,5 +1,5 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                :  Videos should be interactive             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1143341899                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -93,7 +93,7 @@ link_color                                : "#1d63ea"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
-app_description_color                     : "#FFC80A"
+app_description_color                     : "#FC544E"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
