@@ -19,9 +19,9 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Guille                                
+your_name                                 : Marta & Guille with 💕                              
 your_link                                 : #https://emilbaehr.com                     
-your_city                                 : 🗼 Tokyo                                
+your_city                                 : 🗼Tokyo                                
 email_address                             : #emil.baehr@gmail.com
 facebook_username                         :                                           
 instagram_username                        : #ebaehr
@@ -104,7 +104,7 @@ feature_icons_background_color            : "#e6e6e6"
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
-footer_text_color                         : "#666666"
+footer_text_color                         : "#ffffff"
 
 
 
