@@ -1,4 +1,3 @@
-
 <header>
 	<div class="logo">
 		<div class="appIconShadow">
@@ -9,14 +8,24 @@
 					</clipPath>
 				</defs>
 			</svg>
-			<img class="headerIcon" src="{{ site.app_icon }}">
+			{% if page.url != '/' %}
+				<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon }}"></a>
+			{% else %}
+				<img class="headerIcon" src="{{ site.app_icon }}">
+			{% endif %}
+			<div class="divider"></div>
 		</div>
 		<p class="headerName">{{ site.app_name }}</p>
 	</div>
-	<nav>
+	<nav class="scroll">
 		<ul>
+			{% for page in site.pages %}
+				{% if page.include_in_header == true %}
+				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
+				{% endif %}
+			{% endfor %}
 			{% if site.presskit_download_link %}
-			<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
+				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
 			{% endif %}
 		</ul>
 	</nav>
