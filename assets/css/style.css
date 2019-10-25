@@ -274,10 +274,16 @@
   max-height: 80px;
 }
 
+/* Add background here  */
+
 #public-landing-page .hero {
-  color: white;
-  background: #666;
+	color: white;
+	background-image: url(../img/headerimage.jpg);
+	background-size: cover;
+	background-position: center center;
 }
+/* Add background here  */
+
 #public-landing-page.full-screen .hero {
   padding: 0 0 87px 0;
   position: absolute;
@@ -1473,7 +1479,7 @@
     #public-landing-page .store-badge-white-text,
     #public-landing-page.template-1color .hero,
     #public-landing-page.template-2color .hero {
-      background: #FC195C;
+      
     }
     #public-landing-page.template-5 .hero h2,
     #public-landing-page.template-6 .hero h1,
