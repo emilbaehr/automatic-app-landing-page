@@ -44,7 +44,7 @@
 
 .phone-preview {
 	grid-area: p;
-	background-image: url("../img/devices/yellow.png");
+	background-image: url("../img/coral.png");
 	background-size: 400px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
@@ -137,7 +137,7 @@
     
  .phone-preview {
 	grid-area: p;
-	background-image: url("../img/devices/yellow.png");
+	background-image: url("../img/coral.png");
 	background-size: 370px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
@@ -154,7 +154,7 @@
     
     .phone-preview {
 	grid-area: p;
-	background-image: url("../img/devices/yellow.png");
+	background-image: url("../img/coral.png");
 	background-size: 332px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
@@ -278,7 +278,7 @@
 
 #public-landing-page .hero {
 	color: white;
-	background-image: url(../img/headerimage.jpg);
+	/*background-image: url(../img/headerimage.jpg);*/
 	background-size: cover;
 	background-position: center center;
 }
