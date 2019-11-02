@@ -117,32 +117,68 @@
     height: 17px;
   }
 
+.site-logo a img {
+	max-width: 85px;
+	margin-bottom: 33px;
+}
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+.videoContainer {
+	width: 262px;
+	height: 572px;
+	-webkit-clip-path: url(#screenMask);
+	clip-path: url(#screenMask);
+	margin-left: -145px;
+	margin-top: 23px;
+	display: inline-block;
+}
+.videoContainer > video {
+	width: 262px;
+	height: 569px;
+} 
+.phone-preview {
+	grid-area: p;
+	background-image: url("../img/devices/white.png");
+	background-size: 308px auto;
+	background-repeat: no-repeat;
+	margin-top: 68px;
+	height: 641px;
+}
+    
+
+
+}
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 
 .videoContainer {
-	width: 322px;
-	height: 698px;
+	width: 262px;
+	height: 572px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: -84px;
-	margin-top: 20px;
+	margin-left: -145px;
+	margin-top: 23px;
 	display: inline-block;
 }
- .videoContainer > video {
-	width: 322px;
-	height: 698px;
-}
-    
- .phone-preview {
+.videoContainer > video {
+	width: 262px;
+	height: 569px;
+} 
+.phone-preview {
 	grid-area: p;
 	background-image: url("../img/devices/white.png");
-	background-size: 370px auto;
+	background-size: 308px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
-	height: 800px;
-}   
+	height: 641px;
+}
+    
     
     
 
@@ -151,34 +187,51 @@
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
-    
-    .phone-preview {
-	grid-area: p;
-	background-image: url("../img/devices/white.png");
-	background-size: 332px auto;
-	background-repeat: no-repeat;
-	margin-top: 68px;
-	height: 800px;
+    #public-landing-page.template-1 .hero h1, #public-landing-page.template-1color .hero h1 {
+	
+	font-size: 44px !important;
+
+}
+  .hero {
+	padding-top: 150px !important;
+}
+
+.phone-preview {
+	
+	background-size: 260px auto;
+	
+	height: 539px;
 }
 .videoContainer {
-	width: 290px;
-	height: 600px;
+	width: 226px;
+	height: 488px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: -10px;
-	margin-top: 20px;
+	margin-left: 0;
+	margin-top: 16px;
 	display: inline-block;
+} 
+    
+ .videoContainer > video {
+	width: 226px;
+	height: 488px;
 }
-.videoContainer > video {
-	width: 290px;
-	height: 622px;
-}   
+.phone-preview {
+	width: 260px;
+	margin: 0 auto;
+}
+      
 }
 
 
 /* SM Small Device :320px. */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-
+    
+.site-logo a img {
+	max-width: 53px;
+	margin-bottom: 16px;
+	margin-top: 9px;
+}
 .phone-preview {
 	
 	background-size: 260px auto;
