@@ -68,7 +68,7 @@ features                                  :
 
   - title                                 : FontAwesome Support
     description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : amazon-pay
+    fontawesome_icon_name                 : Store
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
