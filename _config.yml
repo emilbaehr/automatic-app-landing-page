@@ -12,7 +12,7 @@ presskit_download_link                    : https://airtable.com/shrg1VfLskzn81L
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : !!!!.
+app_description                           : Description goes here.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -68,7 +68,7 @@ features                                  :
 
   - title                                 : FontAwesome Support
     description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+    fontawesome_icon_name                 : amazon-pay
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
@@ -82,10 +82,10 @@ topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/sunset.jpg                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#ffffff"
-cover_overlay_transparency                : 100
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
 
-device_color                              : white                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
