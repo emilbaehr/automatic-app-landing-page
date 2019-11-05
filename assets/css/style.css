@@ -54,6 +54,7 @@
 .videoContainer > video {
 	width: 349px;
 	height: 755px;
+  object-fit: cover;
 }
 
 .videoContainer {
