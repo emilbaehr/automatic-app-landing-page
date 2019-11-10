@@ -101,7 +101,7 @@ I'd love to see the sites you create using this little tool.
 
 ## Credits
 - [Jekyll](https://github.com/jekyll/jekyll)
-- [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
+- [FontAwesome](https://fontawesome.github.io/Font-Awesome/)
 
 ## Donations
 [Donations are welcome](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=S8ZZT3JXJPN92&currency_code=USD&source=url)
