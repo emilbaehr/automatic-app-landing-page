@@ -52,14 +52,14 @@
 }
 
 .videoContainer > video {
-	width: 349px;
-	height: 755px;
+	width: 405px;
+	height: 720px;
   object-fit: cover;
 }
 
 .videoContainer {
-	width: 349px;
-	height: 755px;
+	width: 405px;
+	height: 720px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: -58px;
