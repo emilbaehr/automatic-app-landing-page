@@ -7,7 +7,6 @@ window.addEventListener('load', function() {
 
 
 
-
 //------------------------------------------------------------------------------------
 //						CONTACT FORM VALIDATION'S SETTINGS
 //------------------------------------------------------------------------------------
@@ -82,11 +81,11 @@ $('#subscribe-text-field-form').submit(function () {
             contentType: false,
             processData: false,
             success: function () {
-                $('#subscribe-text-field-form').find('[type=submit]').button('complete');
-            },
+	$('#subscribe-text-field-form').find('[type=submit]').button('complete');
+},
             error: function () {
-                $('#subscribe-text-field-form').find('[type=submit]').button('reset');
-            }
+	$('#subscribe-text-field-form').find('[type=submit]').button('reset');
+}
         });
     } else {
         //if data was invalidated

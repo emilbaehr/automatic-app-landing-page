@@ -1,17 +1,7 @@
 
 #header-breadcrump .bg-wrap {}#benefits-3col-6 .bg-wrap{
     background: #F4F5F6;
-}#sep-bottom-8 .bg-wrap {
-    background-color: rgba(255, 255, 255, 0);
-}
-
-#sep-bottom-8 .bg {
-    background-image: url('../images/bg-paint-bottom.png');
-    background-repeat: repeat-x;
-    background-position: center bottom;
-    background-size: auto 50px;
-}
-#subscribe-text-field .bg-wrap {
+}#subscribe-text-field .bg-wrap {
     background-color: #f4f5f6;
 }#sep-bottom-2 .bg-wrap {
     background-color: rgba(255, 255, 255, 0);

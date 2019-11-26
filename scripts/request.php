@@ -17,7 +17,7 @@ if($_POST['id'] === "subscribe-text-field-form") {
 	}
 
 	$apiKey = 'e32795cd0ab8e36f2207286bc349d256-us13';
-    $listId = '';
+    $listId = '4a5463144e';
 
     $memberId = md5(strtolower($email));
     $dataCenter = substr($apiKey,strpos($apiKey,'-')+1);
