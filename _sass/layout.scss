@@ -43,7 +43,7 @@
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
-		"p p p p p p i i i i i i"
+		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -418,6 +418,7 @@ nav > ul li a:active {
 	background-repeat: no-repeat;
 	margin-top: 520px;
 	margin-left: 270px;
+	margin-right: -90px;
 	margin-bottom: -20px;
 }
 
@@ -501,7 +502,7 @@ nav > ul li a:active {
 		display: flex;
 		background-size: 142px auto;
 		background-position: center 0;
-		margin-left: 200px;	
+		margin-left: 150px;	
 		margin-top: 350px;
 		justify-content: center;
 		padding-bottom: 75px;
@@ -509,8 +510,8 @@ nav > ul li a:active {
 
 	.watchScreen {
 		width: 105px;
-		height: 130px;				
-		margin-right: 25px;
+		height: 130px;
+		margin-left: 0px;				
 		margin-top: 60px;
 	} 
 } 
