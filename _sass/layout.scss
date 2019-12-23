@@ -412,9 +412,8 @@ nav > ul li a:active {
 
 .watchPreview {
 	grid-area: p;
-	background-image: url($watch-color);
-	-webkit-clip-path: url(#watchScreenMask);
-	clip-path: url(#watchScreenMask);	
+	background-image: url($watch-color);		
+	position: relative;
 	background-size: 220px auto;
 	background-repeat: no-repeat;
 	margin-top: 520px;
@@ -427,7 +426,6 @@ nav > ul li a:active {
 	margin-left: 25px;
 	margin-top: 92px;
 	-webkit-clip-path: inset(0% round 20px);
-  	clip-path: inset(round 10px);
 }
 
 @media only screen and (max-width: 1070px) {
