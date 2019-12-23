@@ -497,21 +497,22 @@ nav > ul li a:active {
 		width: 226px;
 		height: 488px;
 	}
-
+	
 	.watchPreview {
 		display: flex;
 		background-size: 142px auto;
 		background-position: center 0;
-		margin-left: 150px;	
+		margin-left: 145px;
+		margin-right: 5px;
 		margin-top: 350px;
 		justify-content: center;
-		padding-bottom: 75px;
+		padding-bottom: 75px;	
 	}
 
 	.watchScreen {
 		width: 105px;
 		height: 130px;
-		margin-left: 0px;				
+		margin-right: 25px;				
 		margin-top: 60px;
 	} 
 } 
