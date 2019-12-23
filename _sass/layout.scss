@@ -420,8 +420,8 @@ nav > ul li a:active {
 
 .watchScreen {
 	width: 349px;
-	-webkit-clip-path: url(#screenMask);
-	clip-path: url(#screenMask);
+	-webkit-clip-path: url(#watchScreenMask);
+	clip-path: url(#watchScreenMask);
 	margin-left: 26px;
 	margin-top: 23px;
 }
@@ -505,8 +505,8 @@ nav > ul li a:active {
 	.watchScreen {
 		width: 88px;
 		height: 104px;
-		-webkit-clip-path: url(#screenMask);
-		clip-path: url(#screenMask);
+		-webkit-clip-path: url(#watchScreenMask);
+		clip-path: url(#watchScreenMask);
 		margin: 0px;
 		margin-top: 17px;
 	}	
