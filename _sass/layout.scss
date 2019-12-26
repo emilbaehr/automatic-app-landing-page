@@ -412,7 +412,7 @@ nav > ul li a:active {
 
 .watchPreview {
 	grid-area: p;
-	background-image: url($watch-color);		
+	background-image: url($watch-color);
 	position: relative;
 	background-size: 220px auto;
 	background-repeat: no-repeat;
@@ -426,7 +426,7 @@ nav > ul li a:active {
 	width: 165px;	
 	margin-left: 25px;
 	margin-top: 92px;
-	-webkit-clip-path: inset(0% round 20px);
+	border-radius: 20px;
 }
 
 @media only screen and (max-width: 1070px) {
