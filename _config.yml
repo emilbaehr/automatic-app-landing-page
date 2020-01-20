@@ -1,18 +1,18 @@
 #page title
-page_title                                : Title here...                                        # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : happyzo                                       # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             : https://apple.com                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            : https://google.com                                          # Enter Google Play Store URL.
-presskit_download_link                    : https://airtable.com/shrg1VfLskzn81LAy                                         # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+Get Started_download_link                    : https://airtable.com/shrg1VfLskzn81LAy                                         # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Description goes here.
+app_description                           : Description go dfgzkyuhenf,h fevyehrbjkefgbekarhes here.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
