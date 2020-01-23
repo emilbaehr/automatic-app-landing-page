@@ -12,7 +12,7 @@ playstore_link                            : https://google.com                  
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Earn Money Selling Store's Owner Products to People you care about. <!-- **Find out what you could earn:**
+app_description                           : Earn Money Selling Store's Owner Products to People you care about. Find out what you could earn
 
 enable_smart_app_banner                   : true                                     # Set to true to show a smart app banner at top of page on mobile devices.
 
