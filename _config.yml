@@ -39,12 +39,12 @@ features                                  :
 
 # Theme Settings
 topbar_color                              : "#3d95ce"
-topbar_transparency                       : 1
+topbar_transparency                       : 0
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerBack.jpg                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#3d95ce"
-cover_overlay_transparency                : 0
+cover_overlay_transparency                : 3
 
 device_color                              : white                                     # Set to: blue, black, yellow, coral or white.
 
