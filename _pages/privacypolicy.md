@@ -14,9 +14,9 @@ Introduction
 
 Welcome to flopsell.com
 
-flopsell.com (“us”, “we”, or “our”) operates floppsell mobile application (hereinafter referred to as “Service”).
+flosell.com (“us”, “we”, or “our”) operates flosell mobile application (hereinafter referred to as “Service”).
 
-Our Privacy Policy governs your visit to floppsell mobile application, and explains how we collect, safeguard and disclose information that results from your use of our Service.
+Our Privacy Policy governs your visit to flosell mobile application, and explains how we collect, safeguard and disclose information that results from your use of our Service.
 
 We use your data to provide and improve Service. By using Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
 
@@ -24,7 +24,7 @@ Our Terms and Conditions (“Terms”) govern all use of our Service and togethe
 
 Definitions
 
-SERVICE means the floppsell mobile application operated by flopsell.com
+SERVICE means the flosell mobile application operated by flopsell.com
 
 PERSONAL DATA means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).
 
@@ -224,11 +224,6 @@ Pinterest remarketing service is provided by Pinterest Inc.
 
 You can opt-out from Pinterest's interest-based ads by enabling the “Do Not Track” functionality of your web browser or by following Pinterest instructions: http://help.pinterest.com/en/articles/personalization-and-data
 
-You can learn more about the privacy practices and policies of Pinterest by visiting their Privacy Policy page: https://about.pinterest.com/en/privacy-policy
-
-
-Links to Other Sites
-
 Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
 
 We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
@@ -251,9 +246,9 @@ Contact Us
 
 If you have any questions about this Privacy Policy, please contact us:
 
-By email: customers@flopsell.com.
+By email: customers@flosell.com.
 
-By visiting this page on our website: https://flopsell.com/privacypolicy.
+By visiting this page on our website: https://flosell.com/privacypolicy.
 
 By phone number: [●].
 
