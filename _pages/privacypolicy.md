@@ -12,7 +12,7 @@ PRIVACY POLICY
 
 Introduction
 
-Welcome to flopsell.com
+Welcome to flosell.com
 
 flosell.com (“us”, “we”, or “our”) operates flosell mobile application (hereinafter referred to as “Service”).
 
