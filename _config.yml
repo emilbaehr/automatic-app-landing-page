@@ -39,7 +39,7 @@ features                                  :
 
 # Theme Settings
 topbar_color                              : "#3d95ce"
-topbar_transparency                       : 0
+topbar_transparency                       : 1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerBack.jpg                    # Replace with alternative image path or image URL.
