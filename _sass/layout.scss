@@ -524,6 +524,12 @@ nav > ul li a:active {
 	margin-left: 18px;
 }
 
+.featureImage {
+	display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
 .featureText > h3 {
 	color: $feature-title-color;
 }

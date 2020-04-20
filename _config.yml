@@ -39,6 +39,8 @@ features                                  :
     description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
     fontawesome_icon_name                 : magic
     
+  - image                                 : assets/appicon.png
+
   - title                                 : iPhone Device Preview
     description                           : Preview your app in the context of an iPhone device. Five different device colors included.
     fontawesome_icon_name                 : mobile

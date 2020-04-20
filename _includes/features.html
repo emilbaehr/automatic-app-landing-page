@@ -21,6 +21,12 @@
     </div>
     {% endif %}
 
+    {% if feature.image %}
+    <div class="feature">
+        <img class="featureImage" src="{{ feature.image }}">
+    </div>
+    {% endif %}
+
     {% endfor %}
 
 </div>
