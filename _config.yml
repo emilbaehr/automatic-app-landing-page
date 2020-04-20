@@ -10,7 +10,7 @@ presskit_download_link                    : # https://emilbaehr.com             
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_icon_white                            : assets/appiconwhite.png                      
+app_icon_white                            : assets/appiconblack.png                      
 app_name                                  : Flinker                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Well begun is half done.
@@ -78,13 +78,13 @@ features                                  :
 
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.5
-topbar_title_color                        : "#ffffff"
+topbar_color                              : "#ffffff"
+topbar_transparency                       : 1
+topbar_title_color                        : "#000000"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image                               :  # assets/headerimage.jpg                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#000000"
+cover_overlay_transparency                : 0.02
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
@@ -92,9 +92,9 @@ body_background_color                     : "#ffffff"
 
 link_color                                : "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color                           : "#000000"
+app_price_color                           : "#000000"
+app_description_color                     : "#000000"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"

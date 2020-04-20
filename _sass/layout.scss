@@ -16,7 +16,7 @@
 }
 
 .headerBackground {
-	height: 115px;
+	height: 80px;
 	background-color: rgba($header-color, $header-transparency);
 }
 
@@ -101,7 +101,7 @@ header {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	height: 115px;
+	height: 80px;
 	margin-right: 30px;
 }
 
@@ -127,8 +127,8 @@ header {
 } 
 
 .headerIcon {
-	width: 50px;
-	height: 50px;
+	width: 24px;
+	height: 24px;
 	-webkit-clip-path: url(#shape);
 	clip-path: url(#shape);
 }
@@ -154,7 +154,7 @@ header {
 	align-items: center;
 	justify-content: flex-end;
 
-	height: 115px;
+	height: 80px;
 	//margin-left: 15px;
 
 	white-space: nowrap;
@@ -282,6 +282,7 @@ nav > ul li a:active {
 
 .appName {
 	color: $app-title-color;
+	font-size: 3em;
 }
 
 .appPrice {
