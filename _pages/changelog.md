@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What's New
+title: Über uns
 include_in_header: true
 ---
 

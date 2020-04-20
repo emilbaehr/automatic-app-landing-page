@@ -83,8 +83,8 @@ topbar_transparency                       : 1
 topbar_title_color                        : "#000000"
 
 cover_image                               :  # assets/headerimage.jpg                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#000000"
-cover_overlay_transparency                : 0.02
+cover_overlay_color                       : "#ffffff"
+cover_overlay_transparency                : 1
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
