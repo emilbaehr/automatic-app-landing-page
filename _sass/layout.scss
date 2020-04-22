@@ -246,7 +246,7 @@ nav > ul li a:active {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 140px;
+	padding-top: 160px;
 	align-content: flex-start;
 }
 
@@ -324,12 +324,16 @@ nav > ul li a:active {
 
 .appDescription {
 	color: $app-description-color;
+	font-weight: lighter;
+	max-width: 350px;
 }
 
 @media only screen and (max-width: 992px) {
 
 	.appDescription {
 		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 } 
@@ -372,7 +376,6 @@ nav > ul li a:active {
 } 
 
 .appStore {
-	visibility: hidden;
 	height: 75px;
 }
 
@@ -489,18 +492,18 @@ nav > ul li a:active {
 	padding-top: 63px;
 	padding-left: 15px;
 	padding-right: 15px;
-	width: calc(100%/3);
+	width: calc(100%/2);
 }
 
-.feature:nth-child(-n+3) {
+.feature:nth-child(-n+2) {
     padding-top: 0px;   
 }
 
-.feature:nth-child(3n) {
+.feature:nth-child(2n) {
 	padding-right: 0px;
 }
 
-.feature:nth-child(3n+1) {
+.feature:nth-child(2n+1) {
 	padding-left: 0px;
 }
 
@@ -527,7 +530,7 @@ nav > ul li a:active {
 .featureImage {
 	display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 100%;
 }
 
 .featureText > h3 {

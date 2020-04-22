@@ -45,6 +45,8 @@ features                                  :
     description                           : Preview your app in the context of an iPhone device. Five different device colors included.
     fontawesome_icon_name                 : mobile
 
+  - image                                 : assets/stacks.gif
+
   - title                                 : Video Support
     description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
     fontawesome_icon_name                 : play-circle
@@ -96,7 +98,7 @@ link_color                                : "#1d63ea"
 
 app_title_color                           : "#000000"
 app_price_color                           : "#000000"
-app_description_color                     : "#848484"
+app_description_color                     : "#000000"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
