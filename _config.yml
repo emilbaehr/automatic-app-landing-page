@@ -13,7 +13,7 @@ app_icon                                  : assets/appicon.png                  
 app_icon_white                            : assets/appiconblack.png                      
 app_name                                  : Flinker                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Well begun is half done.                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Organisiere schnell und einfach deine Aktivitäten.
+app_description                           : Prozesse und Aktivitäten einfach und schnell organisieren.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -96,7 +96,7 @@ link_color                                : "#1d63ea"
 
 app_title_color                           : "#000000"
 app_price_color                           : "#000000"
-app_description_color                     : "#000000"
+app_description_color                     : "#848484"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
