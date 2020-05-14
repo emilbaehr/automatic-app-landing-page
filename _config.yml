@@ -84,15 +84,15 @@ body_background_color                     : "#ffffff"
 
 link_color                                : "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color                           : "#003049"
+app_price_color                           : "#003049"
+app_description_color                     : "#003049"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#FCBF49"
+feature_icons_background_color            : "#003049"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
