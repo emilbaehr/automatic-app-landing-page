@@ -59,7 +59,7 @@ body_background_color                     : "#FCFCFC"
 
 link_color                                : "#003049"
 
-app_title_color                           : "#003049"
+app_title_color                           : "#4D4D4D"
 app_price_color                           : "#003049"
 app_description_color                     : "#003049"
 
@@ -72,7 +72,7 @@ feature_icons_background_color            : "#F5F5F5"
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
-footer_text_color                         : "#666666"
+footer_text_color                         : "#4D4D4D"
 
 
 
