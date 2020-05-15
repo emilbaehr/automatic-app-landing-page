@@ -74,19 +74,19 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/appbanner_mustard.png                   # Replace with alternative image path or image URL.
+cover_image                               : assets/appbanner.png                   # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#003049"
 cover_overlay_transparency                : 0
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#ffffff"
+body_background_color                     : "#FCFCFC"
 
 link_color                                : "#1d63ea"
 
-app_title_color                           : "#003049"
-app_price_color                           : "#003049"
-app_description_color                     : "#003049"
+app_title_color                           : "FCBF49"
+app_price_color                           : "#FCBF49"
+app_description_color                     : "#FCBF49"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
