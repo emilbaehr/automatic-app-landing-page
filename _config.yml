@@ -27,9 +27,9 @@ your_city                                 : Minneapolis
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : bicycle
+  - title                                 : Create a Ride
+    description                           : Create a Ride by selecting your interests as well as how much time and distance you want to cover.
+    fontawesome_icon_name                 : route
     
   - title                                 : iPhone Device Preview
     description                           : Preview your app in the context of an iPhone device. Five different device colors included.
