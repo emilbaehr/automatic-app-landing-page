@@ -13,7 +13,6 @@ app_icon                                  : assets/appicon-ba.png               
 app_name                                  : Bike Around                                # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Bike Around lets you create a ride in your area based on the time you have, the distance you want to cover, and the kinds of locations you want to visit.
-
 enable_smart_app_banner                   : True                                     # Set to true to show a smart app banner at top of page on mobile devices.
 
 
