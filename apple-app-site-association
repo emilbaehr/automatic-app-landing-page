@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "BBU43KLCES.com.joekw.gametrack",
+      "paths": ["*"]
+    }
+    ]
+  }
+}
