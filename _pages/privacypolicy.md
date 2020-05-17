@@ -12,7 +12,7 @@ May 17th, 2020
 
 <br>
 
-## 1.0 App Analytics
+## App Analytics
 We use App Store Connect, Google Firebase, and RevenueCat to help improve the app. Each provides us with anonymized and generic usage and/or transaction data that we use to inform our product decisions and understand how people are using GameTrack.
 
 <br>
