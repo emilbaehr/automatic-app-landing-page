@@ -27,11 +27,11 @@ your_city                                 : Minneapolis
 features                                  :
 
   - title                                 : Create a Ride
-    description                           : Create a Ride by selecting your interests as well as how much time and distance you want to cover.
+    description                           : Select your interests as well as how much time and distance you want to cover and you’re good to go!
     fontawesome_icon_name                 : route
     
-  - title                                 : Start a Ride
-    description                           : Once you approach a location, Bike around will automatically mark the location visited.
+  - title                                 : On Your Ride
+    description                           : Once you approach a set location, Bike around will automatically mark that location as visited.
     fontawesome_icon_name                 : bicycle
 
   - title                                 : Ride with Friends
