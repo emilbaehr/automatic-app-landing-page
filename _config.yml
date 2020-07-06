@@ -9,10 +9,10 @@ playstore_link                            :                                     
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon                                  : assets/gametrack-icon-main.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Track your video game backlog, archive & wish list.
+app_description                           : Making managing your games collection easy and enjoyable.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -34,41 +34,41 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Add Any Game Ever
-    description                           : Search for any game you like using the IGDB and access all of it's related information, such as Genre, Developer, Screenshots, etc.
+  - title                                 : Gaming Collections
+    description                           : Keep track of your video game backlog, archive and wish list with beautiful poster and banner images.
     fontawesome_icon_name                 : gamepad
     
-  - title                                 : Track Progress
-    description                           : Keep track of all your games and your progress through them.
-    fontawesome_icon_name                 : spinner
+  - title                                 : Share Your Gaming Life
+    description                           : Post updates to your feed when you start, finish, or wish for a game and search for your friends lists.
+    fontawesome_icon_name                 : share
 
-  - title                                 : Theme Support
-    description                           : Switch between dark, light and true black modes and multiple colour themes.
-    fontawesome_icon_name                 : adjust
+  - title                                 : Add Any Game
+    description                           : Using the IGDB.com database, search for any game on any platform to add to your lists.
+    fontawesome_icon_name                 : plus
 
-  - title                                 : Quick Actions
-    description                           : Use the Swipe Menu or 3D Touch on the images to access quick actions such as rating or changing status.
-    fontawesome_icon_name                 : sync
-
-  - title                                 : Custom Images
-    description                           : Customise your lists using banner and poster images from your own photo library.
-    fontawesome_icon_name                 : images
-  
-  - title                                 : Automatic Game of the Year Lists
-    description                           : Rate your completed games and access an automated list of your top rated games for each year.
+  - title                                 : Rate Games & Track Progress
+    description                           : Keep track of your progress through your backlog and rate your games when finished. Hold down on a game in your list to quickly change these.
     fontawesome_icon_name                 : star
+
+  - title                                 : Link your gaming accounts
+    description                           : Link your PSN, Xbox & Steam accounts to import your games along with trophies and achievements.
+    fontawesome_icon_name                 : trophy
+  
+  - title                                 : Customisation
+    description                           : Change up your experience with multiple themes, tint colours and custom icons (based on PS4, Xbox & Switch controllers).
+    fontawesome_icon_name                 : adjust
 
   - title                                 : Notifications
     description                           : Get notifications when your most anticipated games are released.
     fontawesome_icon_name                 : bell
 
   - title                                 : Charts & Statistics
-    description                           : View charts and stats of your ratings, game completions, games per genre, per platform.
+    description                           : View automatic charts of your ratings, favourite platforms, genres and how many games you finish per month.
     fontawesome_icon_name                 : chart-line
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Ranked Lists
+    description                           : Create custom ranked lists for your favourite games and series.
+    fontawesome_icon_name                 : medal
 
 
 
@@ -81,7 +81,7 @@ cover_image                               : assets/headerimage.png              
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
-device_color                              : blue                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#1B1F28"
 
