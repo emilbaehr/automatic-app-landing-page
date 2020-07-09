@@ -6,18 +6,32 @@ include_in_header: true
 
 # Press Kit
 
-Download full Press Kit with screenshots, promo art, and hi-res icon here.
+Please click [here](https://www.icloud.com/iclouddrive/0XgZilQUXbD64wVd36ckuSTvA#Press_Kit) to download the full Press Kit with screenshots, promo art and high resolution icons.
 
 <br>
 
 ## GameTrack 3.0
-New version information here.
+Introducing the biggest GameTrack update ever!
+This is a complete, from the ground up, remake, including a new design, new icons, new features and a new GameTrack account!
+Sign in with Apple to create an account, follow your friends to see their posts in your Activity feed and see each other's lists.
 
+Due to new considerations such as server costs, the app will be moving to a subscription model going forwards. Upgrade to GameTrack+ to access custom icons, layouts, themes, tint colours, custom lists, ranked lists and automatic refresh of release dates. (Note that existing customers who purchased the customise pack will still have access to the features they purchased, and will get a 20% discount on a GameTrack+ subscription.)
 
+3.0 Features
+- Create custom lists, including new Ranked lists.
+- Follow your friends and see their updates in your Activity feed.
+- See your friends lists with their ratings and progress.
+- Import your games from PSN and Xbox, with trophy and achievement progress.
+- Organise your Archive with Finished, Completed and Abandoned statuses.
+- Use quick actions via the context menu (hold down on a game).
+- Find new games to play using the expanded Discover screen with Featured, Popular, Recent, Upcoming, Platforms & Franchises.
+- Customise your app icon with brand new icons themed around your favourite consoles (PS4, Xbox, Switch).
 
 <br>
 
 ## Promo Images
+![Banner Image](http://127.0.0.1:4000/assets/Promo/gametrack-banner-text.png)
+![Hero Image](http://127.0.0.1:4000/assets/Promo/gametrack-hero.png)
 
 
 <br>
