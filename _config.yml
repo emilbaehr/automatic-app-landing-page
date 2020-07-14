@@ -6,7 +6,7 @@ ios_app_id                                : 1508821387                          
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : https://drive.google.com/drive/folders/1jK3yHKyrQ29d9reje6X45uVIfrbfByED?usp=sharing                                        # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -44,11 +44,11 @@ features                                  :
 
   - title                                 : See Wasted Time
     description                           : See how much time people have wasted on you and how much time others have wasted!
-    fontawesome_icon_name                 : persons
+    fontawesome_icon_name                 : users
 
   - title                                 : Create
     description                           : Record and upload videos with ease
-    fontawesome_icon_name                 : record
+    fontawesome_icon_name                 : video-camera
 
   - title                                 : Achieve
     description                           : Unlock achievements based on how much you've watched
@@ -67,7 +67,7 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_image                               : assets/lightbluecover.png                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
