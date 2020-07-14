@@ -48,7 +48,7 @@ features                                  :
 
   - title                                 : Create
     description                           : Record and upload videos with ease
-    fontawesome_icon_name                 : video-camera
+    fontawesome_icon_name                 : fa-video-camera
 
   - title                                 : Achieve
     description                           : Unlock achievements based on how much you've watched
