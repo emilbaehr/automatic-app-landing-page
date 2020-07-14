@@ -36,11 +36,11 @@ features                                  :
 
   - title                                 : Waste Time
     description                           : Just another social video app, but the first to claim we add absolutely no value to your life.
-    fontawesome_icon_name                 : trash-o
+    fontawesome_icon_name                 : trash
     
   - title                                 : Create Timer
     description                           : Whether it's cooking, a workout, or just distracting yourself until you die, set a countdown timer accompanied by videos
-    fontawesome_icon_name                 : clock-o
+    fontawesome_icon_name                 : clock
 
   - title                                 : See Wasted Time
     description                           : See how much time people have wasted on you and how much time others have wasted!
