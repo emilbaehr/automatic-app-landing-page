@@ -48,7 +48,7 @@ features                                  :
 
   - title                                 : Create
     description                           : Record and upload videos with ease
-    fontawesome_icon_name                 : fa-video-camera
+    fontawesome_icon_name                 : video-camera
 
   - title                                 : Achieve
     description                           : Unlock achievements based on how much you've watched
@@ -71,7 +71,7 @@ cover_image                               : assets/lightbluecover.png           
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : white                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
