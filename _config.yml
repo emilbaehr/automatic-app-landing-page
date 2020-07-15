@@ -71,7 +71,7 @@ cover_image                               : assets/purplecover.png              
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.0
 
-device_color                              : white                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
