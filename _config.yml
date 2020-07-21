@@ -52,7 +52,7 @@ features                                  :
 
   - title                                 : Achieve
     description                           : Unlock achievements based on how much you've watched
-    fontawesome_icon_name                 : adjust
+    fontawesome_icon_name                 : trophy
   
   - title                                 : Privacy Priority
     description                           : "Another quality that sets this app apart: it doesn't harvest your data or spy on you. Honestly, I'm just not smart enough to figure out how..."
