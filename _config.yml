@@ -37,6 +37,10 @@ features                                  :
   - title                                 : Waste Time
     description                           : Just another social video app, but the first to claim we add absolutely no value to your life.
     fontawesome_icon_name                 : trash
+  
+  - title                                 : We Don't Spy
+    description                           : "Another quality that sets this app apart: it doesn't harvest your data or spy on you. Honestly, I'm just not smart enough to figure out how..."
+    fontawesome_icon_name                 : eye-slash
     
   - title                                 : Create Timer
     description                           : Whether it's cooking, a workout, or just distracting yourself until you die, set a countdown timer accompanied by videos
@@ -46,21 +50,6 @@ features                                  :
     description                           : See how much time people have wasted on you and how much time others have wasted!
     fontawesome_icon_name                 : users
 
-  - title                                 : Create
-    description                           : Record and upload videos with ease
-    fontawesome_icon_name                 : plus
-
-  - title                                 : Achieve
-    description                           : Unlock achievements based on how much you've watched
-    fontawesome_icon_name                 : trophy
-  
-  - title                                 : Privacy Priority
-    description                           : "Another quality that sets this app apart: it doesn't harvest your data or spy on you. Honestly, I'm just not smart enough to figure out how..."
-    fontawesome_icon_name                 : eye-slash
-
-  - title                                 : Customize Profile
-    description                           : Add a bio and profile pic to show off what makes you you
-    fontawesome_icon_name                 : user
 
 # Theme Settings
 topbar_color                              : "#000000"
