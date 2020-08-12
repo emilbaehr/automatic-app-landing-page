@@ -38,9 +38,13 @@ $(function() {
 
             // Set app name using the iOS app ID if it is not set manually in _config.yml
             var $appName = $(".appName");
-            var $headerName = $(".headerName");
             if ($.trim($($appName).text()).length == 0) {
                 $($appName).html(appInfo.trackName);
+            }
+
+            // Set the name displayed in the header if it is not set manually in _config.yml
+            var $headerName = $(".headerName");
+            if ($.trim($($headerName).text()).length == 0) {
                 $($headerName).html(appInfo.trackName);
             }
 
