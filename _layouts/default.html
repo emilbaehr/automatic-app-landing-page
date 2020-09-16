@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-NZ9Q6TQ');</script>
-    <!-- End Google Tag Manager -->
+    
 {% include head.html %}
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFBJNK7"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="imageWrapper">
             <div class="headerBackground">
                 <div class="container">
@@ -52,8 +50,8 @@
                             </h2>
                         </div>
                         <div class="appDescriptionContainer">
+                            <h3 class="appTagline">{{ site.app_tagline }}</h3>
                             <p class ="appDescription">
-                                {{ site.app_tagline }}
                                 {{ site.app_description }}
                             </p>
                         </div>
@@ -71,10 +69,5 @@
                 </div>
             </div>
         </div>
-
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ9Q6TQ"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
