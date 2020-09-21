@@ -292,6 +292,9 @@ nav > ul li a:active {
 
 .appTagline {
 	color: $app-title-color;
+	font-size: 3.5rem;
+	font-weight: 700 !important;
+	margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -311,6 +314,10 @@ nav > ul li a:active {
 	.appPrice {
 		margin-top: 13px;
 		text-align: center;
+	}
+
+	.appTagline {
+		font-size: 3rem;
 	}
 	
 } 
