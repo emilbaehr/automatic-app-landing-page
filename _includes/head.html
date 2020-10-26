@@ -7,7 +7,7 @@
 	<title class="pageTitle">{{ site.page_title }}</title>
 	<meta name="description" content="{{ site.app_description }}">
 
-	<link rel="shortcut icon" href="{{ site.app_icon }}">
+	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}
