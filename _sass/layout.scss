@@ -1,11 +1,11 @@
 .imageWrapper {					// Sets the background image in the header area
 	height: 714px;
-	background: 
+	background:
 		linear-gradient(
-		rgba($image-overlay-color, $image-overlay-transparency), 
+		rgba($image-overlay-color, $image-overlay-transparency),
 		rgba($image-overlay-color, $image-overlay-transparency)
 		   ),
-		
+
 		url($header-image);
 
 	background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
-	grid-template-areas: 
+	grid-template-areas:
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
@@ -66,7 +66,7 @@
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
 		grid-template-rows: 115px auto auto auto auto;
-		grid-template-areas: 
+		grid-template-areas:
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
@@ -88,8 +88,8 @@
 		margin-bottom: 70px;
 		grid-column: 1/-1;
 	}
-	
-} 
+
+}
 
 header {
 	grid-area: h;
@@ -123,8 +123,8 @@ header {
 	.logo > p {
 		display: none;
 	}
-	
-} 
+
+}
 
 .headerIcon {
 	width: 50px;
@@ -142,9 +142,9 @@ header {
 		background-color:rgba(127, 127, 127, 0.2);
 		display: inline-block;
 		margin-left: 15px;
-	}	
-	
-} 
+	}
+
+}
 
 
 // Navigation Links
@@ -172,9 +172,9 @@ header {
 		padding-bottom: 100px;
 		margin-top: -60px;
 		justify-content: flex-start;
-	}	
-	
-} 
+	}
+
+}
 
 .scroll::-webkit-scrollbar {
 	display: none;
@@ -257,7 +257,7 @@ nav > ul li a:active {
 		justify-content: center;
 	}
 
-} 
+}
 
 .appIconShadow {
 	display: flex;
@@ -303,22 +303,22 @@ nav > ul li a:active {
 		margin-top: 30px;
 		text-align: center;
 	}
-	
+
 	.appPrice {
 		margin-top: 13px;
 		text-align: center;
 	}
-	
-} 
+
+}
 
 .appDescriptionContainer {
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	font-weight: normal;
 	width: 100%;
 	align-items: flex-start;
 	margin-top: 45px;
 	flex: 0 1 auto;
-	line-height: 1.5;
+	line-height: 1.3;
 }
 
 .appDescription {
@@ -330,8 +330,8 @@ nav > ul li a:active {
 	.appDescription {
 		text-align: center;
 	}
-	
-} 
+
+}
 
 .downloadButtonsContainer {
 	display: inline-block;
@@ -344,8 +344,8 @@ nav > ul li a:active {
 	.downloadButtonsContainer {
 		text-align: center;
 	}
-	
-} 
+
+}
 
 .playStore {
 	height: 75px;
@@ -358,8 +358,8 @@ nav > ul li a:active {
 		margin-right: 24px;
 		margin-bottom: 0px;
 	}
-	
-} 
+
+}
 
 @media only screen and (max-width: 528px) {
 
@@ -367,8 +367,8 @@ nav > ul li a:active {
 		margin-right: 0px;
 		margin-bottom: 24px;
 	}
-	
-} 
+
+}
 
 .appStore {
 	height: 75px;
@@ -426,13 +426,13 @@ nav > ul li a:active {
 		margin-left: 24px;
 		margin-top: 22px;
 	}
-	
+
 	.videoContainer > video {
 		width: 322px;
 		height: 698px;
 	}
-	
-} 
+
+}
 
 @media only screen and (max-width: 992px) {
 
@@ -465,8 +465,8 @@ nav > ul li a:active {
 		width: 226px;
 		height: 488px;
 	}
-	
-} 
+
+}
 
 
 // Feature List
@@ -491,7 +491,7 @@ nav > ul li a:active {
 }
 
 .feature:nth-child(-n+3) {
-    padding-top: 0px;   
+    padding-top: 0px;
 }
 
 .feature:nth-child(3n) {
@@ -550,21 +550,21 @@ nav > ul li a:active {
 	}
 
 	.feature:nth-child(-n+3) {
-		padding-top: 41px;   
+		padding-top: 41px;
 	}
 
 	.feature:nth-child(1) {
-		padding-top: 0px;   
+		padding-top: 0px;
 	}
 
 	.feature:nth-child(3n) {
 		padding-right: 15px;
 	}
-	
+
 	.feature:nth-child(3n+1) {
 		padding-left: 15px;
 	}
-	
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -585,22 +585,22 @@ nav > ul li a:active {
 	}
 
 	.feature:nth-child(-n+3) {
-		padding-top: 41px;   
+		padding-top: 41px;
 	}
 
 	.feature:nth-child(1) {
-		padding-top: 0px;   
+		padding-top: 0px;
 	}
 
 	.feature:nth-child(3n) {
 		padding-right: 0px;
 	}
-	
+
 	.feature:nth-child(3n+1) {
 		padding-left: 0px;
 	}
-	
-} 
+
+}
 
 
 
@@ -659,12 +659,12 @@ footer {
 
 	.footerLinks a:first-child {
 		margin-top: 0px;
-	}	
+	}
 
 }
 
 @media only screen and (max-width: 992px) {
-	
+
 	.footerText {
 		color: $footer-text-color;
 		display: block;
@@ -674,13 +674,13 @@ footer {
 		padding-top: 54px;
 		padding-bottom: 61px;
 	}
-	
+
 	.footerIcons {
 		padding-bottom: 70px;
 		display: flex;
 	}
-	
-} 
+
+}
 
 .hidden {
 	display: none;
