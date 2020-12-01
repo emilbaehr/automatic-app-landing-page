@@ -34,6 +34,14 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
+  - title                                 : Need Help
+    description                           : You need help or have any questions? Please contact me at christianrehn7_at_gmail_dot_com.
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Additional Requirements
+    description                           : You have additional ideas or new requirements to track your training data? Send a request to christianrehn7_at_gmail_dot_com.
+    fontawesome_icon_name                 : adjust
+
   - title                                 : # New Feature Title
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
