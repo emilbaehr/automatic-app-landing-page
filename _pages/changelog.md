@@ -8,8 +8,8 @@ include_in_header: true
 
 <br>
 
-### `Initial Release (Latest)`
-# **Version 1.4.0**
-First release in the app store.
+### `Initial Published Release (Latest)`
+# **Version 1.4.1**
+First app store release.
 
 <br>
