@@ -11,7 +11,7 @@ presskit_download_link                    :                                     
 
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : 2.29€                                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : With this app you can record and evaluate your training times. To do this, you only have to record the training duration per category (course, driver, wood, iron, ...) and you can then get an overview of your training in the form of a line diagram per month or a pivot table per year and month. It is also possible to define training tasks with a time period and scope. As part of the time recording for each category, you can then also specify whether and to what extent you have worked on a task. The task overview also gives you the opportunity to see to what extent your tasks have already been completed. All data is saved locally in the app and can be exported as well as imported in JSON format. This makes it possible, for example, to convert the recorded and exported training data from JSON to CSV and process it in Excel with little effort.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -35,11 +35,11 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Need Help
-    description                           : You need help or have any questions? Please contact me at christianrehn7_at_gmail_dot_com.
+    description                           : You need help or have any questions? Please contact me at golf.logbook@gmail.com
     fontawesome_icon_name                 : mobile
 
   - title                                 : Additional Requirements
-    description                           : You have additional ideas or new requirements to track your training data? Send a request to christianrehn7_at_gmail_dot_com.
+    description                           : You have additional ideas or new requirements to track your training data? Send a request to golf.logbook@gmail.com
     fontawesome_icon_name                 : adjust
 
   - title                                 : # New Feature Title
