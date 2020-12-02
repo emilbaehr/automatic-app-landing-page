@@ -1,5 +1,5 @@
 .imageWrapper {					// Sets the background image in the header area
-	height: 814px;
+	height: 680px;
 	background:
 		linear-gradient(
 		rgba($image-overlay-color, $image-overlay-transparency),
@@ -12,6 +12,14 @@
 	background-size: cover;
 	background-position: top;
 	border-radius: 0px 0px 40px 40px;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.imageWrapper {
+		height: 820px;
+	}
 
 }
 
@@ -318,7 +326,7 @@ nav > ul li a:active {
 	align-items: flex-start;
 	margin-top: 40px;
 	flex: 0 1 auto;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 
 .appDescription {
