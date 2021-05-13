@@ -10,7 +10,7 @@ include_in_header: true
 
 ### `Latest`
 # **Version 1.6.0**
-Evaluation of the training data using a pie chart. You can select and deselect training natures and months.
+Evaluation of the training data using a pie chart. In addition you can select and deselect training natures or months in the legend.
 
 # **Version 1.5.0**
 Version for free use.
