@@ -9,7 +9,7 @@ include_in_header: true
 <br>
 
 ### `Latest`
-# **Version 1.6.0**
+# **Version 1.6.1**
 Evaluation of the training data using a pie chart. In addition you can select and deselect training natures or months in the legend.
 
 # **Version 1.5.0**
