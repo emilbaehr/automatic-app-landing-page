@@ -22,6 +22,15 @@
 			</a>
 		{% endif %}
 
+		{% if site.instagram_username %}
+			<a href="https://instagram.com/{{ site.instagram_username }}">
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
+				</span>
+			</a>
+		{% endif %}
+
 		{% if site.github_username %}
 			<a href="https://github.com/{{ site.github_username }}">
 				<span class="fa-stack fa-1x">
