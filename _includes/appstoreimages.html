@@ -6,7 +6,7 @@
 
 $(function() {
 
-    var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&callback=?";
+    var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&country={{ site.ios_app_country }}&callback=?";
 
     $.getJSON(apiURL, function(json) {
 
