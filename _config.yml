@@ -3,6 +3,7 @@ page_title                                :                                     
 
 # App Info
 ios_app_id                                : 1604573775                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : de                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             : https://apps.apple.com/de/app/golf-logbuch/id1538956880   # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -44,7 +45,7 @@ features                                  :
 
   - title                                 : You have a QCQuad/GC3/GC2
     description                           : Check out my QCQuad Combine Test Application https://christianrehn.github.io/GCQuadCombineTest
-    fontawesome_icon_name                 : golf-ball # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+    fontawesome_icon_name                 : magic # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 
 
