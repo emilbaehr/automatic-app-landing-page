@@ -43,7 +43,7 @@ features                                  :
     fontawesome_icon_name                 : adjust
 
   - title                                 : You have a QCQuad/GC3/GC2
-    description                           : Check out my QCQuad Combine Test Application: https://christianrehn.github.io/GCQuadCombineTest
+    description                           : Check out my QCQuad Combine Test Application https://christianrehn.github.io/GCQuadCombineTest
     fontawesome_icon_name                 : golf-ball # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 
