@@ -42,9 +42,9 @@ features                                  :
     description                           : You have additional ideas or new requirements to track your training data? Send a request to golf.logbook@gmail.com
     fontawesome_icon_name                 : adjust
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : You have a QCQuad/GC3/GC2
+    description                           : Check out my QCQuad Combine Test Application: https://christianrehn.github.io/GCQuadCombineTest
+    fontawesome_icon_name                 : golf-ball # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 
 
