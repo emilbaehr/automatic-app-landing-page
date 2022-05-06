@@ -7,13 +7,13 @@ ios_app_country                           : us                                  
 
 appstore_link                             : https://apps.apple.com/ie/app/spreeloop-place/id1588190543                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            : https://play.google.com/store/apps/details?id=com.spreeloop.place.prod                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://spreeloop.com                     # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : Order food and get delivered.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -22,9 +22,9 @@ enable_smart_app_banner                   : true                                
 # Information About Yourself
 your_name                                 : Spreeloop                              
 your_link                                 : https://spreeloop.com                     
-your_city                                 : Douala                                
+your_city                                 :                                
 email_address                             : feedback@spreeloop.com
-facebook_username                         :                                           
+facebook_username                         : spreeloop                                           
 instagram_username                        : spreeloop
 twitter_username                          : spreeloop
 github_username                           : spreeloop
