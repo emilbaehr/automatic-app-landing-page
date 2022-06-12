@@ -394,6 +394,7 @@ nav > ul li a:active {
 	margin-top: 23px;
 }
 
+
 .videoContainer {
 	width: 349px;
 	height: 755px;
@@ -406,6 +407,38 @@ nav > ul li a:active {
 .videoContainer > video {
 	width: 349px;
 	height: 755px;
+}
+
+// Apple TV Device Preview
+
+.tvPreview {
+	grid-area: p;
+	background-image: url($tv-image);
+	background-size: 450px auto;
+	background-repeat: no-repeat;
+	margin-top: 100px;
+	grid-area: p;
+}
+
+.tvScreen {
+	width: 401px;	
+	height: 226px;
+	margin-left: 11px;
+	margin-top: 12px;
+}
+
+.tvVideoContainer {
+	width: 550px;
+	height: 400px;
+	-webkit-clip-path: url(#screenMask);
+	clip-path: url(#screenMask);
+	margin-left: 11px;
+}
+
+.tvVideoContainer > video {
+	width: 402px;
+	height: auto;
+	margin-top: 12.5px;
 }
 
 @media only screen and (max-width: 1070px) {
@@ -430,6 +463,29 @@ nav > ul li a:active {
 	.videoContainer > video {
 		width: 322px;
 		height: 698px;
+	}
+
+	// Apple TV Device Preview
+
+	.tvPreview {		
+		background-size: 370px auto;
+	}
+
+	.tvScreen {
+		width: 328px;
+		height: 184px;
+	}	
+
+	.tvVideoContainer {
+		width: 546px;
+		height: 394px;
+	}
+	
+	.tvVideoContainer > video {
+		width: 330px;
+		height: auto;
+		margin-left: -2px;
+		margin-top: 11px;
 	}
 	
 } 
@@ -465,7 +521,36 @@ nav > ul li a:active {
 		width: 226px;
 		height: 488px;
 	}
-	
+
+	.tvPreview {
+		display: flex;
+		background-size: 260px auto;
+		background-position: center 0;
+		margin-top: 47px;
+		justify-content: center;
+		padding-bottom: 75px;
+	}
+
+	.tvScreen {
+		width: 230px;
+		height: 129px;
+		margin-right: 26px;				
+		margin-top: 8px;
+	} 
+
+	.tvVideoContainer {
+		width: 226px;
+		height: 488px;
+		margin-left: 0px;
+		margin-top: 17px;
+	}
+
+	.tvVideoContainer > video {
+		width: 232px;
+		height: auto;
+		margin-left: -11px;
+		margin-top: -10px;
+	}
 } 
 
 

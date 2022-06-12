@@ -17,6 +17,8 @@ app_description                           : Write a short tagline for your app.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
+# Apple TV
+enable_apple_tv_mode                      : true                                     # Set to true to hide the iphone preview and show a tv preview instead.
 
 
 # Information About Yourself
