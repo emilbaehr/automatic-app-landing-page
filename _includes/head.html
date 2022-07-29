@@ -1,0 +1,19 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base target="_blank">
+
+	<title class="pageTitle">{{ site.page_title }}</title>
+	<meta name="description" content="{{ site.app_description }}">
+
+	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
+
+	<!-- Smart App Banner -->
+	{% if site.enable_smart_app_banner %}
+		<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
+	{% endif %}
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
+</head>
