@@ -1,0 +1,687 @@
+.imageWrapper {					// Sets the background image in the header area
+	height: 714px;
+	background: 
+		linear-gradient(
+		rgba($image-overlay-color, $image-overlay-transparency), 
+		rgba($image-overlay-color, $image-overlay-transparency)
+		   ),
+		
+		url($header-image);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border-radius: 0px 0px 40px 40px;
+
+}
+
+.headerBackground {
+	height: 115px;
+	background-color: rgba($header-color, $header-transparency);
+}
+
+@media only screen and (max-width: 768px) {
+
+	.headerBackground {
+		height: 80px;
+	}
+
+}
+
+.subPageHeaderBackground {
+	background-color: #fff;
+}
+
+.container {					// Set up the container for the site content
+	display: grid;
+	margin: auto;
+	max-width: $content-width;
+	padding-left: 15px;
+	padding-right: 15px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 115px 876px auto auto;
+	grid-column-gap: 30px;
+	grid-template-areas: 
+		"h h h h h h h h h h h h"
+		"p p p p p i i i i i i i"
+		"c c c c c c c c c c c c"
+		"f f f f f f f f f f f f";
+}
+
+.subPageContainer {
+	grid-template-rows: 115px auto auto auto;
+	background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.container {					// Set up the container for the site content
+		grid-template-rows: 80px 811px auto auto;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+
+	.container {
+		grid-column-gap: 0px;
+		grid-template-columns: 1;
+		grid-template-rows: 115px auto auto auto auto;
+		grid-template-areas: 
+			"h h h h h h h h h h h h"
+			"i i i i i i i i i i i i"
+			"p p p p p p p p p p p p"
+			"c c c c c c c c c c c c"
+			"f f f f f f f f f f f f";
+	}
+}
+
+.page {
+	margin-top: 30px;
+	margin-bottom: 70px;
+	grid-column: 3/11;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.page {
+		margin-top: 30px;
+		margin-bottom: 70px;
+		grid-column: 1/-1;
+	}
+	
+} 
+
+header {
+	grid-area: h;
+	display: flex;
+	margin-right: -15px;
+}
+
+.logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 115px;
+	margin-right: 30px;
+}
+
+.logo > p {
+	color: $header-title-color;
+	white-space: nowrap;
+	display: flex;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.logo {
+		height: 80px;
+		margin-right: 0px;
+	}
+
+	.logo > p {
+		display: none;
+	}
+	
+} 
+
+.headerIcon {
+	width: 50px;
+	height: 50px;
+	-webkit-clip-path: url(#shape);
+	clip-path: url(#shape);
+}
+
+@media only screen and (max-width: 768px) {
+
+	.divider {
+		position: relative;
+		min-width: 1px;
+		max-width: 1px;
+		background-color:rgba(127, 127, 127, 0.2);
+		display: inline-block;
+		margin-left: 15px;
+	}	
+	
+} 
+
+
+// Navigation Links
+.scroll {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-end;
+
+	height: 115px;
+	//margin-left: 15px;
+
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.scroll {
+		height: 80px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		margin-top: -60px;
+		justify-content: flex-start;
+	}	
+	
+} 
+
+.scroll::-webkit-scrollbar {
+	display: none;
+}
+
+
+nav > ul {
+	color: #fff;
+	display: flex;
+	list-style-type: none;
+
+}
+
+nav > ul li {
+	padding-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	nav > ul li {
+		padding-left: 20px;
+	}
+
+}
+
+nav > ul li:first-child {
+	padding-left: 0px;
+	padding-left: 15px;
+}
+
+nav > ul li:last-child {
+	padding-right: 15px;
+}
+
+nav > ul li a:link,
+nav > ul li a:visited {
+	text-decoration: none;
+	color: rgba($header-title-color, 0.6);
+}
+
+nav > ul li a:hover,
+nav > ul li a:active {
+	text-decoration: none;
+	color: rgba($header-title-color, 1);
+}
+
+
+
+// Sub Page Header Styling
+.subPageHeaderBackground .logo > p {
+	color: #000;
+}
+
+.subPageHeaderBackground nav > ul li a:link,
+.subPageHeaderBackground nav > ul li a:visited {
+	color: rgba(#000, 0.6);
+}
+
+.subPageHeaderBackground nav > ul li a:hover,
+.subPageHeaderBackground nav > ul li a:active {
+	color: rgba(#000, 1);
+}
+
+
+
+// App Title, Price, Description and Links
+
+.appInfo {
+	grid-area: i;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 140px;
+	align-content: flex-start;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.appInfo {
+		padding-top: 50px;
+		justify-content: center;
+	}
+
+} 
+
+.appIconShadow {
+	display: flex;
+	filter: $drop-shadow;
+}
+
+.appIconLarge {
+	width: 120px;
+	height: 120px;
+	-webkit-clip-path: url(#shape120);
+	clip-path: url(#shape120);
+}
+
+.appNamePriceContainer {
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	margin-left: 30px;
+}
+
+.appName {
+	color: $app-title-color;
+}
+
+.appPrice {
+	color: $app-price-color;
+	font-weight: normal;
+	margin-top: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.appNamePriceContainer {
+		width: 100%;
+		margin-left: 0px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.appName {
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	.appPrice {
+		margin-top: 13px;
+		text-align: center;
+	}
+	
+} 
+
+.appDescriptionContainer {
+	font-size: 2.5rem;
+	font-weight: normal;
+	width: 100%;
+	align-items: flex-start;
+	margin-top: 45px;
+	flex: 0 1 auto;
+	line-height: 1.5;
+}
+
+.appDescription {
+	color: $app-description-color;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.appDescription {
+		text-align: center;
+	}
+	
+} 
+
+.downloadButtonsContainer {
+	display: inline-block;
+	margin-top: 42px;
+	filter: $drop-shadow;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.downloadButtonsContainer {
+		text-align: center;
+	}
+	
+} 
+
+.playStore {
+	height: 75px;
+	margin-right: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.playStore {
+		margin-right: 24px;
+		margin-bottom: 0px;
+	}
+	
+} 
+
+@media only screen and (max-width: 528px) {
+
+	.playStore {
+		margin-right: 0px;
+		margin-bottom: 24px;
+	}
+	
+} 
+
+.appStore {
+	height: 75px;
+}
+
+
+
+// iPhone Device Preview
+
+.iphonePreview {
+	grid-area: p;
+	background-image: url($device-color);
+	background-size: 400px auto;
+	background-repeat: no-repeat;
+	margin-top: 68px;
+}
+
+.iphoneScreen {
+	width: 349px;
+	-webkit-clip-path: url(#screenMask);
+	clip-path: url(#screenMask);
+	margin-left: 26px;
+	margin-top: 23px;
+}
+
+.videoContainer {
+	width: 349px;
+	height: 755px;
+	-webkit-clip-path: url(#screenMask);
+	clip-path: url(#screenMask);
+	margin-left: 26px;
+	margin-top: 23px;
+}
+
+.videoContainer > video {
+	width: 349px;
+	height: 755px;
+}
+
+@media only screen and (max-width: 1070px) {
+
+	.iphonePreview {
+		background-size: 370px auto;
+	}
+
+	.iphoneScreen {
+		width: 322px;
+		margin-left: 24px;
+		margin-top: 22px;
+	}
+
+	.videoContainer {
+		width: 322px;
+		height: 698px;
+		margin-left: 24px;
+		margin-top: 22px;
+	}
+	
+	.videoContainer > video {
+		width: 322px;
+		height: 698px;
+	}
+	
+} 
+
+@media only screen and (max-width: 992px) {
+
+	.iphonePreview {
+		display: flex;
+		background-size: 260px auto;
+		background-position: center 0;
+		margin-top: 47px;
+		justify-content: center;
+		padding-bottom: 75px;
+	}
+
+	.iphoneScreen {
+		width: 226px;
+		height: 488px;
+		-webkit-clip-path: url(#screenMask);
+		clip-path: url(#screenMask);
+		margin: 0px;
+		margin-top: 17px;
+	}
+
+	.videoContainer {
+		width: 226px;
+		height: 488px;
+		margin-left: 0px;
+		margin-top: 17px;
+	}
+
+	.videoContainer > video {
+		width: 226px;
+		height: 488px;
+	}
+	
+} 
+
+
+// Feature List
+
+.features {
+	grid-area: c;
+	display: flex;
+	flex: 0 1 auto;
+	align-content: flex-start;
+	justify-content: flex-start;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	margin-top: 93px;
+}
+
+.feature {
+	display: flex;
+	padding-top: 63px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: calc(100%/3);
+}
+
+.feature:nth-child(-n+3) {
+    padding-top: 0px;   
+}
+
+.feature:nth-child(3n) {
+	padding-right: 0px;
+}
+
+.feature:nth-child(3n+1) {
+	padding-left: 0px;
+}
+
+.iconBack {
+	color: $feature-icons-background-color;
+}
+
+.iconTop {
+	color: $feature-icons-foreground-color;
+}
+
+.socialIconBack {
+	color: $social-icons-background-color;
+}
+
+.socialIconTop {
+	color: $social-icons-foreground-color;
+}
+
+.featureText {
+	margin-left: 18px;
+}
+
+.featureText > h3 {
+	color: $feature-title-color;
+}
+
+.featureText > p {
+	color: $feature-text-color;
+	margin-top: 8px;
+	line-height: 1.5;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.features {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 11px;
+	}
+
+	.feature {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+
+	.feature:nth-child(-n+3) {
+		padding-top: 41px;   
+	}
+
+	.feature:nth-child(1) {
+		padding-top: 0px;   
+	}
+
+	.feature:nth-child(3n) {
+		padding-right: 15px;
+	}
+	
+	.feature:nth-child(3n+1) {
+		padding-left: 15px;
+	}
+	
+}
+
+@media only screen and (max-width: 375px) {
+
+	.features {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 11px;
+	}
+
+	.feature {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+
+	.feature:nth-child(-n+3) {
+		padding-top: 41px;   
+	}
+
+	.feature:nth-child(1) {
+		padding-top: 0px;   
+	}
+
+	.feature:nth-child(3n) {
+		padding-right: 0px;
+	}
+	
+	.feature:nth-child(3n+1) {
+		padding-left: 0px;
+	}
+	
+} 
+
+
+
+// Footer
+
+footer {
+	grid-area: f;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.footerText {
+	color: $footer-text-color;
+	display: block;
+	line-height: 1.5;
+	width: 100%;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.footerIcons {
+	padding-bottom: 70px;
+	display: flex;
+	flex: 0 0 100%;
+	justify-content: center;
+}
+
+.footerLinks {
+	display: flex;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.footerLinks a {
+	margin-right: 30px;
+}
+
+.footerLinks a:last-child {
+	margin-right: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.footerLinks {
+		flex-direction: column;
+	}
+
+	.footerLinks a {
+		justify-content: stretch;
+		margin-right: 0px;
+		margin-top: 20px;
+	}
+
+	.footerLinks a:first-child {
+		margin-top: 0px;
+	}	
+
+}
+
+@media only screen and (max-width: 992px) {
+	
+	.footerText {
+		color: $footer-text-color;
+		display: block;
+		line-height: 1.5;
+		width: 100%;
+		text-align: center;
+		padding-top: 54px;
+		padding-bottom: 61px;
+	}
+	
+	.footerIcons {
+		padding-bottom: 70px;
+		display: flex;
+	}
+	
+} 
+
+.hidden {
+	display: none;
+}
