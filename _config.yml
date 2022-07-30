@@ -54,6 +54,10 @@ features                                  :
   - title                                 : Montly Subscription Plan
     description                           : Monthly auto renewing subscription plan.
     fontawesome_icon_name                 : sync
+  
+  - title                                 : Fast Live Spot Price
+    description                           : Live gold, silver & platinium price on items view and metrics. Currently only some currencies are supported (USD, EUR, GBP).
+    fontawesome_icon_name                 : rocket-launch
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
