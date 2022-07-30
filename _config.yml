@@ -57,7 +57,7 @@ features                                  :
   
   - title                                 : Fast Live Spot Price
     description                           : Live gold, silver & platinium price on items view and metrics. Currently only some currencies are supported (USD, EUR, GBP).
-    fontawesome_icon_name                 : rocket-launch
+    fontawesome_icon_name                 : rocket
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
