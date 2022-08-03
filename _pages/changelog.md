@@ -22,17 +22,19 @@ This is the first release version.
 
 <br> -->
 
-<!-- ### **Version 2.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+### **Version 1.1**
+Enable iCloud function of the application, synchronized with your personal iCloud CloudKit database (Apple service)
+iCloud CloudKit syncs it between your devices automatically. You always have the option to disable iCloud 
+from the system settings.
 
 #### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+- Enable iCloud function to sync your data with your iCloud account.
+- [Changes to Privacy Policy](/privacypolicy)
 
 <br>
 
 ________
-<br>
+<!-- <br>
 
 ### `Initial Release`
 # **Version 1.0**
