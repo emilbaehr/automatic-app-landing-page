@@ -1,5 +1,5 @@
 #page title
-page_title                                : Precious Metals Manager                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1636327607                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -10,8 +10,8 @@ playstore_link                            :                                     
 presskit_download_link                    :                                       # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Precious Metals Manager                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Managing your precious metals is complicated, but we make it simple by providing an easy and intuitive user interface and all the metrics and statistics that keep you on top of your precious metals portfolio.
 
