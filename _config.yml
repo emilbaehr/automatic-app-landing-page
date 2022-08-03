@@ -51,8 +51,12 @@ features                                  :
     description                           : Take a look at your portfolio in bed wihout keeping your partner awake or in the cinema without disturbing other people.
     fontawesome_icon_name                 : moon
 
-  - title                                 : Montly Subscription Plan
-    description                           : Monthly auto renewing subscription plan.
+  # - title                                 : Montly Subscription Plan
+  #   description                           : Monthly auto renewing subscription plan.
+  #   fontawesome_icon_name                 : sync
+  
+  - title                                 : iCloud Sync
+    description                           : Your data will be stored in your iCloud account. You can disable this at any time from your settings.
     fontawesome_icon_name                 : sync
   
   - title                                 : Fast Live Spot Price
