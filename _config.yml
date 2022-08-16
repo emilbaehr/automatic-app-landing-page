@@ -38,6 +38,10 @@ features                                  :
   - title                                 : Easy to Use  
     description                           : Intuitive UI that allows you to create orders and precious metal products in a few taps. Voilá! Nice and simple.
     fontawesome_icon_name                 : magic
+
+  - title                                 : +140 prefilled coins.
+    description                           : Select from more than 140 prefilled coins. Extensive cataloge of gold, silver and platinium coins with their weight and fineness.
+    fontawesome_icon_name                 : address-card
     
   - title                                 : Inventory View
     description                           : See your precious metals portfolio.
@@ -50,6 +54,10 @@ features                                  :
   - title                                 : Dark Mode Optimized
     description                           : Take a look at your portfolio in bed wihout keeping your partner awake or in the cinema without disturbing other people.
     fontawesome_icon_name                 : moon
+
+  - title                                 : Faster than the speed of light
+    description                           : Native iOS app with performance optimizations.
+    fontawesome_icon_name                 : bolt
 
   # - title                                 : Montly Subscription Plan
   #   description                           : Monthly auto renewing subscription plan.

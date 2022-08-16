@@ -33,6 +33,20 @@ from the system settings.
 
 <br>
 
+### **Version 1.2**
+This update comes with juicy improvements. +140 coins were added 🚀, including, quarters, dimes and dollars, 40% and 90%.
+Now you can see the fineness ✨ of the prefilled coins or provide it.
+
+#### What's New
+- +140 coins were added.
+- Purity (fineness) attribute added to coins. It's prefilled when selecting a coin.
+- Show both, total ounces and grams in the inventory and summary views.
+- Improved create and edit item user experience.
+- Minor bug fixes.
+- Improved performance.
+
+<br>
+
 ________
 <!-- <br>
 
