@@ -42,6 +42,7 @@ Now you can see the fineness ✨ of the prefilled coins or provide it.
 - Purity (fineness) attribute added to coins. It's prefilled when selecting a coin.
 - Show both, total ounces and grams in the inventory and summary views.
 - Improved create and edit item user experience.
+- Gross weight and metal content.
 - Minor bug fixes.
 - Improved performance.
 
