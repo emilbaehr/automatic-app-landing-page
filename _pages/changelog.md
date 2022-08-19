@@ -48,6 +48,15 @@ Now you can see the fineness ✨ of the prefilled coins or provide it.
 
 <br>
 
+### **Version 1.2.1**
+This update is to fix minor bugs
+
+#### What's New
+- Fix average premium rate.
+- Fix navigation title when updating an item.
+
+<br>
+
 ________
 <!-- <br>
 
