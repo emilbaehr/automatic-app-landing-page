@@ -9,8 +9,6 @@ include_in_header: true
 <br>
 
 ### `Latest`
-# **Version 1.0**
-This is the first release version.
 
 <!-- #### What's New
 - Much far proper exotically precise unaccountable.
@@ -22,14 +20,25 @@ This is the first release version.
 
 <br> -->
 
-### **Version 1.1**
-Enable iCloud function of the application, synchronized with your personal iCloud CloudKit database (Apple service)
-iCloud CloudKit syncs it between your devices automatically. You always have the option to disable iCloud 
-from the system settings.
+# **Version 1.2.2**
+
+This update includes UI and performance improvements and bug fixes.
 
 #### What's New
-- Enable iCloud function to sync your data with your iCloud account.
-- [Changes to Privacy Policy](/privacypolicy)
+- Minor UI improvements.
+- Minor Performance improvements.
+
+#### Bug Fixes
+- Minor bug fixes.
+
+<br>
+
+### **Version 1.2.1**
+This update is to fix minor bugs.
+
+#### What's New
+- Fix average premium rate.
+- Fix navigation title when updating an item.
 
 <br>
 
@@ -48,12 +57,20 @@ Now you can see the fineness ✨ of the prefilled coins or provide it.
 
 <br>
 
-### **Version 1.2.1**
-This update is to fix minor bugs
+### **Version 1.1**
+Enable iCloud function of the application, synchronized with your personal iCloud CloudKit database (Apple service)
+iCloud CloudKit syncs it between your devices automatically. You always have the option to disable iCloud 
+from the system settings.
 
 #### What's New
-- Fix average premium rate.
-- Fix navigation title when updating an item.
+- Enable iCloud function to sync your data with your iCloud account.
+- [Changes to Privacy Policy](/privacypolicy)
+
+<br>
+
+### `Initial Release`
+# **Version 1.0**
+This is the first release version.
 
 <br>
 
