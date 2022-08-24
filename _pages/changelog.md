@@ -20,6 +20,16 @@ include_in_header: true
 
 <br> -->
 
+# **Version 1.2.3**
+
+This update includes bug fixes.
+
+#### Bug Fixes
+- Update an individual item feature was not working on the previews version.
+- Do not show error view on the item details screen when your region is not compatible with spot rates.
+
+<br>
+
 # **Version 1.2.2**
 
 This update includes UI and performance improvements and bug fixes.
