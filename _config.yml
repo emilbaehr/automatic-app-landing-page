@@ -1,33 +1,49 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : AURORA Clinic app                         # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_country                           : in                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : https://abhisek.de                        # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : AURORA Clinic app                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : 'Simple clinic management and patient care for small clinics and independent practitioners
+
+Hey Doctors! 
+
+We understand that clinic management is hard, that''s why many clinics outsource it to a third parties or purchase expensive speciality softwares. We present to you our app, that has everything you need to manage your clinic. 
+
+With our app, you''ll be able to: 
+- Manage your patient and appointments
+- Digitally record your clinical sessions, and then, 
+- Create and send prescriptions directly to your patients. 
+- You don''t have to manage or enter data for new medicines or diseases
+- You can also manage your employees and 
+- Access reports of your clinic''s performance. 
+
+All of these, directly from your phone! Say goodbye to paper charts and pen and paper note taking! 
+
+Download AURORA on your phone or tablet and start for free.'
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Abhisek De                                
+your_link                                 : https://abhisek.de                     
+your_city                                 : Kolkata - India                                
+email_address                             : aurora.clinic.app@gmail.com
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : 
 youtube_username                          :
 
 
