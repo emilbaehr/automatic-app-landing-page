@@ -39,6 +39,10 @@ features                                  :
     description                           : Intuitive UI that allows you to create orders and precious metal products in a few taps. Voilá! Nice and simple.
     fontawesome_icon_name                 : magic
 
+  - title                                 : Confidential and Secure Portfolio
+    description                           : The data is stored in an encrypted form on your device and cannot be read from or written to while the device is locked or booting. In addition some of the data is in an encrypted form in iCloud.
+    fontawesome_icon_name                 : lock
+
   - title                                 : +140 prefilled coins.
     description                           : Select from more than 140 prefilled coins. Extensive cataloge of gold, silver and platinium coins with their weight and fineness.
     fontawesome_icon_name                 : address-card
@@ -46,6 +50,10 @@ features                                  :
   - title                                 : Inventory View
     description                           : See your precious metals portfolio.
     fontawesome_icon_name                 : book
+
+  - title                                 : Keep track of your sales
+    description                           : Add sales and find out how much you are making or losing
+    fontawesome_icon_name                 : handshake
 
   - title                                 : Metrics and Statistics
     description                           : Assets metrics to review how well your precious metals portfolio is doing.

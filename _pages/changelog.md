@@ -25,6 +25,7 @@ include_in_header: true
 #### What's New
 - 🚀 New feature: now you can create sales 🤝 from the inventory tab. 
 - The summary shows the total profit/loss 🤑 of your sales.
+- [Changes to Privacy Policy](/privacypolicy)
 
 #### Bug Fixes
 - 🩹 Minor bug fixes.
