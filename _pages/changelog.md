@@ -20,13 +20,24 @@ include_in_header: true
 
 <br> -->
 
+# **Version 1.3.0**
+
+#### What's New
+- 🚀 New feature: now you can create sales 🤝 from the inventory tab. 
+- The summary shows the total profit/loss 🤑 of your sales.
+
+#### Bug Fixes
+- 🩹 Minor bug fixes.
+
+<br>
+
 # **Version 1.2.3**
 
 This update includes bug fixes.
 
 #### Bug Fixes
-- Update an individual item feature was not working on the previews version.
-- Do not show error view on the item details screen when your region is not compatible with spot rates.
+- 🩹 Update an individual item feature was not working on the previews version.
+- 🩹 Do not show error view on the item details screen when your region is not compatible with spot rates.
 
 <br>
 
@@ -35,11 +46,11 @@ This update includes bug fixes.
 This update includes UI and performance improvements and bug fixes.
 
 #### What's New
-- Minor UI improvements.
-- Minor Performance improvements.
+- 📺 Minor UI improvements.
+- 🏎 Minor Performance improvements.
 
 #### Bug Fixes
-- Minor bug fixes.
+- 🩹 Minor bug fixes.
 
 <br>
 
@@ -47,8 +58,8 @@ This update includes UI and performance improvements and bug fixes.
 This update is to fix minor bugs.
 
 #### What's New
-- Fix average premium rate.
-- Fix navigation title when updating an item.
+- 🩹 Fix average premium rate.
+- 🩹 Fix navigation title when updating an item.
 
 <br>
 
@@ -62,7 +73,7 @@ Now you can see the fineness ✨ of the prefilled coins or provide it.
 - Show both, total ounces and grams in the inventory and summary views.
 - Improved create and edit item user experience.
 - Gross weight and metal content.
-- Minor bug fixes.
+- 🩹 Minor bug fixes.
 - Improved performance.
 
 <br>
