@@ -29,7 +29,7 @@ include_in_header: true
 
 <br>
 
-# **Version 1.3.0**
+### **Version 1.3.0**
 
 #### What's New
 - 🚀 New feature: now you can create sales 🤝 from the inventory tab. 
@@ -41,7 +41,7 @@ include_in_header: true
 
 <br>
 
-# **Version 1.2.3**
+### **Version 1.2.3**
 
 This update includes bug fixes.
 
@@ -51,7 +51,7 @@ This update includes bug fixes.
 
 <br>
 
-# **Version 1.2.2**
+### **Version 1.2.2**
 
 This update includes UI and performance improvements and bug fixes.
 
