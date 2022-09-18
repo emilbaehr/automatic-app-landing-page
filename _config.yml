@@ -3,7 +3,7 @@ page_title                                :                                     
 
 # App Info
 ios_app_id                                : 1644547615                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : pt-br                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -17,10 +17,9 @@ app_description                           : Organize your personal records in cr
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
-
 # Information About Yourself
 your_name                                 : Douglas Taquary                                
-your_link                                 : https://twitter.com/bluesprogrammer                     
+your_link                                 :https://github.com/douglastaquary                    
 your_city                                 : São Paulo                                
 email_address                             : douglastaquary@gmail.com
 facebook_username                         : #                                          
@@ -34,21 +33,21 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Keep your PR hassle free
-    description                           : Organizing your personal records makes the evolution of your exercises more practical
+  - title                                 : Organizing your personal records
+    description                           : Delete records, organize your categories according to your crossfit workouts.
     fontawesome_icon_name                 : dumbbell
 
-  - title                                 : Insights
-    description                           : The powerful insights elevator allows you to understand your biggest records and the evolution of others.
+  - title                                 : The Powerful insights
+    description                           : The powerful insights elevator allows you to track and understand your evolution, the highest records through powerful graphics
     fontawesome_icon_name                 : chart-bar
 
-  - title                                 : Recommendations
-    description                           : An intelligent recommendations system gives you hints on best personal records.
-    fontawesome_icon_name                 : comment
+  - title                                 : Manage your records
+    description                           : Your high performance workouts now in one place simply and quickly.
+    fontawesome_icon_name                 : gear
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Easy graphics
+    description                           : Simple, easy-to-understand graphics to show your evolution.
+    fontawesome_icon_name                 : chart-line
 
 # Theme Settings
 topbar_color                              : "#000"
