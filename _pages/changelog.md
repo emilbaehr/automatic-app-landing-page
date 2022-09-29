@@ -20,7 +20,14 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.3.1**
+# **Version 1.3.2**
+
+#### Bug Fixes
+- 🩹 Minor bug fixes.
+
+<br>
+
+### **Version 1.3.1**
 
 #### What's New
 - Canadian Dollar and Australian Dollar are now supported for spot prices.
