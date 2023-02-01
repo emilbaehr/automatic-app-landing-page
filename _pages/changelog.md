@@ -20,7 +20,14 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.3.2**
+# **Version 1.3.3**
+
+#### Bug Fixes
+- 🩹 Minor bug fixes. Spot prices are working again!
+
+<br>
+
+### **Version 1.3.2**
 
 #### Bug Fixes
 - 🩹 Minor bug fixes.
