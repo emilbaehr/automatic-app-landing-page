@@ -26,7 +26,8 @@ include_in_header: true
 - 🩹 Minor bug fixes. Some of the currencies didn't work!
 
 #### What's New
-- More currencies are now supported! Welcome to 🇨🇭, 🇮🇳, 🇯🇵, 🇲🇽.
+- App available in Mexico 🇲🇽, India 🇮🇳 and Japan 🇯🇵.
+- More currencies are now supported (🇨🇭, 🇮🇳, 🇯🇵, 🇲🇽)!
 
 <br>
 
