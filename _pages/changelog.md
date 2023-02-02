@@ -20,7 +20,17 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.3.3**
+# **Version 1.3.4**
+
+#### Bug Fixes
+- 🩹 Minor bug fixes. Some of the currencies didn't work!
+
+#### What's New
+- More currencies are now supported! Welcome to 🇨🇭, 🇮🇳, 🇯🇵, 🇲🇽.
+
+<br>
+
+### **Version 1.3.3**
 
 #### Bug Fixes
 - 🩹 Minor bug fixes. Spot prices are working again!
@@ -38,7 +48,7 @@ include_in_header: true
 
 #### What's New
 - Canadian Dollar and Australian Dollar are now supported for spot prices.
-- App avaialble in Canada 🇨🇦 and Australia 🇦🇺.
+- App available in Canada 🇨🇦 and Australia 🇦🇺.
 - UI improvements.
 
 <br>
