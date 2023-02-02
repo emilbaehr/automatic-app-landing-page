@@ -22,12 +22,12 @@ include_in_header: true
 
 # **Version 1.3.4**
 
-#### Bug Fixes
-- 🩹 Minor bug fixes. Some of the currencies didn't work!
-
 #### What's New
 - App available in Mexico 🇲🇽, India 🇮🇳 and Japan 🇯🇵.
 - More currencies are now supported (🇨🇭, 🇮🇳, 🇯🇵, 🇲🇽)!
+
+#### Bug Fixes
+- 🩹 Minor bug fixes. Some of the currencies didn't work!
 
 <br>
 
