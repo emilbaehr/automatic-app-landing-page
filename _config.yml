@@ -44,7 +44,7 @@ features                                  :
     fontawesome_icon_name                 : lock
 
   - title                                 : +140 prefilled coins.
-    description                           : Select from more than 140 prefilled coins. Extensive cataloge of gold, silver and platinium coins with their weight and fineness.
+    description                           : Select from more than 140 prefilled coins. Extensive catalogue of gold, silver and platinum coins with their weight and fineness.
     fontawesome_icon_name                 : address-card
     
   - title                                 : Inventory View
@@ -60,14 +60,14 @@ features                                  :
     fontawesome_icon_name                 : chart-line
 
   - title                                 : Dark Mode Optimized
-    description                           : Take a look at your portfolio in bed wihout keeping your partner awake or in the cinema without disturbing other people.
+    description                           : Take a look at your portfolio in bed without keeping your partner awake or in the cinema without disturbing other people.
     fontawesome_icon_name                 : moon
 
   - title                                 : Faster than the speed of light
     description                           : Native iOS app with performance optimizations.
     fontawesome_icon_name                 : bolt
 
-  # - title                                 : Montly Subscription Plan
+  # - title                                 : Monthly Subscription Plan
   #   description                           : Monthly auto renewing subscription plan.
   #   fontawesome_icon_name                 : sync
   
@@ -76,7 +76,7 @@ features                                  :
     fontawesome_icon_name                 : sync
   
   - title                                 : Fast Live Spot Price
-    description                           : Live gold, silver & platinium price on items view and metrics. Currently only some currencies are supported (USD, EUR, GBP, CAD & AUD).
+    description                           : Live gold, silver & platinum price on items view and metrics. Currently only some currencies are supported (USD, EUR, GBP, CAD & AUD).
     fontawesome_icon_name                 : rocket
 
   - title                                 : # New Feature Title
