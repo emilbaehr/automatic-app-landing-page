@@ -5,7 +5,7 @@ include_in_header: false
 ---
 
 **Last updated**  
-September 06 2022
+March 13 2023
 
 # Privacy Policy
 
@@ -21,17 +21,17 @@ iCloud CloudKit syncs it between your devices automatically. You always have the
 from the system settings. The data is stored in an encrypted form on your device and cannot be read from 
 or written to while the device is locked or booting. Some of the data is in an encrypted form in iCloud.
 
-When fetching spot prices for gold, silver or platinium a request is made to our servers to retrive the spot price.
+When fetching spot prices for gold, silver or platinum a request is made to our servers to retrieve the spot price.
 Only the currency, which is based on your localization, is sent to our servers.
 
-Precious Metals Manager uses your internet conection when fetching spot rates and syncing your data with iCloud.
+Precious Metals Manager uses your internet connection when fetching spot rates and syncing your data with iCloud.
 
 ## Changes to This Privacy Policy
 
 I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any 
 changes. I will notify you of any changes by posting the new Privacy Policy on this page.
- These changes are effective immediately after they are posted on this page.
+These changes are effective immediately after they are posted on this page.
 
 ## Contact Us
 
- If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
