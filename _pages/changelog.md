@@ -20,7 +20,18 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.3.4**
+# **Version 1.4.0**
+
+#### What's New
+- 🛒 Added monthly and annual subscriptions.
+- [Changes to Terms and Conditions of Use](/terms)
+
+#### Bug Fixes
+- 🩹 Minor bug fixes.
+
+<br>
+
+### **Version 1.3.4**
 
 #### What's New
 - App available in Mexico 🇲🇽, India 🇮🇳 and Japan 🇯🇵.
