@@ -20,7 +20,16 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.4.1**
+# **Version 1.4.2**
+
+#### What's New
+- Scroll down 👇 to refresh metrics 📈 on summary.
+- More coins 🪙 added!
+- Some minor UI improvements ✨
+
+<br>
+
+### **Version 1.4.1**
 
 #### What's New
 - 🚀 Performance improvements.
