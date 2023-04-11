@@ -20,7 +20,17 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.4.0**
+# **Version 1.4.1**
+
+#### What's New
+- 🚀 Performance improvements.
+
+#### Bug Fixes
+- 🩹 Fix fetch spot price on the item creation view.
+
+<br>
+
+### **Version 1.4.0**
 
 #### What's New
 - 🛒 Added monthly and annual subscriptions.
