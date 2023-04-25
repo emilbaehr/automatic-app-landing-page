@@ -20,7 +20,34 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.4.2**
+# **Version 1.5.0**
+
+#### What's New
+- New Analytics 📈 section with a Value Over Time ⤴ 💸 graph. You can also send us an email 📫 to request metrics that are important to you 🫵!
+- Some minor UI improvements ✨
+- Added Rate App ⭐️ button on Settings ⚙️
+
+<br>
+
+### **Version 1.4.4**
+
+#### Bug Fixes
+- 🩹 Minor bug fixes.
+
+<br>
+
+### **Version 1.4.3**
+
+#### What's New
+- 📺 UI Improvements. Now you can create an order first and then create the items. ✨
+- 🚀 Performance improvements.
+
+#### Bug Fixes
+- 🩹 Major bug fixes. Sales were getting deleted after updating the associated order; you could end up with negative items within an order after updating an item that has sales...
+
+<br>
+
+### **Version 1.4.2**
 
 #### What's New
 - Scroll down 👇 to refresh metrics 📈 on summary.
