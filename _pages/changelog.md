@@ -20,7 +20,14 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.5.0**
+# **Version 1.5.1**
+
+#### Bug Fixes
+- 🩹 Minor bug fix.
+
+<br>
+
+### **Version 1.5.0**
 
 #### What's New
 - New Analytics 📈 section with a Value Over Time ⤴ 💸 graph. You can also send us an email 📫 to request metrics that are important to you 🫵!
