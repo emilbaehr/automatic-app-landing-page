@@ -20,7 +20,16 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.5.1**
+# **Version 1.5.2**
+
+#### What's New
+- 🗜️ Summary View redesign.
+- 📺 UI Improvements
+- 🚀 Performance improvements.
+
+<br>
+
+### **Version 1.5.1**
 
 #### Bug Fixes
 - 🩹 Minor bug fix.
