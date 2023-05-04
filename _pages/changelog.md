@@ -20,7 +20,23 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.5.2**
+# **Version 1.5.4**
+
+#### What's New
+- Orders and Inventory views redesign ✨
+- 📺 Minor UI Improvements
+
+<br>
+
+### **Version 1.5.3**
+
+#### What's New
+- Add sorting capabilities to orders and inventory 🗄️
+- More coins 🪙 added!
+
+<br>
+
+### **Version 1.5.2**
 
 #### What's New
 - 🗜️ Summary View redesign.
