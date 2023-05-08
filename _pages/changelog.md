@@ -23,7 +23,7 @@ include_in_header: true
 # **Version 1.5.6**
 
 #### What's New
-- Biometrics authentication: Touch ID and Face ID 🤖
+- Biometric authentication: Touch ID and Face ID 🤖
 - [Changes to Terms and Conditions of Use](/terms): Lock App
 - 📺 Minor UI Improvements
 
