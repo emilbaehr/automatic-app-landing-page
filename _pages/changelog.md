@@ -20,7 +20,25 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.5.4**
+# **Version 1.5.6**
+
+#### What's New
+- Biometrics authentication: Touch ID and Face ID 🤖
+- [Changes to Terms and Conditions of Use](/terms): Lock App
+- 📺 Minor UI Improvements
+
+<br>
+
+### **Version 1.5.5**
+
+#### What's New
+- Sales view redesign ✨
+- Sorting capabilities to sales
+- 📺 UI Improvements
+
+<br>
+
+### **Version 1.5.4**
 
 #### What's New
 - Orders and Inventory views redesign ✨
