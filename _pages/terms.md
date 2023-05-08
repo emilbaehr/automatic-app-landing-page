@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: legal-page
 title: Terms and Conditions of Use
 include_in_header: false
 ---
 
 **Last updated**  
-March 13 2023
+May 8 2023
 
 # Terms and Conditions of Use
 
@@ -103,3 +103,20 @@ Purchases made using your Apple ID are handled by Apple, not Precious Metals Man
 PRECIOUS METALS MANAGER DOES NOT PROVIDE FINANCIAL ADVICE AND TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL PRECIOUS METALS MANAGER, ITS AFFILIATED, EMPLOYEES, OR SERVICE PROVIDERS BE LIABLE FOR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, PUNITIVE, OR ENHANCED DAMAGES, INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, WETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM: (I) YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE SERVICE; (II) THE CONDUCT OR CONTENT OF THIRD PARTIES ON, THROUGH, OR FOLLOWING USE OF THE SERVICE; OR (III) ALTERATION OF YOUR CONTENT, EVEN IF PRECIOUS METALS MANAGER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT WILL PRECIOUS METALS MANAGER'S AGGREGATE LIABILITY TO YOU FOR ALL CLAIMS RELATING TO THE SERVICE EXCEED THE GREATER OF THE AMOUNT PAID, IF ANY, BY YOU TO PRECIOUS METALS MANAGER FOR THE SERVICE.
 
 SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES, SO SOME OR ALL OF THE EXCLUSIONS AND LIMITATIONS IN THIS SECTION MAY NOT APPLY TO YOU.
+
+## App Lock
+
+You can enable biometric locking and unlocking  utilizing your phone's fingerprint or face detection capabilities.
+
+Turn biometric access on:
+
+1. Tap the settings icon on the top left corner > **Settings** > Tap **App Lock**.
+2. Toggle **On**.
+3. Use your face ID or fingerprint to unlock the Precious Metals Manager App.
+
+Turn biometric access off:
+
+1. Tap the settings icon on the top left corner > **Settings** > Tap **App Lock**.
+2. Toggle **Off** to disable.
+
+>**Note**: If you disable device fingerprint or face ID on your phone's settings, the app lock feature will still work using a device PIN/Passcode used to unlock your phone. When you disable the biometrics and the PIN/Passcode on your phone, please ensure your Precious Metals Manager "App Lock" is also disabled.
