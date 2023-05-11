@@ -20,7 +20,22 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.5.6**
+# **Version 1.5.8**
+
+#### What's New
+- Enable sorting on orders
+
+<br>
+
+### **Version 1.5.7**
+
+#### What's New
+- Search capabilities on orders and inventory 🔎
+- Sorting was disabled on orders due to a bug when deleting orders
+
+<br>
+
+### **Version 1.5.6**
 
 #### What's New
 - Biometric authentication: Touch ID and Face ID 🤖
