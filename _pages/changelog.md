@@ -20,7 +20,41 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.5.8**
+# **Version 1.6.1**
+- Order details view redesign ✨
+- 🚀 Performance improvements.
+
+
+#### What's New
+- 🚀 Performance improvements.
+- 📺 UI Improvements
+
+#### Bug Fixes
+- 🩹 Minor bug fix.
+
+<br>
+
+### **Version 1.6.0**
+
+#### What's New
+- Create item view redesign ✨
+- 🚀 Performance improvements.
+- 📺 UI Improvements
+
+<br>
+
+### **Version 1.5.9**
+
+#### What's New
+- 🚀 Performance improvements.
+- 📺 UI Improvements
+
+#### Bug Fixes
+- 🩹 Minor bug fix.
+
+<br>
+
+### **Version 1.5.8**
 
 #### What's New
 - Enable sorting on orders
