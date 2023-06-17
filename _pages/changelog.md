@@ -20,12 +20,52 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.6.1**
-- Order details view redesign ✨
-- 🚀 Performance improvements.
-
+# **Version 1.6.5**
 
 #### What's New
+- 🚀 The "Value Over Time" graph is now showing the value of your portfolio using historical prices instead of the current spot price. Now you can also select a range up to a year.
+- 📺 Minor UI Improvements
+
+#### Bug Fixes
+- 🩹 Minor bug fix.
+
+<br>
+
+### **Version 1.6.4**
+
+#### What's New
+- 🚀 Create item improvements: now the spot price is the historical one instead of the current spot price. This improves accuracy of the premium paid and the average premium ratio.
+
+#### Bug Fixes
+- 🩹 Minor bug fix.
+
+<br>
+
+### **Version 1.6.3**
+
+#### What's New
+- Delete orphan items in settings: deleting orphan items might fix crashes when switching between tabs. Orphan items could exist as a result of a bug in a previous version.
+- 📺 Minor UI Improvements
+
+#### Bug Fixes
+- 🩹 Minor bug fix.
+
+<br>
+
+### **Version 1.6.2**
+
+#### What's New
+- New "Dollar Cost Averaging" metric added 📈
+
+#### Bug Fixes
+- 🩹 Minor bug fix.
+
+<br>
+
+### **Version 1.6.1**
+
+#### What's New
+- Order details view redesign ✨
 - 🚀 Performance improvements.
 - 📺 UI Improvements
 
