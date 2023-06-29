@@ -1,6 +1,6 @@
 <footer>
 	{% if site.your_name %}
-	<p class="footerText">Made by {% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
+	<p class="footerText">Copyright @2023 {% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}. All right reserved.</p>
 	{% endif %}
 	<div class="footerIcons">
 
@@ -38,6 +38,24 @@
 					<i class="socialIconTop fab fa-github fa-stack-1x"></i>
 				</span>
 			</a>
+		{% endif %}
+
+		{% if site.youtube_username %}
+		<a href="https://youtube.com/@{{ site.youtube_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-youtube fa-stack-1x"></i>
+			</span>
+		</a>
+		{% endif %}
+
+		{% if site.linkedin_username %}
+		<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-linkedin fa-stack-1x"></i>
+			</span>
+		</a>
 		{% endif %}
 
 		{% if site.email_address %}

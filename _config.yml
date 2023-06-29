@@ -20,15 +20,16 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Sergio Martin                               
+your_name                                 : Sergio Martin Rubio                                
 your_link                                 : https://sergiomartinrubio.com                     
 your_city                                 : Spain                                
 email_address                             : me@sergiomartinrubio.com
 facebook_username                         :                                           
 instagram_username                        : 
-twitter_username                          : 
-github_username                           : 
-youtube_username                          :
+twitter_username                          : smartinrubio
+github_username                           : smartinrub
+youtube_username                          : sergiomartinrubio
+linkedin_username                         : sergiomartinrubio
 
 
 
