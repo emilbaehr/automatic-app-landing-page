@@ -32,14 +32,14 @@ include_in_header: true
 ### **Version 1.7.0**
 
 #### What's New
-- 🧐 Annual report view and CSV export. Now you can track year by year your precious metals balance and capital gain/loss so tax reporting is easier
+- Annual report view 📑 and CSV export 📁⬇️. Now you can track year by year your precious metals balance and capital gain/loss so tax reporting is easier 🤩
 
 <br>
 
 ### **Version 1.6.9**
 
 #### What's New
-- 🧐 Add description to Dollar Cost averaging view
+- 📕 Add description to Dollar Cost averaging view
 - 📺 Minor UI Improvements
 
 #### Bug Fixes
