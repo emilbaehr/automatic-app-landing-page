@@ -20,7 +20,61 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.6.5**
+# **Version 1.7.1**
+
+#### Bug Fixes
+- 🩹 Order value over time does not crash when order date is today
+- 🩹 Remove refresh spot price on create item to avoid crashes
+
+<br>
+
+
+### **Version 1.7.0**
+
+#### What's New
+- 🧐 Annual report view and CSV export. Now you can track year by year your precious metals balance and capital gain/loss so tax reporting is easier
+
+<br>
+
+### **Version 1.6.9**
+
+#### What's New
+- 🧐 Add description to Dollar Cost averaging view
+- 📺 Minor UI Improvements
+
+#### Bug Fixes
+- 🩹 Fix Dollar Cost Averaging chart: items with same date are now grouped
+
+<br>
+
+### **Version 1.6.8**
+
+#### What's New
+- Showing more than 3 orders, search and sorting require subscription 🔓💳✅
+- 🚀 Minor Performance improvements.
+
+<br>
+
+### **Version 1.6.7**
+
+#### What's New
+- More coins added 🪙🪙🪙🪙
+
+<br>
+
+### **Version 1.6.6**
+
+#### What's New
+- 🧐 The order details view shows how much the order items are worth
+- 📈 Order Value Over Time chart added. Now you can see how well an individual order is doing over the time.
+- 📺 Minor UI Improvements
+
+#### Bug Fixes
+- 🩹 Minor bug fix.
+
+<br>
+
+### **Version 1.6.5**
 
 #### What's New
 - 🚀 The "Value Over Time" graph is now showing the value of your portfolio using historical prices instead of the current spot price. Now you can also select a range up to a year.
