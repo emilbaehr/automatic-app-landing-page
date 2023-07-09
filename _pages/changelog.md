@@ -23,7 +23,7 @@ include_in_header: true
 # **Version 1.7.4**
 
 #### What's New
-- 📕 Show live spot price for the selected metal summary page
+- 🔴 Show live spot price for the selected metal summary page
 
 #### Bug Fixes
 - 🩹 Fix Dollar Cost Averaging chart: items with same date are now grouped
