@@ -20,7 +20,35 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.7.1**
+# **Version 1.7.4**
+
+#### What's New
+- 📕 Add live spot price for each metal on the metal summaries
+
+#### Bug Fixes
+- 🩹 Fix Dollar Cost Averaging chart: items with same date are now grouped
+
+<br>
+
+### **Version 1.7.3**
+
+#### What's New
+- 🗓️ 1️⃣ Now the value on 1st is shown on the annual report view and CSV export for each year
+- 🚀 Minor performance improvements
+
+<br>
+
+### **Version 1.7.2**
+
+#### What's New
+- 🗒️ Show a breakdown of acquisition cost with and without shipping and handling on the summary view
+
+#### Bug Fixes
+- 🩹 Fix showing incorrect data on value over time graph when no items for a particular metal
+
+<br>
+
+### **Version 1.7.1**
 
 #### Bug Fixes
 - 🩹 Order value over time does not crash when order date is today
