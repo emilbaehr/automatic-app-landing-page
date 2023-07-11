@@ -20,7 +20,14 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.7.4**
+# **Version 1.7.5**
+
+#### What's New
+- Allow to specify tax rate ✂️💰 on an item 🪙
+
+<br>
+
+### **Version 1.7.4**
 
 #### What's New
 - 🔴 Show live spot price for the selected metal summary page
