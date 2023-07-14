@@ -20,7 +20,18 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.7.5**
+# **Version 1.7.6**
+
+#### What's New
+- 📺 Minor UI Improvements
+
+#### Bug Fixes
+- 🩹 Bug fix: melt value on Jan 1st was incorrect and was taking into account all the purchases and sales for the selected year. Now the melt value on Jan 1st is calculated by adding up the purchases and sales of previous years.
+- 🩹 Bug fix: years without purchases and sales are now shown on the annual report.
+
+<br>
+
+### **Version 1.7.5**
 
 #### What's New
 - Allow to specify tax rate ✂️💰 on an item 🪙
