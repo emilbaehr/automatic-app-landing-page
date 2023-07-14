@@ -48,7 +48,7 @@ include_in_header: true
 ### **Version 1.7.3**
 
 #### What's New
-- 🗓️ 1️⃣ Now the value on 1st is shown on the annual report view and CSV export for each year
+- 🗓️ 1️⃣ Now the melt value on Jan 1st is shown on the annual report view and CSV export for each year
 - 🚀 Minor performance improvements
 
 <br>
