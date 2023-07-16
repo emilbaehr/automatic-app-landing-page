@@ -20,7 +20,15 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.7.6**
+# **Version 1.7.7**
+
+#### What's New
+- ✅ Onboarding guide
+- 📺 Minor UI Improvements
+
+<br>
+
+### **Version 1.7.6**
 
 #### What's New
 - 📺 Minor UI Improvements
