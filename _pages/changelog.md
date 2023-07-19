@@ -20,7 +20,24 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.7.7**
+# **Version 1.7.9**
+
+#### What's New
+- 📦 Redesign inventory item. Now purchases and sales are shown on the same view and sales 🤑 can be created from the item details view "Sell"
+
+#### Bug Fixes
+- 🩹 Minor bug fixes
+
+<br>
+
+### **Version 1.7.8**
+
+#### What's New
+- ✅ Update onboarding
+
+<br>
+
+### **Version 1.7.7**
 
 #### What's New
 - ✅ Onboarding guide
