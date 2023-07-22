@@ -20,7 +20,20 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.7.9**
+# **Version 1.8.0**
+
+#### What's New
+- ✨ New app icon and launch screen
+
+# **Version 1.7.10**
+
+#### What's New
+- 📦 Add tax breakdown to summaries
+
+#### Bug Fixes
+- 🩹 Bug fix: cursor was missing when typing space on vendor or invoice receipt fields
+
+### **Version 1.7.9**
 
 #### What's New
 - 📦 Redesign inventory item. Now purchases and sales are shown on the same view and sales 🤑 can be created from the item details view "Sell"
