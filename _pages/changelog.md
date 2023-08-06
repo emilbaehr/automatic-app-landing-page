@@ -20,7 +20,21 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.8.0**
+# **Version 1.8.2**
+
+#### What's New
+- 🚀 Now you can save dealers 🏬 and reuse them for other orders 🛒
+- 📺 Minor UI Improvements
+
+### **Version 1.8.1**
+
+#### What's New
+- 🗣️ Accessibility improvements
+
+#### Bug Fixes
+- 🩹 Minor bug fixes
+
+### **Version 1.8.0**
 
 #### What's New
 - ✨ New app icon and launch screen
@@ -28,7 +42,7 @@ include_in_header: true
 # **Version 1.7.10**
 
 #### What's New
-- 📦 Add tax breakdown to summaries
+- 📋 Add tax breakdown to summaries
 
 #### Bug Fixes
 - 🩹 Bug fix: cursor was missing when typing space on vendor or invoice receipt fields
