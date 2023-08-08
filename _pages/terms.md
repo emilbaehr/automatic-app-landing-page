@@ -84,7 +84,7 @@ If the payment is made in foreign currency, the amount actually billed may diffe
 
 **If you purchase an auto-recurring periodic subscription through an in app purchase, your Payment Method will continue to be billed for the subscription until you cancel**. After your initial subscription commitment period, your subscription will automatically continue for an indefinite period of time, at the price you agreed to when subscribing unless you cancel your subscription before the renewal date. Your card payment information will be subsequently used for the automatic payment in accordance with the Agreement.
 
-Objections to a payment already made should be directed to [Customer Support](mailto:preciousmetalsmanger@sergiomartinrubio.com). You are also able to object by contacting your bank or payment provider, who can provide further information on your rights as well as applicable time limits.
+Objections to a payment already made should be directed to [Customer Support](mailto:support@preciousmetalsmanager.com). You are also able to object by contacting your bank or payment provider, who can provide further information on your rights as well as applicable time limits.
 
 **If you want to change or terminate your subscription, you can log in to the App Store and follow the instructions to terminate or cancel your subscription. More details [here](https://support.apple.com/en-us/HT202039)**. Deleting the Precious Metals Manager application form your device does not terminate or cancel your subscription. If you terminate or cancel your subscription, you may use your subscription until the end of your then-current subscription term, and your subscription will not be renewed after your then-current term expires.
 
