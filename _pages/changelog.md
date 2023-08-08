@@ -47,7 +47,7 @@ include_in_header: true
 #### What's New
 - ✨ New app icon and launch screen
 
-# **Version 1.7.10**
+### **Version 1.7.10**
 
 #### What's New
 - 📋 Add tax breakdown to summaries
