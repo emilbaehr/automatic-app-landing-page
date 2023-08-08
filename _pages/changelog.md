@@ -20,7 +20,15 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.8.2**
+# **Version 1.8.3**
+
+#### What's New
+- 🚀 Minor performance improvements
+
+#### Bug Fixes
+- 🩹 Minor bug fixes
+
+### **Version 1.8.2**
 
 #### What's New
 - 🚀 Now you can save dealers 🏬 and reuse them for other orders 🛒
