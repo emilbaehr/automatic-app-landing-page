@@ -20,7 +20,15 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.8.4**
+# **Version 1.8.5**
+
+#### What's New
+- 🚀 Export all data to JSON. Go to settings ⚙️ > "Export data to JSON". This generates a JSON file {} with all the orders, items and sales.
+
+#### Bug Fixes
+- 🩹 Bug fix: disable "sell" button on the item details screen when all items are sold
+
+### **Version 1.8.4**
 
 #### What's New
 - 🚀 Export all data to CSV. Go to settings ⚙️ > "Export data to CSV". This generates a CSV file 📄 with all the item purchases and sales.
