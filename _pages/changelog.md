@@ -20,7 +20,12 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.8.3**
+# **Version 1.8.4**
+
+#### What's New
+- 🚀 Export all data to CSV. Go to settings ⚙️ > "Export data to CSV". This generates a CSV file 📄 with all the item purchases and sales.
+
+### **Version 1.8.3**
 
 #### What's New
 - 🚀 Minor performance improvements
