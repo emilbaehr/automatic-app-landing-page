@@ -60,6 +60,10 @@ features                                  :
     description                           : Assets metrics to review how well your precious metals portfolio is doing.
     fontawesome_icon_name                 : chart-line
 
+  - title                                 : Export/Import All Your Data
+    description                           : Export to CSV and JSON and import from JSON.
+    fontawesome_icon_name                 : file-export
+
   - title                                 : Face ID & Touch ID support
     description                           : Have an extra layer of protection by enabling face ID or Touch ID.
     fontawesome_icon_name                 : fingerprint  

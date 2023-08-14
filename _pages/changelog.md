@@ -20,7 +20,12 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.8.5**
+# **Version 1.8.6**
+
+#### What's New
+- 🚀 Import all data from JSON. Go to settings ⚙️ > "Import data from JSON". This will replace all the existing data with the data in the imported JSON file. This cannot be undone. ⚠️
+
+### **Version 1.8.5**
 
 #### What's New
 - 🚀 Export all data to JSON. Go to settings ⚙️ > "Export data to JSON". This generates a JSON file {} with all the orders, items and sales.
