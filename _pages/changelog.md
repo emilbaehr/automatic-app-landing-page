@@ -20,7 +20,14 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.8.6**
+# **Version 1.8.7**
+
+#### What's New
+- Gain/loss percentage added on summary screens
+- Annual subscription price updated
+- Export/export JSON backup now requires subscription
+
+### **Version 1.8.6**
 
 #### What's New
 - 🚀 Import all data from JSON. Go to settings ⚙️ > "Import data from JSON". This will replace all the existing data with the data in the imported JSON file. This cannot be undone. ⚠️
