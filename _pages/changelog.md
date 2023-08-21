@@ -20,7 +20,27 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.8.7**
+# **Version 1.8.10**
+
+#### What's New
+- Simplify how to save dealers
+- 🚀 Minor performance improvements
+
+### **Version 1.8.9**
+
+#### What's New
+- New field "wear" 🔨 in the item creation screen, so now you can input the loss due to wear from circulation.
+- "Junk Silver" switch so you can easily select prefilled US silver coins
+
+#### Bug Fixes
+- 🩹 Minor bug fixes
+
+### **Version 1.8.8**
+
+#### Bug Fixes
+- 🩹 Minor bug fixes
+
+### **Version 1.8.7**
 
 #### What's New
 - Gain/loss percentage added on summary screens
@@ -30,12 +50,12 @@ include_in_header: true
 ### **Version 1.8.6**
 
 #### What's New
-- 🚀 Import all data from JSON. Go to settings ⚙️ > "Import data from JSON". This will replace all the existing data with the data in the imported JSON file. This cannot be undone. ⚠️
+- 🗄️ Import all data from JSON. Go to settings ⚙️ > "Import data from JSON". This will replace all the existing data with the data in the imported JSON file. This cannot be undone. ⚠️
 
 ### **Version 1.8.5**
 
 #### What's New
-- 🚀 Export all data to JSON. Go to settings ⚙️ > "Export data to JSON". This generates a JSON file {} with all the orders, items and sales.
+- 🗄️ Export all data to JSON. Go to settings ⚙️ > "Export data to JSON". This generates a JSON file {} with all the orders, items and sales.
 
 #### Bug Fixes
 - 🩹 Bug fix: disable "sell" button on the item details screen when all items are sold
@@ -43,7 +63,7 @@ include_in_header: true
 ### **Version 1.8.4**
 
 #### What's New
-- 🚀 Export all data to CSV. Go to settings ⚙️ > "Export data to CSV". This generates a CSV file 📄 with all the item purchases and sales.
+- 🗄️ Export all data to CSV. Go to settings ⚙️ > "Export data to CSV". This generates a CSV file 📄 with all the item purchases and sales.
 
 ### **Version 1.8.3**
 
@@ -56,7 +76,7 @@ include_in_header: true
 ### **Version 1.8.2**
 
 #### What's New
-- 🚀 Now you can save dealers 🏬 and reuse them for other orders 🛒
+- Now you can save dealers 🏬 and reuse them for other orders 🛒
 - 📺 Minor UI Improvements
 
 ### **Version 1.8.1**
