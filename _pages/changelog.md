@@ -20,7 +20,52 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.8.10**
+# **Version 1.8.17**
+
+#### Bug Fixes
+- 🩹 Bug fix: fixes values and stop showing alert when changing to a supported currency
+
+### **Version 1.8.16**
+
+#### What's New
+- Option to change the app currency to one of the supported ones (AUD, CAD, CHF, EUR, GBP, INR, JPY, MXN, USD). This can be found in Settings ⚙️
+- 🗣️ Accessibility improvements
+- 🚀 Minor performance improvements
+
+### **Version 1.8.15**
+
+#### What's New
+- 📺 Minor UI Improvements
+
+#### Bug Fixes
+- 🩹 Bug fixes: settings button is now working after subscribing without having to close the app
+- 🩹 Updating subscription purchases after expiration
+- 🩹 Other minor bug fixes
+
+### **Version 1.8.14**
+
+#### What's New
+- "Year" 📆 field is now shown on the item inventory view. Additionally you can sort by "Year"
+- 📺 Minor UI Improvements
+
+### **Version 1.8.13**
+
+#### What's New
+- Total face value is shown when "Junk Silver" is selected
+- Total value is shown in the item creation screen
+- 📺 Minor UI Improvements
+
+### **Version 1.8.12**
+
+#### What's New
+- 📺 Minor UI Improvements
+
+### **Version 1.8.11**
+
+#### What's New
+- 🚀 Minor performance improvements
+
+### **Version 1.8.10**
 
 #### What's New
 - Simplify how to save dealers
