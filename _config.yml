@@ -81,7 +81,7 @@ features                                  :
     fontawesome_icon_name                 : cloud
   
   - title                                 : Fast Live Spot Price
-    description                           : Live gold, silver & platinum price on items view and metrics. Only some currencies are supported (USD, EUR, GBP, CAD, AUD, CHF, INR, JPY & MXN).
+    description                           : Live gold, silver & platinum price on items view and metrics. Only some currencies are supported (USD, EUR, GBP, CAD, AUD, CHF, DDK, INR, JPY & MXN).
     fontawesome_icon_name                 : rocket
 
   - title                                 : Monthly and Annual Subscription Plan
