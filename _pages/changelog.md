@@ -20,7 +20,30 @@ include_in_header: true
 
 <br> -->
 
-# **Version 1.8.17**
+# **Version 1.8.20**
+
+#### What's New
+- 🇩🇰 DDK currency is now supported
+
+#### Bug Fixes
+- 🩹 Minor bug fixes
+
+### **Version 1.8.19**
+
+#### What's New
+- 👆 Gestures added to orders and items. You can now long press an order or item to delete, edit or log a sale
+- ✍️ Edit mode added to orders
+
+### **Version 1.8.18**
+
+#### What's New
+- 📄 Annual report screen and CSV export file updated:
+  -  New attributes added: "Melt Value on Dec 31st/Now" and "Melt Value Gain/Loss"
+  -  About section added to better understand the report
+  -  Styling improvements
+-  📺 Minor general UI improvements
+
+### **Version 1.8.17**
 
 #### Bug Fixes
 - 🩹 Bug fix: fixes values and stop showing alert when changing to a supported currency
