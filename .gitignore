@@ -2,3 +2,5 @@
 .sass-cache
 _site
 Gemfile.lock
+.idea
+.DS_store

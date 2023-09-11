@@ -1,4 +1,9 @@
-# Automatic App Landing Page
+# Pump Landing Page
+
+Run locally: `bundle exec jekyll serve`
+
+___
+
 **Create and deploy an iOS app landing page on GitHub Pages in only five minutes.**
 
 Designed for GitHub Pages for super easy set up. 
@@ -17,18 +22,14 @@ Designed for GitHub Pages for super easy set up.
 
 ✅ Site becomes live at GitHub Pages repository URL, e.g. `https://your-username.github.io/your-repo-name/`.
 
-<img src="https://emilbaehr.com/files/jayson1.png" width="440"> <img src="https://emilbaehr.com/files/slor1.png" width="440">
-
-
-
 
 ## Quick Start
+
 
 ### Step 1: Fork this repo.
 After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
 
 *Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.*
-
 
 
 ### Step 2: Enter iOS App ID in `_config.yml`
@@ -55,7 +56,6 @@ Things you can customise in `_config.yml`:
 - Feature List (Title, text, icon)
 
 
-
 ### Step 3: Add screenshot or video
 
 #### Adding a screenshot
@@ -79,7 +79,6 @@ The videos and screenshots must have one of the following resolutions:
 - 1242x2688
 
 
-
 ### Step 4: Edit (or remove) Privacy Policy and Changelog
 Your site automatically includes pages for a Privacy Policy and a Changelog. Change the content of these pages by editing the `privacypolicy.md` and `CHANGELOG.md` files in the `_pages` directory.
 
@@ -90,8 +89,6 @@ If you need to, you can create additional markdown based pages just by creating 
 
 **Please note:** The Privacy Policy and Changelog provided are written using dummy text, so please adapt each of them for your own app.
 You can also choose not to include these pages, by simple deleting the `privacypolicy.md` and `CHANGELOG.md` files.
-
-
 
 
 ## Feedback
