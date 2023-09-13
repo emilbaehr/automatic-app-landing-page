@@ -16,7 +16,7 @@ include_in_header: true
 - Accessibility improvements
 - Various UI tweaks, bug fixes, performance enhancements, and improvements
 
-___
+<br>
 
 ## **Version 1.4.1**
 - Addressing some beta feedback from v1.3
@@ -27,7 +27,7 @@ ___
 - Added haptic feedback
 - Various UI tweaks, bug fixes, performance enhancements, and improvements
 
-___
+<br>
 
 ## **Version 1.3.2**
 - Fixes bug introduced for the rest timer with a custom workout
@@ -39,14 +39,14 @@ ___
 - Added a settings page
 - Various bug fixes, analytics, and improvements
 
-___
+<br>
 
 ## **Version 1.2.1**
 - Addressing some beta feedback from v1.1
 - Active workouts are now persisted when closing the app
 - Various bug fixes and improvements
 
-___
+<br>
 
 ## **Version 1.1.2**
 - Caps the workout history to 30 (with a 'Load More' button)
@@ -58,7 +58,7 @@ ___
 - Added the ability to rename workouts
 - Various performance enhancements
 
-___
+<br>
 
 ## **Version 1.0.1**
 Initial release to TestFlight
