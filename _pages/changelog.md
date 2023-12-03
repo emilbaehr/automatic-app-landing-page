@@ -8,7 +8,14 @@ include_in_header: true
 
 ### `Latest`
 
-# **Version 1.5.1**
+# **Version 1.5.3**
+
+- Miscellaneous iOS 17 and privacy support
+- Support settings for release
+
+<br>
+
+## **Version 1.5.1**
 
 - Addressing some beta feedback from v1.4
 - Added light mode support
@@ -49,7 +56,7 @@ include_in_header: true
 <br>
 
 ## **Version 1.1.2**
-- Caps the workout history to 30 (with a 'Load More' button)
+- Fixes bug introduced for iOS 16.0 with the keyboard toolbar
 
 
 ## **Version 1.1.1**
