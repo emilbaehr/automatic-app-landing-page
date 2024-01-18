@@ -8,7 +8,15 @@ include_in_header: true
 
 ### `Latest`
 
-# **Version 1.5.3**
+# **Version 1.5.5**
+
+- Removing bugged keyboard toolbar
+- Updating email and website link
+- Final release tweaks
+
+<br>
+
+## **Version 1.5.3**
 
 - Miscellaneous iOS 17 and privacy support
 - Support settings for release
