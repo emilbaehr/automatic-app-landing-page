@@ -9,22 +9,15 @@ include_in_header: true
 ### `Latest`
 
 # **Version 1.5.5**
-
 - Removing bugged keyboard toolbar
 - Updating email and website link
 - Final release tweaks
 
-<br>
-
 ## **Version 1.5.3**
-
 - Miscellaneous iOS 17 and privacy support
 - Support settings for release
 
-<br>
-
 ## **Version 1.5.1**
-
 - Addressing some beta feedback from v1.4
 - Added light mode support
 - Added alternate app icon
@@ -65,7 +58,6 @@ include_in_header: true
 
 ## **Version 1.1.2**
 - Fixes bug introduced for iOS 16.0 with the keyboard toolbar
-
 
 ## **Version 1.1.1**
 - Addressing some beta feedback from v1.0
