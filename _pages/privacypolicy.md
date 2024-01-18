@@ -18,7 +18,7 @@ When using Pump to track your workouts, you will be entering routine, exercise, 
 
 Other miscellaneous settings that are used to enhance your experience, such as your preference on colour scheme and feature visibility, will be stored in the same way and also permanently deleted upon deletion of the app.
 
-If you email [mattgreeny.ios@gmail.com](mailto:mattgreeny.ios@gmail.com) for support purposes, then you may communicate personally identifiable information to us, such as your email address and debug information. Any information received will be retained and only used to both support your query and improve our customer service. Contents of any email you send will not be shared and we will never send you any unsolicited email.
+If you email [feedback.pump@gmail.com](mailto:feedback.pump@gmail.com) for support purposes, then you may communicate personally identifiable information to us, such as your email address and debug information. Any information received will be retained and only used to both support your query and improve our customer service. Contents of any email you send will not be shared and we will never send you any unsolicited email.
 
 ## Data Collected By Third Parties
 
@@ -42,7 +42,7 @@ By using our app or website, you consent to this privacy policy and give permiss
 
 ## Contact Us
 
-If you have any questions about this privacy policy, then feel free to contact us at [mattgreeny.ios@gmail.com](mailto:mattgreeny.ios@gmail.com).
+If you have any questions about this privacy policy, then feel free to contact us at [feedback.pump@gmail.com](mailto:feedback.pump@gmail.com).
 
 <br>
 
