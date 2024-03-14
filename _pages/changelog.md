@@ -7,6 +7,10 @@ include_in_header: true
 # Changelog
 <br>
 
+## Version 1.1.0
+New features:
+- Added option to scan multiple cards and swipe between them
+
 ## Version 1.0.2
 New features:
 - Improved iPad layout
