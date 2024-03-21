@@ -11,7 +11,8 @@ What we fixed:
 - Crash when adding or removing a card from collection
 
 ## Version 1.1.1
-- Minor improvements
+New features:
+- Custom feature requests
 
 ## Version 1.1.0
 New features:
