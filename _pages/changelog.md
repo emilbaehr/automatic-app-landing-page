@@ -6,6 +6,12 @@ include_in_header: true
 
 # Changelog
 <br>
+## Version 1.1.2
+What we fixed:
+- Crash when adding or removing a card from collection
+
+## Version 1.1.1
+- Minor improvements
 
 ## Version 1.1.0
 New features:
