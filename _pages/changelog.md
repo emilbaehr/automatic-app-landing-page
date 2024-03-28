@@ -6,6 +6,15 @@ include_in_header: true
 
 # Changelog
 <br>
+
+## Version 1.3.0
+New features:
+- Option to order cards by name or value
+
+## Version 1.2.0
+New features:
+- Added Premium 
+
 ## Version 1.1.2
 What we fixed:
 - Crash when adding or removing a card from collection
