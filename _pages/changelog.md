@@ -7,6 +7,11 @@ include_in_header: true
 # Changelog
 <br>
 
+## Version 2.0.0
+New features:
+- Added most requested feature - offline mode.
+- You can now search and browse sets and cards completely offline and much faster.
+
 ## Version 1.3.0
 New features:
 - Option to order cards by name or value
