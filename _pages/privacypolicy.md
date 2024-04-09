@@ -5,7 +5,7 @@ include_in_header: true
 ---
 
 **Last updated**  
-February 14 2024
+April 9 2024
 
 # Introduction
 At PokeScan Pro, we are committed to protecting your privacy. This Privacy Policy explains our practices regarding the collection, use, and protection of your information in relation to our iOS app. Currently, our app does not collect personal data or process payments.
