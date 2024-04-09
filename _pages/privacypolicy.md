@@ -19,7 +19,7 @@ Non-Personal Data: We may collect non-personal data related to app usage and per
 ## Data Security and Protection
 Security Measures: We employ industry-standard security measures to protect any information that may be collected. Although we currently do not collect personal or payment information, we are committed to ensuring the security of user data against unauthorized access, alteration, disclosure, or destruction.
 
-iCloud Usage: For functionalities that require data storage (such as saved preferences or settings), we may use Apple's iCloud services. iCloud is responsible for maintaining the security and integrity of this data, in accordance with Apple's privacy standards.
+We use TelemetryDeck to collect anonymized usage data. This helps us understand how our users are using our app and how we can improve it. TelemetryDeck does not collect any personally identifiable information. You can read more about TelemetryDeck’s privacy policy at https://telemetrydeck.com/privacy
 
 ### Third-Party Services
 Limited Use: PokeScan Pro may utilize third-party services for app functionality enhancements that do not involve personal data processing. These services are selected with privacy and security in mind, and any data shared with them is limited to non-personal information necessary for their service provision.
