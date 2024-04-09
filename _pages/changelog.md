@@ -6,6 +6,11 @@ include_in_header: true
 
 # Changelog
 <br>
+## Version 2.0.2
+This version contains stability improvements. We added back option to show similar cards from card's detail.
+
+## Version 2.0.1
+This version contains stability improvements and bug fixes.
 
 ## Version 2.0.0
 New features:
