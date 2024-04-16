@@ -6,6 +6,10 @@ include_in_header: true
 
 # Changelog
 <br>
+## Version 2.1.0
+The very first version of Market History prices
+- You can preview historical trends of card prices. 
+
 ## Version 2.0.2
 This version contains stability improvements. We added back option to show similar cards from card's detail.
 
