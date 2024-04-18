@@ -6,6 +6,10 @@ include_in_header: true
 
 # Changelog
 <br>
+
+## Version 2.1.1
+We fixed an issue with opened keyboard after searching a card.
+
 ## Version 2.1.0
 The very first version of Market History prices
 - You can preview historical trends of card prices. 
