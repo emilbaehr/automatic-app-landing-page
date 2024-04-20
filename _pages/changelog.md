@@ -8,7 +8,13 @@ include_in_header: true
 
 ### `Latest`
 
-# **Version 1.5.5**
+# **Version 1.6.1**
+- Accessibility improvements
+- Various bug fixes and performance enhancements
+
+<br>
+
+## **Version 1.5.5**
 - Removing bugged keyboard toolbar
 - Updating email and website link
 - Final release tweaks
