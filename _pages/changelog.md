@@ -7,6 +7,9 @@ include_in_header: true
 # Changelog
 <br>
 
+## Version 2.2.0
+You can now add duplicate cards to your collection, ensuring your portfolio's value is always accurate.
+
 ## Version 2.1.4
 We fixed an issue with opened keyboard after searching a card.
 
