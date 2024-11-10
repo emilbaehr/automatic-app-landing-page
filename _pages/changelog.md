@@ -8,7 +8,13 @@ include_in_header: true
 
 ### `Latest`
 
-# **Version 1.6.1**
+# **Version 1.7.3**
+- Added support for Live Activities
+- Improvements to persisting workouts through closing the app
+
+<br>
+
+## **Version 1.6.1**
 - Accessibility improvements
 - Various bug fixes and performance enhancements
 
