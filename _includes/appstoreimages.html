@@ -56,8 +56,13 @@ $(function() {
 
             // Set App Store link using the iOS app ID if it is not set manually in _config.yml
             var $appStoreLink = $(".appStoreLink");
+            var url =appInfo.trackViewUrl;
+            if ("{{site.use_itms_apps_link}}" == "true") {
+                url = "itms-apps://apps.apple.com/us/app/" + appInfo.trackName +"/{{ site.ios_app_id }}";
+            }
+
             if ($.trim($appStoreLink.attr('href')).length == 0) {
-                $($appStoreLink).attr("href", appInfo.trackViewUrl);
+                $($appStoreLink).attr("href", url);
             }
 
             console.info(appInfo);
