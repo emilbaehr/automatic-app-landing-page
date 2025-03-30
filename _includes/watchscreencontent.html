@@ -1,0 +1,13 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+{% for file in site.static_files %}
+    {% if file.path contains 'assets/watchscreenshot/' %}
+        <script>
+            $(function() {
+                $(".watchScreen").attr('src', '{{ site.github.baseurl }}{{ file.path }}');
+                $(".watchScreen").removeClass("hidden");
+                console.log("{{ file.path }}");
+            });
+        </script>
+    {% endif %}
+{% endfor %}

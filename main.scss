@@ -6,6 +6,7 @@ $body-color: {{ site.body_background_color }};
 
 $header-image: "{{ site.cover_image }}";
 $device-color: "assets/{{ site.device_color }}.png";
+$watch-color: "assets/watch_{{ site.watch_color }}.png";
 
 $accent-color: {{ site.link_color }};
 

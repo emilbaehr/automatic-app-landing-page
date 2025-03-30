@@ -26,6 +26,15 @@
                         {% include screencontent.html %}
 
                     </div>
+                    
+                    {% if site.enable_apple_watch %}
+                        <div class="watchPreview">                        	
+                            <img class="watchScreen hidden" src="" alt="">
+
+                            {% include watchscreencontent.html %}
+                        </div>
+                    {% endif %}                    
+
                     <div class="appInfo">
                         <div class="appIconShadow">
                             <svg width="0" height="0">

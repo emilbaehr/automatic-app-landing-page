@@ -408,6 +408,27 @@ nav > ul li a:active {
 	height: 755px;
 }
 
+// Apple Watch Device Preview
+
+.watchPreview {
+	grid-area: p;
+	background-image: url($watch-color);
+	position: relative;
+	background-size: 220px auto;
+	background-repeat: no-repeat;
+	margin-top: 520px;
+	margin-left: 270px;
+	margin-right: -90px;
+	margin-bottom: -20px;
+}
+
+.watchScreen {
+	width: 165px;	
+	margin-left: 25px;
+	margin-top: 92px;
+	border-radius: 20px;
+}
+
 @media only screen and (max-width: 1070px) {
 
 	.iphonePreview {
@@ -432,6 +453,17 @@ nav > ul li a:active {
 		height: 698px;
 	}
 	
+	.watchPreview {		
+		background-size: 200px auto;	
+		margin-top: 490px;
+		margin-left: 250px;
+	}
+
+	.watchScreen {
+		width: 150px;
+		margin-left: 23px;
+		margin-top: 85px;
+	}	
 } 
 
 @media only screen and (max-width: 992px) {
@@ -466,6 +498,23 @@ nav > ul li a:active {
 		height: 488px;
 	}
 	
+	.watchPreview {
+		display: flex;
+		background-size: 142px auto;
+		background-position: center 0;
+		margin-left: 145px;
+		margin-right: 5px;
+		margin-top: 350px;
+		justify-content: center;
+		padding-bottom: 75px;	
+	}
+
+	.watchScreen {
+		width: 105px;
+		height: 130px;
+		margin-right: 25px;				
+		margin-top: 60px;
+	} 
 } 
 
 
