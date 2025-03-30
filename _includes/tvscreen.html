@@ -1,0 +1,50 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+{% if site.enable_apple_tv_mode %}
+    {% for file in site.static_files %}
+        {% if file.path contains 'assets/screenshot/' %}
+            <script>
+                $(function() {
+                    $(".tvScreen").attr('src', '{{ site.github.baseurl }}{{ file.path }}');
+                    $(".tvScreen").removeClass("hidden");
+                    console.log("{{ file.path }}");
+                });
+            </script>
+        {% elsif file.path contains 'assets/videos/' %}
+            {% unless file.path contains 'assets/videos/Place-video-files-here.txt' %}
+                <script>
+                    $(function() {
+                        $(".tvScreen").addClass("hidden");
+                        console.log("remove screenshot");
+                    });
+                </script>
+            {% endunless %}
+            {% if file.extname == ".mov" or file.extname == ".mp4" %}
+                <script>
+                    $(function() {
+                        $(".tvVideoContainer").removeClass("hidden");
+                        $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/mp4">');
+                        console.log("{{ file.path }}");
+                    });
+                </script>
+            {% elsif file.extname == ".ogg" %}
+                <script>
+                    $(function() {
+                        $(".tvVideoContainer").removeClass("hidden");
+                        $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/ogg">');
+                        console.log("{{ file.path }}");
+                    });
+                </script>
+            {% elsif file.extname == ".webm" %}
+            <script>
+                $(function() {
+                    $(".tvVideoContainer").removeClass("hidden");
+                    $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/webm">');
+                    console.log("{{ file.path }}");
+                });
+            </script>
+            {% endif %}
+        {% endif %}
+    {% endfor %} 
+{% endif %}

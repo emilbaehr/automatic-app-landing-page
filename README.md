@@ -53,6 +53,7 @@ Things you can customise in `_config.yml`:
 - Link to Website
 - Social Links and Contact Info
 - Feature List (Title, text, icon)
+- Apple TV App mode
 
 
 
