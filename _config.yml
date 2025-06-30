@@ -1,87 +1,77 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                :            Whatsleft?
+# Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+ios_app_id                                : 1234793120
+# Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : us
+# Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+appstore_link                             :                                           #Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            : TODO.
+ # Enter Google Play Store URL.
+presskit_download_link                    : todo.
+# Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_icon                                  : # assets/appicon.png
+# Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Whatsleft?
+# Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :
+# Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : An app to help you manage your daily tasks, meal plans and routines.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner                   : true
+# Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
-linkedin_username                         :                                           
-linkedin_company                          :                                           
-facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+your_name                                 : Rohit Agarwal
+your_link                                 :
+your_city                                 : Munich
+email_address                             : rohit.agarwal2014@gmail.com
+linkedin_username                         : rohit-agarwal-01740380
+linkedin_company                          :
+facebook_username                         :
+instagram_username                        :
+twitter_username                          : r0hit0303
+github_username                           : r0hit0303
 youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+mastodon_link                             :
 
 
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+  - title                                 : Generate and share thousands of recipes.
+    description                           : Manage your recipes, create meal plans, and share them with friends and family.
     fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Create meal plans and assign tasks.
+    description                           : Plan your meals for the week, including breakfast, lunch, and dinner and assign tasks to family members.
+    fontawesome_icon_name                 : calendar-alt
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Share responsibility for a dependant with a group member.
+    description                           : Create routines for your dependant. A dependant can be your kids, parents, plants and even pets!
+    fontawesome_icon_name                 : user-friends
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Create, manage and generate tasks.
+    description                           : Clean and minimalistic UI so you can focus on what matters most. Create, manage, generate, assign and so much more!
+    fontawesome_icon_name                 : tasks
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Groups
+    description                           : Groups help to share tasks, meal plans and routines with other members.
+    fontawesome_icon_name                 : users
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
-
+  - title                                 : Light/dark mode
+    description                           : Switch between light and dark mode with a single tap or automatically based on your system settings.
+    fontawesome_icon_name                 : moon
 
 # Theme Settings
-topbar_color                              : "#000000"
+topbar_color                              : "#9299f7"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
@@ -112,16 +102,6 @@ footer_text_color                         : "#666666"
 
 
 
-
-
-
-
-
-
-
-
-
-
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
 ####################################################
@@ -140,6 +120,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+
+canonical_url                             : https://whats-left.de
+og_image                                  : https://whats-left.de/assets/social-media-banner.png
 
 # Markdown rendering
 markdown: kramdown
