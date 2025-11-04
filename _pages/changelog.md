@@ -34,7 +34,23 @@ Abnormal and formidable against much the before well improper more spent far her
 ________
 <br> -->
 
-### `Initial Release` `Latest`
+### `Latest`
+# **Version 2.0**
+
+新機能の追加と、いくつかの機能改善を行いました。
+
+#### 新機能
+
+- 日本地図による達成度可視化機能
+
+#### 機能改善
+
+- UI/UXの大幅改善
+- 検索・フィルター機能の強化
+- ダークモード最適化
+- 安定性とパフォーマンスの向上
+
+### `Initial Release`
 # **Version 1.0**
 iOS版をリリースしました
 
