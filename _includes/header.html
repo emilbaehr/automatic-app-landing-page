@@ -11,11 +11,10 @@
 				</defs>
 			</svg>
 			{% if page.url != '/' %}
-			<a href="../" target="_self"><img class="headerIcon"
-					src="{{ site.app_icon | replace: '.png', '.webp' | relative_url }}"
+			<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"
 					alt="Ícono de la aplicación {{ site.app_name }}"></a>
 			{% else %}
-			<img class="headerIcon" src="{{ site.app_icon | replace: '.png', '.webp' | relative_url }}"
+			<img class="headerIcon" src="{{ site.app_icon | relative_url }}"
 				alt="Ícono de la aplicación {{ site.app_name }}">
 			{% endif %}
 			<div class="divider"></div>

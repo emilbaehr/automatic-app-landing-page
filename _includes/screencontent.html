@@ -8,7 +8,7 @@
 {% for file in site.static_files %}
 {% if file.path contains 'assets/screenshot/' %}
 <script>
-    screenshots.push("{{ site.github.baseurl }}{{ file.path | replace: '.png', '.webp' | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' }}");
+    screenshots.push("{{ site.github.baseurl }}{{ file.path }}");
 </script>
 {% elsif file.path contains 'assets/videos/' %}
 {% unless file.path contains 'assets/videos/Place-video-files-here.txt' %}

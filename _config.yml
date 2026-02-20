@@ -10,7 +10,7 @@ page_title: My Awesome App                       # Optional. Defaults to app_nam
 playstore_link: https://play.google.com/store/apps/details?id=com.example.myapp
 presskit_download_link:                         # Optional. e.g. assets/presskit.zip
 
-app_icon: assets/appicon.png
+app_icon: assets/appicon.webp
 app_name: My Awesome App
 app_price: Free
 app_description: A beautifully simple app that helps users get things done faster.
@@ -82,7 +82,7 @@ topbar_color: "#000000"
 topbar_transparency: 0.1
 topbar_title_color: "#ffffff"
 
-cover_image: assets/headerimage.png
+cover_image: assets/headerimage.webp
 cover_overlay_color: "#363b3d"
 cover_overlay_transparency: 0.8
 
