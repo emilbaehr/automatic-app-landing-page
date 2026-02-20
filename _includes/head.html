@@ -21,6 +21,22 @@
 	<meta name="twitter:description" content="{{ site.app_description }}">
 	<meta name="twitter:image" content="{{ site.app_icon | absolute_url }}">
 
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "SoftwareApplication",
+		"name": "{{ site.app_name }}",
+		"operatingSystem": "Android",
+		"applicationCategory": "MobileApplication",
+		"url": "{{ page.url | absolute_url }}",
+		"offers": {
+			"@type": "Offer",
+			"price": "{% if site.app_price == 'Gratis' or site.app_price == 'Free' %}0{% else %}{{ site.app_price }}{% endif %}",
+			"priceCurrency": "MXN"
+		}
+	}
+	</script>
+
 	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
