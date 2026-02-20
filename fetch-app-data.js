@@ -3,25 +3,36 @@ const fs = require('fs');
 const yaml = require('js-yaml');
 const download = require('download');
 const path = require('path');
+const sharp = require('sharp');
 
 // --- Configuration ---
 const CONFIG_FILE = '_config.yml';
 const ASSETS_DIR = 'assets';
-const ICON_FILENAME = 'appicon.png';
+const ICON_FILENAME = 'appicon.webp';
 const SCREENSHOT_DIR = path.join(ASSETS_DIR, 'screenshot');
+
+// Sharp settings: high fidelity for UI screenshots
+const WEBP_OPTIONS = { quality: 90, effort: 6, smartSubsample: true };
 
 // --- Helper Functions ---
 
-async function downloadFile(url, folder, filename) {
+/**
+ * Downloads a URL, converts the buffer to WebP via sharp,
+ * and saves it directly as a .webp file.
+ */
+async function downloadAsWebp(url, outputPath) {
     try {
-        await download(url, folder, { filename: filename });
-        console.log(`✅ Downloaded: ${path.join(folder, filename)}`);
+        const buffer = await download(url);
+        await sharp(buffer)
+            .webp(WEBP_OPTIONS)
+            .toFile(outputPath);
+        console.log(`✅ Saved (WebP): ${outputPath}`);
+        return buffer; // Return raw buffer for metadata inspection if needed
     } catch (e) {
-        console.error(`⚠️ Failed to download ${url}: ${e.message}`);
+        console.error(`⚠️ Failed to process ${url}: ${e.message}`);
+        return null;
     }
 }
-
-
 
 async function main() {
     const appId = process.argv[2];
@@ -38,12 +49,20 @@ async function main() {
 
         console.log(`📱 Found app: ${appData.title}`);
 
-        // 1. Download Icon
+        // 1. Download Icon → WebP
         if (appData.icon) {
-            await downloadFile(appData.icon, ASSETS_DIR, ICON_FILENAME);
+            const iconPath = path.join(ASSETS_DIR, ICON_FILENAME);
+            const result = await downloadAsWebp(appData.icon, iconPath);
+
+            if (result) {
+                // 3. Generate favicon.ico from the same WebP icon
+                const faviconPath = path.join('.', 'favicon.ico');
+                fs.copyFileSync(iconPath, faviconPath);
+                console.log(`✅ Favicon generated: ${faviconPath} (copied from ${iconPath})`);
+            }
         }
 
-        // 2. Download Screenshots (Up to 5)
+        // 2. Download Screenshots (Up to 5, portrait only) → WebP
         if (appData.screenshots && appData.screenshots.length > 0) {
             // Clear screenshot dir first to avoid clutter
             if (fs.existsSync(SCREENSHOT_DIR)) {
@@ -51,38 +70,34 @@ async function main() {
             }
             fs.mkdirSync(SCREENSHOT_DIR, { recursive: true });
 
-            const sharp = require('sharp');
             const limit = 5;
             let savedCount = 0;
 
-            console.log("🖼️ Processing screenshots (filtering for portrait)...");
+            console.log("🖼️ Processing screenshots (filtering for portrait, converting to WebP)...");
 
             for (let i = 0; i < appData.screenshots.length && savedCount < limit; i++) {
                 const screenUrl = appData.screenshots[i];
-                const ext = path.extname(screenUrl) || '.webp';
-                const tempPath = path.join(SCREENSHOT_DIR, `temp_${i}${ext}`);
 
                 try {
-                    await downloadFile(screenUrl, SCREENSHOT_DIR, `temp_${i}${ext}`);
-
-                    // Validate image dimensions
-                    const metadata = await sharp(tempPath).metadata();
+                    // Download raw buffer to inspect dimensions before saving
+                    const buffer = await download(screenUrl);
+                    const metadata = await sharp(buffer).metadata();
 
                     if (metadata.height > metadata.width) {
-                        // Portrait - Keep it
-                        const finalPath = path.join(SCREENSHOT_DIR, `screen${savedCount + 1}${ext}`);
-                        fs.renameSync(tempPath, finalPath);
-                        console.log(`✅ Kept portrait screenshot: screen${savedCount + 1}${ext} (${metadata.width}x${metadata.height})`);
+                        // Portrait — convert to WebP and save
+                        const finalPath = path.join(SCREENSHOT_DIR, `screen${savedCount + 1}.webp`);
+                        await sharp(buffer)
+                            .webp(WEBP_OPTIONS)
+                            .toFile(finalPath);
+                        console.log(`✅ Kept portrait screenshot: screen${savedCount + 1}.webp (${metadata.width}x${metadata.height})`);
                         savedCount++;
                     } else {
-                        // Landscape/Square - Discard
-                        fs.unlinkSync(tempPath);
+                        // Landscape/Square — Discard
                         console.log(`🗑️ Discarded non-portrait screenshot (${metadata.width}x${metadata.height})`);
                     }
 
                 } catch (err) {
                     console.error(`⚠️ Error processing screenshot ${i}: ${err.message}`);
-                    if (fs.existsSync(tempPath)) fs.unlinkSync(tempPath);
                 }
             }
 
@@ -91,7 +106,7 @@ async function main() {
             }
         }
 
-        // 3. Update Config
+        // 4. Update Config
         await updateConfig(appData);
 
         console.log("\n🎉 Done! Now run 'bundle exec jekyll serve' to review changes.");
@@ -129,10 +144,6 @@ async function updateConfig(appData) {
         for (const item of replacements) {
             const regex = new RegExp(`^${item.key}\\s*:.*$`, 'm');
             if (regex.test(fileContent)) {
-                // Use simple string replacement for known scalar values to preserve comments
-                // For multi-line strings (like recentChanges), this might be tricky with regex 
-                // but typically config.yml entry is single line or quoted. 
-                // JSON.stringify handles escaping quotes.
                 const safeValue = JSON.stringify(item.value);
                 fileContent = fileContent.replace(regex, `${item.key.padEnd(38)}: ${item.value}`);
                 specificReplacementsMade = true;
