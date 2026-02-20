@@ -25,7 +25,8 @@
                         </video>
                     </div>
 
-                    <img class="iphoneScreen hidden" src="" alt="">
+                    <img class="iphoneScreen hidden" src="" alt="Captura de pantalla de {{ site.app_name }}"
+                        loading="lazy">
 
                     {% include screencontent.html %}
 
@@ -41,7 +42,8 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <img class="appIconLarge" src="{{ site.app_icon | relative_url }}">
+                        <img class="appIconLarge" src="{{ site.app_icon | replace: '.png', '.webp' | relative_url }}"
+                            alt="Ícono de la aplicación {{ site.app_name }}">
                     </div>
                     <div class="appNamePriceContainer">
                         <h1 class="appName">
@@ -58,7 +60,7 @@
                     </div>
                     <div class="downloadButtonsContainer">
                         <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore"
-                                src="assets/playstore.png"></a>
+                                src="assets/playstore.webp" alt="Descargar {{ site.app_name }} en Google Play"></a>
                     </div>
                 </div>
                 {% include features.html %}
