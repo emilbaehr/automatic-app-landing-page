@@ -1,0 +1,17 @@
+<section class="seo-content">
+    <h2>Todo sobre {{ site.app_name }} para Android</h2>
+    <p>
+        Descubre <strong>{{ site.app_name }}</strong>. {{ site.app_description }}
+        {% if site.features.size > 0 %}
+        Diseñada para ofrecer la mejor experiencia, esta aplicación destaca por características clave como:
+        {% for feature in site.features limit:4 %}
+        <strong>{{ feature.title | downcase }}</strong>{% if forloop.last == false %}, {% else %}.{% endif %}
+        {% endfor %}
+        {% endif %}
+    </p>
+    <p>
+        Desarrollada por <strong>{{ site.your_name | default: 'nuestro equipo' }}</strong>, puedes {% if site.app_price
+        == 'Gratis' or site.app_price == 'Free' %}descargarla totalmente gratis{% else %}conseguirla por {{
+        site.app_price }}{% endif %} directamente desde la Google Play Store. ¡Aprovecha al máximo tu dispositivo móvil!
+    </p>
+</section>

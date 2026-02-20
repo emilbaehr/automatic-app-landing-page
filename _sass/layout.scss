@@ -39,12 +39,13 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
+	grid-template-rows: 115px 876px auto auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas:
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
+		"s s s s s s s s s s s s"
 		"f f f f f f f f f f f f";
 }
 
@@ -57,7 +58,7 @@
 
 	.container {
 		// Set up the container for the site content
-		grid-template-rows: 80px 811px auto auto;
+		grid-template-rows: 80px 811px auto auto auto;
 	}
 }
 
@@ -66,12 +67,13 @@
 	.container {
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
+		grid-template-rows: 115px auto auto auto auto auto;
 		grid-template-areas:
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
+			"s s s s s s s s s s s s"
 			"f f f f f f f f f f f f";
 	}
 }
@@ -677,4 +679,38 @@ footer {
 
 .hidden {
 	display: none;
+}
+
+// SEO Content Block
+.seo-content {
+	grid-area: s;
+
+	// Rendimiento: Evita renderizar hasta hacer scroll
+	content-visibility: auto;
+	contain-intrinsic-size: 200px;
+
+	// Estructura y Espaciado
+	width: 100%;
+	max-width: 800px;
+	margin: 4rem auto 2rem;
+	padding: 0 20px;
+	text-align: center;
+	justify-self: center;
+
+	// Tipografía
+	color: $footer-text-color;
+	font-size: 0.95rem;
+	line-height: 1.7;
+	opacity: 0.85;
+}
+
+.seo-content h2 {
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+	color: $feature-title-color;
+}
+
+.seo-content strong {
+	font-weight: 600;
+	color: $feature-title-color;
 }
