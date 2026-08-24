@@ -1,3 +1,3 @@
 ---
-layout: default
+layout: portfolio
 ---

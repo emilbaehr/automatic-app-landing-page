@@ -1,71 +1,209 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+{% assign ios_id = page.ios_app_id | default: site.ios_app_id %}
+{% assign country = page.ios_app_country | default: site.ios_app_country %}
+{% assign auto_screenshots = page.auto_load_app_store_screenshots | default: site.auto_load_app_store_screenshots | default: true %}
 
-{% if site.ios_app_id %}
+{% if ios_id %}
 
 <script>
+function screenshotFallbackUrls(url) {
+    if (!url) return [];
+
+    var extMatch = url.match(/\.(jpg|png|webp)(?:\?|$)/i);
+    var ext = extMatch ? extMatch[1].toLowerCase() : 'jpg';
+    var sizeMatch = url.match(/\/(\d+x\d+bb|\d+x0w)\.(jpg|png|webp)/i);
+
+    if (!sizeMatch) return [url];
+
+    var base = url.slice(0, url.lastIndexOf('/'));
+    var candidates = [
+        base + '/1290x2796bb.' + ext,
+        base + '/1242x2688bb.' + ext,
+        base + '/643x0w.' + ext,
+        base + '/828x1792bb.' + ext,
+        url
+    ];
+
+    return candidates.filter(function(u, i, arr) {
+        return u && arr.indexOf(u) === i;
+    });
+}
+
+function dedupeScreenshotUrls(urls) {
+    var seen = {};
+    return urls.filter(function(url) {
+        if (!url) return false;
+        var key = url.replace(/\/(\d+x\d+bb|\d+x0w)\.(jpg|png|webp)/i, '');
+        if (seen[key]) return false;
+        seen[key] = true;
+        return true;
+    });
+}
+
+function collectAppStoreScreenshots(appInfo) {
+    return dedupeScreenshotUrls(appInfo.screenshotUrls || []).map(function(url) {
+        return screenshotFallbackUrls(url)[0];
+    });
+}
+
+function loadScreenshotImage($screen, urls, onDone) {
+    var index = 0;
+
+    function tryNext() {
+        if (index >= urls.length) {
+            $screen.removeClass('is-loading');
+            if (onDone) onDone(false);
+            return;
+        }
+
+        var candidate = urls[index];
+        index += 1;
+        $screen.off('load.screenshot error.screenshot');
+        $screen.on('load.screenshot', function() {
+            $screen.removeClass('is-loading').addClass('is-loaded');
+            if (onDone) onDone(true);
+        });
+        $screen.on('error.screenshot', function() {
+            tryNext();
+        });
+        $screen.attr('src', candidate);
+        if ($screen[0].complete && $screen[0].naturalWidth) {
+            $screen.trigger('load.screenshot');
+        }
+    }
+
+    $screen.addClass('is-loading').removeClass('hidden is-loaded');
+    tryNext();
+}
+
+function initScreenshotCarousel(urls) {
+    if (!urls || !urls.length) return;
+
+    var current = 0;
+    var $screen = $(".iphoneScreen");
+    var $controls = $("#screenshotControls");
+    var $meta = $("#screenshotMeta");
+    var $dots = $meta.find(".screenshotDots");
+    var $counter = $meta.find(".screenshotCounter");
+
+    function show(index) {
+        current = index;
+        loadScreenshotImage($screen, screenshotFallbackUrls(urls[current]), function() {
+            $(".videoContainer").addClass("hidden");
+            $counter.text((current + 1) + ' / ' + urls.length);
+            $dots.find('.screenshotDot').removeClass('active').eq(current).addClass('active');
+        });
+    }
+
+    show(0);
+
+    if (urls.length <= 1) {
+        $controls.addClass("hidden");
+        $meta.addClass("hidden");
+        return;
+    }
+
+    $controls.removeClass("hidden");
+    $meta.removeClass("hidden");
+    $dots.empty();
+    urls.forEach(function(_, i) {
+        $dots.append('<button type="button" class="screenshotDot' + (i === 0 ? ' active' : '') + '" data-index="' + i + '" aria-label="截图 ' + (i + 1) + '"></button>');
+    });
+
+    $controls.find(".screenshotPrev").off('click').on('click', function() {
+        show((current - 1 + urls.length) % urls.length);
+    });
+
+    $controls.find(".screenshotNext").off('click').on('click', function() {
+        show((current + 1) % urls.length);
+    });
+
+    $dots.find('.screenshotDot').off('click').on('click', function() {
+        show(parseInt($(this).data('index'), 10));
+    });
+
+    $(document).off('keydown.screenshotCarousel').on('keydown.screenshotCarousel', function(e) {
+        if ($controls.hasClass('hidden')) return;
+        if (e.key === 'ArrowLeft') show((current - 1 + urls.length) % urls.length);
+        if (e.key === 'ArrowRight') show((current + 1) % urls.length);
+    });
+}
 
 $(function() {
+    var apiURL = "https://itunes.apple.com/lookup?id={{ ios_id }}&country={{ country }}&callback=?";
 
-    var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&country={{ site.ios_app_country }}&callback=?";
-
-    $.getJSON(apiURL, function(json) {
-
-        if (json.results && json.results.length) {
-
-            console.info("Image strings loaded from Apple API.");
-            var appInfo = json.results[0];
-
-            // Set favicon
-            $('link[rel="shortcut icon"]').attr("href", appInfo.artworkUrl512);
-
-            // Set page title using the iOS app ID if it is not set manually in _config.yml
-            var $pageTitle = $(".pageTitle");
-            if ($.trim($($pageTitle).text()).length == 0) {
-                $($pageTitle).html(appInfo.trackName);
-            }
-
-            // Set large app icon using the iOS app ID if it is not set manually in _config.yml
-            var $appIconLarge = $(".appIconLarge");
-            if (!$appIconLarge.attr('src')) {
-                $($appIconLarge).attr("src", appInfo.artworkUrl512);
-            }
-
-            // Set header app icon using the iOS app ID if it is not set manually in _config.yml
-            var $appIconHeader = $(".headerIcon");
-            if (!$appIconHeader.attr('src')) {
-                $($appIconHeader).attr("src", appInfo.artworkUrl512);
-            }
-
-            // Set app name using the iOS app ID if it is not set manually in _config.yml
-            var $appName = $(".appName");
-            if ($.trim($($appName).text()).length == 0) {
-                $($appName).html(appInfo.trackName);
-            }
-
-            // Set the name displayed in the header if it is not set manually in _config.yml
-            var $headerName = $(".headerName");
-            if ($.trim($($headerName).text()).length == 0) {
-                $($headerName).html(appInfo.trackName);
-            }
-
-            // Set price using the iOS app ID if it is not set manually in _config.yml
-            var $appPrice = $(".appPrice");
-            if ($.trim($($appPrice).text()).length == 0) {
-                $($appPrice).html(appInfo.formattedPrice);
-            }
-
-            // Set App Store link using the iOS app ID if it is not set manually in _config.yml
-            var $appStoreLink = $(".appStoreLink");
-            if ($.trim($appStoreLink.attr('href')).length == 0) {
-                $($appStoreLink).attr("href", appInfo.trackViewUrl);
-            }
-
-            console.info(appInfo);
-
+    $.getJSON(apiURL).done(function(json) {
+        if (!json.results || !json.results.length) {
+            console.warn("App Store lookup returned no results for {{ ios_id }}.");
+            return;
         }
-    });  
-});
 
+        console.info("App metadata loaded from Apple API.");
+        var appInfo = json.results[0];
+
+        $('link[rel="shortcut icon"]').attr("href", appInfo.artworkUrl512);
+
+        var $pageTitle = $(".pageTitle");
+        if ($.trim($($pageTitle).text()).length == 0) {
+            $($pageTitle).html(appInfo.trackName);
+        }
+
+        var $appIconLarge = $(".appIconLarge");
+        if (!$appIconLarge.attr('src') || $appIconLarge.attr('src').indexOf('appicon') !== -1) {
+            $appIconLarge.attr("src", appInfo.artworkUrl512);
+        }
+
+        var $appIconHeader = $(".headerIcon");
+        if (!$appIconHeader.attr('src') || $appIconHeader.attr('src').indexOf('appicon') !== -1) {
+            $appIconHeader.attr("src", appInfo.artworkUrl512);
+        }
+
+        var $appName = $(".appName");
+        if ($.trim($($appName).text()).length == 0) {
+            $appName.html(appInfo.trackName);
+        }
+
+        var $headerName = $(".headerName");
+        if ($.trim($($headerName).text()).length == 0) {
+            $headerName.html(appInfo.trackName);
+        }
+
+        var $appPrice = $(".appPrice");
+        if ($.trim($($appPrice).text()).length == 0) {
+            $appPrice.html(appInfo.formattedPrice);
+        }
+
+        var $appStoreLink = $(".appStoreLink");
+        if (!$appStoreLink.attr('href') || $.trim($appStoreLink.attr('href')).length == 0) {
+            $appStoreLink.attr("href", appInfo.trackViewUrl);
+        }
+
+        if (!window.hasLocalVideo) {
+            {% if auto_screenshots %}
+            if (window.hasLocalScreenshot && window.localScreenshotUrls.length) {
+                initScreenshotCarousel(window.localScreenshotUrls);
+            } else {
+                var storeUrls = collectAppStoreScreenshots(appInfo);
+                if (storeUrls.length) {
+                    initScreenshotCarousel(storeUrls);
+                    console.info("Loaded " + storeUrls.length + " App Store screenshots.");
+                } else {
+                    console.warn("No App Store screenshots returned for {{ ios_id }}.");
+                }
+            }
+            {% else %}
+            if (window.localScreenshotUrls && window.localScreenshotUrls.length) {
+                initScreenshotCarousel(window.localScreenshotUrls);
+            }
+            {% endif %}
+        }
+
+        if (typeof initWhatsNewFromStore === 'function') {
+            initWhatsNewFromStore(appInfo);
+        }
+    }).fail(function(_, textStatus) {
+        console.error("App Store lookup failed:", textStatus);
+    });
+});
 </script>
 
 {% endif %}

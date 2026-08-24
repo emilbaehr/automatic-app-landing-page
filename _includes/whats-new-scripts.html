@@ -1,0 +1,80 @@
+<script>
+function escapeHtml(text) {
+    return $('<div>').text(text).html();
+}
+
+function formatReleaseNotes(notes) {
+    if (!notes) return '';
+    var lines = notes.split(/\r?\n/).map(function(line) {
+        return $.trim(line);
+    }).filter(function(line) {
+        return line.length > 0;
+    });
+
+    if (!lines.length) return '';
+
+    if (lines.length === 1) {
+        return '<p>' + escapeHtml(lines[0]) + '</p>';
+    }
+
+    var html = '<ul class="whatsNewList">';
+    lines.forEach(function(line) {
+        html += '<li>' + escapeHtml(line.replace(/^[-•*]\s*/, '')) + '</li>';
+    });
+    html += '</ul>';
+    return html;
+}
+
+function fillWhatsNewBlock($block, appInfo) {
+    var notes = appInfo.releaseNotes || appInfo.currentVersionReleaseNotes || '';
+    notes = $.trim(notes);
+
+    if (!notes) {
+        $block.addClass('hidden');
+        return;
+    }
+
+    var html = '';
+    if (appInfo.version) {
+        html += '<p class="whatsNewVersion">Version ' + escapeHtml(appInfo.version) + '</p>';
+    }
+    html += formatReleaseNotes(notes);
+    $block.find('.whatsNewBody').html(html);
+    $block.removeClass('hidden');
+}
+
+function initWhatsNewFromStore(appInfo) {
+  var $block = $('#appWhatsNew, [data-load-from-store="true"][data-app-id="' + appInfo.trackId + '"]');
+  $block.each(function() {
+    fillWhatsNewBlock($(this), appInfo);
+  });
+}
+
+function initWhatsNewHub() {
+    var $blocks = $('.whatsNewAuto[data-load-from-store="true"]');
+    if (!$blocks.length) return;
+
+    var ids = [];
+    $blocks.each(function() {
+        ids.push($(this).data('app-id'));
+    });
+
+    var country = $blocks.first().data('country') || '{{ site.ios_app_country }}';
+    var apiURL = 'https://itunes.apple.com/lookup?id=' + ids.join(',') + '&country=' + country + '&callback=?';
+
+    $.getJSON(apiURL, function(json) {
+        if (!json.results || !json.results.length) return;
+
+        var appsById = {};
+        json.results.forEach(function(appInfo) {
+            appsById[appInfo.trackId] = appInfo;
+        });
+
+        $blocks.each(function() {
+            var appId = parseInt($(this).data('app-id'), 10);
+            var appInfo = appsById[appId];
+            if (appInfo) fillWhatsNewBlock($(this), appInfo);
+        });
+    });
+}
+</script>

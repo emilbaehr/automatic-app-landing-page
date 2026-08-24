@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% assign app_device = page.device_color | default: site.device_color %}
+
+{% include head.html %}
+
+<body>
+    <div class="imageWrapper appHero">
+        <div class="headerBackground appHeroBackground">
+            <div class="container appHeroContainer">
+                {% include header.html %}
+
+                <div class="iphonePreviewBlock">
+                <div class="iphonePreview" style="background-image: url('{{ 'assets/' | append: app_device | append: '.png' | relative_url }}');">
+                    <div class="iphoneScreenWrapper">
+                        <div class="videoContainer hidden">
+                            <video class="screenvideo" autoplay="autoplay" controls="controls"></video>
+                        </div>
+
+                        <img class="iphoneScreen" src="" alt="App screenshot">
+
+                        {% include screencontent.html %}
+                    </div>
+
+                    <div class="screenshotControls hidden" id="screenshotControls">
+                        <button type="button" class="screenshotBtn screenshotPrev" aria-label="上一张">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button type="button" class="screenshotBtn screenshotNext" aria-label="下一张">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="screenshotMeta hidden" id="screenshotMeta">
+                    <span class="screenshotCounter">1 / 1</span>
+                    <div class="screenshotDots"></div>
+                </div>
+                </div>
+
+                <div class="appInfo">
+                    <div class="appIconShadow">
+                        <svg width="0" height="0">
+                            <defs>
+                                <clipPath id="shape120">
+                                    <path id="shape" class="cls-1" d="M6821,495.533v-4.281c0-1.2-.04-2.4-0.04-3.642a57.7,57.7,0,0,0-.68-7.882,26.144,26.144,0,0,0-2.48-7.483,25.115,25.115,0,0,0-11.04-11.044,26.118,26.118,0,0,0-7.49-2.481,47.28,47.28,0,0,0-7.88-.68c-1.2-.04-2.4-0.04-3.64-0.04h-53.5c-1.2,0-2.4.04-3.64,0.04a57.813,57.813,0,0,0-7.88.68,26.323,26.323,0,0,0-7.49,2.481,25.115,25.115,0,0,0-11.04,11.044,26.144,26.144,0,0,0-2.48,7.483,47.313,47.313,0,0,0-.68,7.882c-0.04,1.2-.04,2.4-0.04,3.642v53.5c0,1.2.04,2.4,0.04,3.641a57.7,57.7,0,0,0,.68,7.883,26.137,26.137,0,0,0,2.48,7.482,25.115,25.115,0,0,0,11.04,11.044,26.261,26.261,0,0,0,7.49,2.481,47.28,47.28,0,0,0,7.88.68c1.2,0.04,2.4.04,3.64,0.04h53.5c1.2,0,2.2-.04,3.64-0.04a57.654,57.654,0,0,0,7.88-.68,26.057,26.057,0,0,0,7.49-2.481,25.115,25.115,0,0,0,11.04-11.044,26.137,26.137,0,0,0,2.48-7.482,47.316,47.316,0,0,0,.68-7.883c0.04-1.2.04-2.4,0.04-3.641V495.533h0Z" transform="translate(-6701 -458)" filter="url(#f1)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <img class="appIconLarge" src="{{ page.app_icon | default: site.app_icon | relative_url }}">
+                    </div>
+                    <div class="appNamePriceContainer">
+                        <h1 class="appName">{{ page.app_name | default: page.title }}</h1>
+                        <h2 class="appPrice">{% if page.app_price %}{{ page.app_price }}{% endif %}</h2>
+                    </div>
+                    <div class="appDescriptionContainer">
+                        <p class="appDescription">{{ page.app_description }}</p>
+                    </div>
+                    <div class="downloadButtonsContainer">
+                        {% if page.playstore_link %}
+                            <a class="playStoreLink" href="{{ page.playstore_link }}"><img class="playStore" src="{{ 'assets/playstore.png' | relative_url }}"></a>
+                        {% endif %}
+                        <a class="appStoreLink" href="{{ page.appstore_link | default: '' }}"><img class="appStore" src="{{ 'assets/appstore.png' | relative_url }}"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="appBody">
+        <div class="container appBodyContainer">
+            <div class="appDetailsColumn">
+            {% include features.html %}
+            {% include app-whats-new.html %}
+            </div>
+            {% include footer.html %}
+        </div>
+    </div>
+
+    {% include whats-new-scripts.html %}
+    {% include appstoreimages.html %}
+</body>
+</html>

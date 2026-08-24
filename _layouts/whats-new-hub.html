@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body class="subPageBody">
+    <div class="headerBackground subPageHeaderBackground">
+        <div class="container subPageContainer whatsNewHubContainer">
+            {% include header.html %}
+
+            <article class="page whatsNewHub">
+                <h1 class="whatsNewHubTitle">What's New</h1>
+                <p class="whatsNewHubIntro">各 App 最新更新内容。优先展示本地配置，未配置时自动从 App Store 拉取。</p>
+
+                {% for app in site.apps %}
+                <section class="whatsNewHubSection">
+                    <a class="whatsNewHubAppLink" href="{{ app.url | relative_url }}" target="_self">
+                        <h2 class="whatsNewHubAppName">{{ app.app_name | default: app.title }}</h2>
+                    </a>
+                    {% include app-whats-new.html app=app %}
+                </section>
+                {% endfor %}
+            </article>
+        </div>
+        {% include whats-new-scripts.html %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script>$(function() { initWhatsNewHub(); });</script>
+    </div>
+</body>
+</html>

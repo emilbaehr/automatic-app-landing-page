@@ -1,6 +1,12 @@
 <div class="features">
 
-    {% for feature in site.features %}
+    {% if page.features %}
+        {% assign feature_list = page.features %}
+    {% else %}
+        {% assign feature_list = site.features %}
+    {% endif %}
+
+    {% for feature in feature_list %}
 
     {% if feature.title %}
     <div class="feature">

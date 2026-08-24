@@ -1,0 +1,47 @@
+{% assign app_doc = include.app | default: page %}
+{% assign has_whats_new_yaml = false %}
+{% if app_doc.whats_new and app_doc.whats_new.size > 0 %}
+    {% assign has_whats_new_yaml = true %}
+{% endif %}
+{% assign whats_new_content = app_doc.content | strip %}
+{% assign has_whats_new_content = false %}
+{% if whats_new_content != "" %}
+    {% assign has_whats_new_content = true %}
+{% endif %}
+
+{% if has_whats_new_yaml or has_whats_new_content %}
+<div class="whatsNew whatsNewLocal">
+    <h3 class="whatsNewTitle">What's New</h3>
+    <div class="whatsNewBody">
+        {% if has_whats_new_yaml %}
+            {% for entry in app_doc.whats_new %}
+            <div class="whatsNewEntry">
+                {% if entry.version %}
+                <h4 class="whatsNewVersion">Version {{ entry.version }}</h4>
+                {% endif %}
+                {% if entry.title %}
+                <p class="whatsNewEntryTitle">{{ entry.title }}</p>
+                {% endif %}
+                {% if entry.items %}
+                <ul class="whatsNewList">
+                    {% for item in entry.items %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if entry.body %}
+                <div class="whatsNewEntryBody">{{ entry.body | markdownify }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        {% else %}
+            {{ app_doc.content | markdownify }}
+        {% endif %}
+    </div>
+</div>
+{% else %}
+<div class="whatsNew whatsNewAuto hidden" id="whatsNew-{{ app_doc.slug }}" data-load-from-store="true" data-app-id="{{ app_doc.ios_app_id }}" data-country="{{ app_doc.ios_app_country | default: site.ios_app_country }}">
+    <h3 class="whatsNewTitle">What's New</h3>
+    <div class="whatsNewBody"></div>
+</div>
+{% endif %}
